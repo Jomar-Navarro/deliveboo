@@ -9,7 +9,7 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-    <title>Guest Boolfolio</title>
+    <title>Guest deliveroo</title>
 </head>
 <body>
 
