@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Admin\DashboardController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -23,7 +25,7 @@ Route::middleware(['auth', 'verified'])
                 ->name('admin.')
                 ->group(function(){
                     // Qua le route della CRUD protette da auth
-                    // Route::get('/', [DashboardController::class, 'index'])->name('home');
+                    Route::get('/', [DashboardController::class, 'index'])->name('home');
                 });
 
 Route::middleware('auth')->group(function () {

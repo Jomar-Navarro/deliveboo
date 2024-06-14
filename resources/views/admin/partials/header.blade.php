@@ -1,13 +1,12 @@
 
 <header>
-
     <nav class="navbar navbar-expand-lg bg-body-tertiary fs-5 fw-semibold border-bottom py-0">
         <div class="container-fluid mx-5">
-            <a class="navbar-brand ms-5 px-4" href="{{ route('home') }}">Visualizza il Sito</a>
+            <a class="navbar-brand ms-5 px-4" href="">Visualizza il Sito</a>
 
             <div class="d-flex align-items-center">
                 <div class="me-5">
-                    <form class="d-flex" action="{{ route('admin.restaurants.index') }}" method="GET" role="search">
+                    <form class="d-flex" action="" method="GET" role="search">
                         <input class="form-control me-3" type="search" placeholder="Search Project" name="stringSearch">
                         <button class="btn btn-success me-5" type="submit">Cerca</button>
                     </form>
@@ -22,5 +21,4 @@
             </div>
         </div>
     </nav>
-
 </header>

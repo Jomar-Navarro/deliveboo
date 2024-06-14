@@ -2,11 +2,11 @@
 <aside class="bg-dark text-white pt-5">
     <ul>
         <li>
-            <a href="{{ route('admin.restaurants.index') }}"><i class="fa-solid fa-sheet-plastic ms-1"></i>Project</a>
+            <a href=""><i class="fa-solid fa-sheet-plastic ms-1"></i>Project</a>
         </li>
 
         <li>
-            <a href="{{ route('admin.restaurants.create') }}"><i class="fa-solid fa-file-circle-plus"></i>New Project</a>
+            <a href=""><i class="fa-solid fa-file-circle-plus"></i>New Project</a>
         </li>
 
         <li>
