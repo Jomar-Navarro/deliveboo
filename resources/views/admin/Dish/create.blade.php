@@ -1,10 +1,10 @@
 @extends('layouts.admin')
 
 @section('content')
-  <div class="container">
-    <form action="{{ route('admin.dish.store') }}" class="row g-3" method="POST" enctype="multipart/form-data">
+  <div class="container my-5 bg-body-secondary p-5 rounded-5 d-flex">
+    <form action="{{ route('admin.dish.store') }}" class="row align-items-center" method="POST" enctype="multipart/form-data">
       @csrf
-      <div class="col-md-6">
+      <div class="col-md-6 justify-content-center">
         <label for="inputDishName" class="form-label">Nome del Piatto</label>
         <input type="text" class="form-control" id="inputDishName" name="dish_name" value="{{ old('dish_name') }}">
         @error('dish_name')
