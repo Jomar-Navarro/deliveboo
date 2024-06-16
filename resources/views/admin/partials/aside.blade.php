@@ -17,15 +17,21 @@
         </li>
 
         <li>
-          <a href="">
+          <a href={{ route('admin.restaurant.create') }}>
             <i class="fa-solid fa-square-plus"></i>
+            <span>Add Restaurant</span>
+          </a>
+        </li>
+        <li>
+          <a href="{{ route('admin.dish.index') }}">
+            <i class="fa-solid fa-database"></i>
             <span>Dishes</span>
           </a>
         </li>
         <li>
-          <a href={{ route('admin.restaurant.create') }}>
+          <a href={{ route('admin.dish.create') }}>
             <i class="fa-solid fa-square-plus"></i>
-            <span>Add Restaurant</span>
+            <span>Add Dish</span>
           </a>
         </li>
       </div>
