@@ -1,4 +1,6 @@
 header {
+    background-color: #03071e;
+    border-bottom: 2px solid #e85d04;
     nav {
         height: 80px;
         a:hover {
@@ -16,6 +18,7 @@ header {
 aside {
     height: calc(100vh - 80px);
     min-width: 220px;
+    background-color: #03071e;
     ul {
         list-style: none;
         li {
