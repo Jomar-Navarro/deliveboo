@@ -1,0 +1,72 @@
+[
+    {
+        "dish_name": "Pasta alla Carbonara",
+        "description": "Spaghetti con uova, guanciale, pecorino e pepe nero",
+        "price": 12.50,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/pasta_carbonara.jpg"
+    },
+    {
+        "dish_name": "Risotto ai Funghi Porcini",
+        "description": "Risotto cremoso con funghi porcini freschi e parmigiano",
+        "price": 14.75,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/risotto_funghi.jpg"
+    },
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pizza con pomodoro, mozzarella di bufala e basilico fresco",
+        "price": 10.00,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/pizza_margherita.jpg"
+    },
+    {
+        "dish_name": "Lasagne al Forno",
+        "description": "Strati di pasta fresca, ragù, besciamella e parmigiano",
+        "price": 13.50,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/lasagne.jpg"
+    },
+    {
+        "dish_name": "Sushi Misto",
+        "description": "Assortimento di nigiri, sashimi e maki",
+        "price": 18.50,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/sushi_misto.jpg"
+    },
+    {
+        "dish_name": "Tacos al Pastor",
+        "description": "Tortilla di mais con carne di maiale marinata, ananas e cipolla",
+        "price": 9.99,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/tacos_pastor.jpg"
+    },
+    {
+        "dish_name": "Chicken Tikka Masala",
+        "description": "Pollo marinato e speziato con salsa cremosa al curry",
+        "price": 15.25,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/chicken_tikka_masala.jpg"
+    },
+    {
+        "dish_name": "Tempura di Gamberi",
+        "description": "Gamberi avvolti in pastella croccante, fritti e serviti con salsa dipping",
+        "price": 16.00,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/tempura_gamberi.jpg"
+    },
+    {
+        "dish_name": "Bistecca alla Fiorentina",
+        "description": "Fiorentina di manzo alla griglia, servita al sangue con contorno di rucola e pomodorini",
+        "price": 28.90,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/bistecca_fiorentina.jpg"
+    },
+    {
+        "dish_name": "Enchiladas Verdes",
+        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
+        "price": 12.75,
+        "is_visible": 1,
+        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+    }
+]
