@@ -1,13 +1,13 @@
 
 <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fs-5 fw-semibold border-bottom py-0">
+    <nav class="navbar navbar-expand-lg fs-5 fw-semibold text-white">
         <div class="container-fluid mx-5">
-            <a class="navbar-brand ms-5 px-4" href="">Visualizza il Sito</a>
+            <a class="navbar-brand ms-5 px-4 text-white" href="">Visualizza il Sito</a>
 
             <div class="d-flex align-items-center">
                 <div class="me-5">
                     <form class="d-flex" action="" method="GET" role="search">
-                        <input class="form-control me-3" type="search" placeholder="Search Project" name="stringSearch">
+                        <input class="form-control me-3" type="search" placeholder="Search" name="stringSearch">
                         <button class="btn btn-success me-5" type="submit">Cerca</button>
                     </form>
                 </div>

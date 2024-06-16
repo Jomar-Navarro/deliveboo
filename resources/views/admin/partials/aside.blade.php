@@ -1,4 +1,4 @@
-<aside class="bg-dark navbar-dark text-white">
+<aside class="text-white">
   <nav class="d-flex flex-column justify-content-between h-100">
     <ul class="d-flex flex-column align-items-start mt-3">
       <div>
@@ -11,7 +11,7 @@
 
         <li>
           <a href="{{ route('admin.restaurant.index') }}">
-            <i class="fa-solid fa-database"></i>
+            <i class="fa-solid fa-utensils"></i>
             <span>My Restaurant</span>
           </a>
         </li>
