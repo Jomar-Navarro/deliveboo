@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class RestaurantController extends Controller
 {
@@ -15,7 +16,7 @@ class RestaurantController extends Controller
      */
     public function index()
     {
-        $restaurant = Restaurant::all();
+        $restaurant = Restaurant::where('user_id', Auth::id())->get();
 
         return view('admin.Restaurant.index', compact('restaurant'));
     }
@@ -34,6 +35,7 @@ class RestaurantController extends Controller
     public function store(Request $request)
     {
         // Validazione dei dati
+
         $valData = $request->validate(
             [
                 'name' => 'required|string|max:255',
@@ -61,6 +63,7 @@ class RestaurantController extends Controller
                 'image.max' => "L'immagine non può superare i 2MB.",
             ]
         );
+        $valData['user_id'] = Auth::id(); //dubbio
 
         // Gestione dell'immagine
         $imageName = time() . '.' . $request->image->extension();

@@ -16,9 +16,11 @@ class Restaurant extends Model
         'address',
         'vat_number',
         'image',
+        'user_id'
     ];
 
-    public function dishes(){
+    public function dishes()
+    {
         return $this->hasMany(Dish::class);
     }
 }
