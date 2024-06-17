@@ -33,11 +33,11 @@ class DishController extends Controller
     {
         $valData = $request->validate(
             [
-                'dish_name' => 'required|string|max:100',
+                'dish_name' => 'required|string|max:1',
                 'description' => 'nullable|string',
                 'price' => 'required|numeric|between:0,999.99',
                 'is_visible' => 'required|boolean',
-                'image_url' => 'nullable|image'
+                'image_url' => 'nullable|image|mimes:jpeg,png,jpg,svg|max:2048'
             ],
             [
                 'dish_name.required' => 'Il nome del piatto è obbligatorio.',
@@ -49,7 +49,9 @@ class DishController extends Controller
                 'price.between' => 'Il prezzo deve essere compreso tra 0 e 999.99.',
                 'is_visible.required' => 'Il campo di visibilità è obbligatorio.',
                 'is_visible.boolean' => 'Il campo di visibilità deve essere un valore booleano.',
-                'image_url.url' => 'L immagine deve essere un URL valido.'
+                'image_url.image' => "L'immagine deve essere un file di tipo immagine.",
+                'image_url.mimes' => 'L\'immagine deve essere di tipo: jpeg, png, jpg, svg.',
+                'image_url.max' => 'L\'immagine non deve superare i 2MB.',
             ]
         );
 
@@ -97,10 +99,10 @@ class DishController extends Controller
         $valData = $request->validate(
             [
                 'dish_name' => 'required|string|max:100',
-                'description' => 'nullable|string',
+                'description' => 'string',
                 'price' => 'required|numeric|between:0,999.99',
                 'is_visible' => 'required|boolean',
-                'image_url' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+                'image_url' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
             ],
             [
                 'dish_name.required' => 'Il nome del piatto è obbligatorio.',

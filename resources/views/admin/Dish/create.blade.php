@@ -2,11 +2,15 @@
 
 @section('content')
   <div class="container my-5 bg-body-secondary p-5 rounded-5 d-flex">
-    <form action="{{ route('admin.dish.store') }}" class="row align-items-center" method="POST" enctype="multipart/form-data">
+    <form action="{{ route('admin.dish.store') }}" class="row align-items-center" method="POST"
+      enctype="multipart/form-data">
       @csrf
       <div class="col-md-6 justify-content-center">
         <label for="inputDishName" class="form-label">Nome del Piatto</label>
-        <input type="text" class="form-control" id="inputDishName" name="dish_name" value="{{ old('dish_name') }}">
+        <input type="text" class="form-control @error('dish_name')
+          is-invalid
+          @enderror"
+          id="inputDishName" name="dish_name" value="{{ old('dish_name') }}">
         @error('dish_name')
           <div class="text-danger">{{ $message }}</div>
         @enderror
@@ -20,7 +24,10 @@
       </div>
       <div class="col-md-6">
         <label for="inputPrice" class="form-label">Prezzo</label>
-        <input type="text" class="form-control" id="inputPrice" name="price" value="{{ old('price') }}">
+        <input type="text" class="form-control @error('price')
+          is-invalid
+          @enderror"
+          id="inputPrice" name="price" value="{{ old('price') }}">
         @error('price')
           <div class="text-danger">{{ $message }}</div>
         @enderror

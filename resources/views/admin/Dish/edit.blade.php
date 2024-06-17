@@ -7,16 +7,20 @@
       @method('PUT')
       <div class="col-md-6">
         <label for="inputDishName" class="form-label">Nome del Piatto</label>
-        <input type="text" class="form-control" id="inputDishName" name="dish_name"
-          value="{{ old('dish_name', $dish->dish_name) }}">
+        <input type="text" class="form-control @error('dish_name')
+          is-invalid
+          @enderror"
+          id="inputDishName" name="dish_name" value="{{ old('dish_name', $dish->dish_name) }}">
         @error('dish_name')
           <div class="text-danger">{{ $message }}</div>
         @enderror
       </div>
       <div class="col-md-6">
         <label for="inputPrice" class="form-label">Prezzo</label>
-        <input type="text" class="form-control" id="inputPrice" name="price"
-          value="{{ old('price', $dish->price) }}">
+        <input type="text" class="form-control @error('price')
+          is-invalid
+          @enderror"
+          id="inputPrice" name="price" value="{{ old('price', $dish->price) }}">
         @error('price')
           <div class="text-danger">{{ $message }}</div>
         @enderror
