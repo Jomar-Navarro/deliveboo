@@ -12,28 +12,36 @@
         <li>
           <a href="{{ route('admin.restaurant.index') }}">
             <i class="fa-solid fa-utensils"></i>
-            <span>My Restaurant</span>
+            <span>I Miei Ristoranti</span>
           </a>
         </li>
 
         <li>
           <a href={{ route('admin.restaurant.create') }}>
-            <i class="fa-solid fa-square-plus"></i>
-            <span>Add Restaurant</span>
+            <i class="fa-solid fa-plus"></i>
+            <span>Aggiungi Ristoranti</span>
           </a>
         </li>
         <li>
           <a href="{{ route('admin.dish.index') }}">
-            <i class="fa-solid fa-database"></i>
-            <span>Dishes</span>
+            <i class="fa-solid fa-bowl-rice"></i>
+            <span>Piatti</span>
           </a>
         </li>
         <li>
           <a href={{ route('admin.dish.create') }}>
-            <i class="fa-solid fa-square-plus"></i>
-            <span>Add Dish</span>
+            <i class="fa-solid fa-plus"></i>
+            <span>Aggiungi Piatto</span>
           </a>
         </li>
+
+        <li>
+          <a href={{ route('admin.dish.trashed') }}>
+            <i class="fa-solid fa-trash-arrow-up"></i>
+            <span>Piatti Eliminati</span>
+          </a>
+        </li>
+
       </div>
 
     </ul>
@@ -42,7 +50,7 @@
         <li>
           <a href="#">
             <i class="fa-solid fa-gear"></i>
-            <i>Settings</i>
+            <i>Impostazioni</i>
           </a>
         </li>
       </ul>

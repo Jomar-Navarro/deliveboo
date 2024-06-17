@@ -29,6 +29,8 @@ Route::middleware(['auth', 'verified'])
         Route::get('/', [DashboardController::class, 'index'])->name('home');
         Route::resource('restaurant', RestaurantController::class);
         Route::resource('dish', DishController::class);
+        Route::get('dishes/trashed', [DishController::class, 'trashed'])->name('dish.trashed');
+        Route::post('dish/{id}/restore', [DishController::class, 'restore'])->name('dish.restore');
     });
 
 Route::middleware('auth')->group(function () {

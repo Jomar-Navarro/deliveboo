@@ -1,3 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/header.scss";
 @import "./partials/restaurants.scss";
+
+.main-wrapper {
+    height: calc(100vh - 80px);
+    .content {
+        height: 100%;
+        width: 100%;
+        overflow: auto;
+    }
+}
