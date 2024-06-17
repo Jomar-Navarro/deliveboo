@@ -3,12 +3,12 @@ header {
     border-bottom: 2px solid #e85d04;
     nav {
         height: 80px;
-        a:hover {
-            transition: all 0.4s ease-in;
-            background-color: rgb(230, 230, 230);
-            border-radius: 50px;
-            padding: 5px 20px;
-        }
+        // a:hover {
+        //     transition: all 0.4s ease-in;
+        //     background-color: rgb(230, 230, 230);
+        //     border-radius: 50px;
+        //     padding: 5px 20px;
+        // }
         input {
             width: 300px !important;
         }
@@ -26,7 +26,7 @@ aside {
             a {
                 text-decoration: none;
                 color: white;
-                font-size: 1.1rem;
+                font-size: 1rem;
                 font-weight: 600;
                 &:hover {
                     transition: all 0.2s ease-in;
@@ -74,3 +74,22 @@ aside {
     }
 }
 
+.logo {
+    height: 100%;
+    width: 200px;
+
+    img {
+        object-fit: cover;
+    }
+}
+
+.search {
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.logo-user {
+    width: 50px;
+    height: 50px;
+}
