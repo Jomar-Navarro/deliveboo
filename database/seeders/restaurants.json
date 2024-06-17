@@ -6,7 +6,8 @@
         "address": "Via Roma 10, 00100 Roma, Italia",
         "vat_number": "VAT123456",
         "image": "/img/marialaura-gionfriddo-II3Vo7MJ9Z0-unsplash.jpg",
-        "slug": "la-trattoria"
+        "slug": "la-trattoria",
+        "user_id": "1"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "address": "Piazza del Campo 3, 53100 Siena, Italia",
         "vat_number": "VAT654321",
         "image": "/img/fallon-travels-q03ZLncun2Y-unsplash.jpg",
-        "slug": "osteria-del-chianti"
+        "slug": "osteria-del-chianti",
+        "user_id": "2"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "address": "Via Veneto 20, 00187 Roma, Italia",
         "vat_number": "VAT234567",
         "image": "/img/chris-liverani-oCsaxvGCehM-unsplash.jpg",
-        "slug": "global-bistro"
+        "slug": "global-bistro",
+        "user_id": "3"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "address": "Corso Buenos Aires 42, 20124 Milano, Italia",
         "vat_number": "VAT765432",
         "image": "/img/jason-leung-poI7DelFiVA-unsplash.jpg.",
-        "slug": "fusion-flavors"
+        "slug": "fusion-flavors",
+        "user_id": "4"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "address": "Via Paolo Sarpi 5, 20154 Milano, Italia",
         "vat_number": "VAT345678",
         "image": "/img/christian-chen-wKo2FpStw3I-unsplash.jpg",
-        "slug": "dragone-doro"
+        "slug": "dragone-doro",
+        "user_id": "5"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "address": "Via Nazionale 25, 00184 Roma, Italia",
         "vat_number": "VAT876543",
         "image": "/img/tangi-bertin-4WoSeG-5tzI-unsplash.jpg",
-        "slug": "la-grande-muraglia"
+        "slug": "la-grande-muraglia",
+        "user_id": "6"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "address": "Via dei Mille 12, 80121 Napoli, Italia",
         "vat_number": "VAT456789",
         "image": "/img/baiq-daling-vuZJ1VRHNF4-unsplash.jpg",
-        "slug": "sakura"
+        "slug": "sakura",
+        "user_id": "7"
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "address": "Via della Conciliazione 4, 00193 Roma, Italia",
         "vat_number": "VAT987654",
         "image": "/img/laura-barry-9q6qjZSeW6c-unsplash.jpg",
-        "slug": "tokyo-garden"
+        "slug": "tokyo-garden",
+        "user_id": "8"
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "address": "Corso Vittorio Emanuele II 50, 10123 Torino, Italia",
         "vat_number": "VAT567890",
         "image": "/img/messicano-two.jpg",
-        "slug": "el-sombrero"
+        "slug": "el-sombrero",
+        "user_id": "9"
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "address": "Via Manzoni 12, 20121 Milano, Italia",
         "vat_number": "VAT098765",
         "image": "/img/angolo-messicano.jpg",
-        "slug": "cantina-mariachi"
+        "slug": "cantina-mariachi",
+        "user_id": "10"
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "address": "Via dei Serpenti 19, 00184 Roma, Italia",
         "vat_number": "VAT678901",
         "image": "/img/rumman-amin-ltN0BZhlvxY-unsplash.jpg",
-        "slug": "taj-mahal"
+        "slug": "taj-mahal",
+        "user_id": "11"
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "address": "Via Cavour 28, 50129 Firenze, Italia",
         "vat_number": "VAT109876",
         "image": "/img/indiano.jpg",
-        "slug": "bombay-palace"
+        "slug": "bombay-palace",
+        "user_id": "12"
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "address": "Lungomare Caracciolo 1, 80122 Napoli, Italia",
         "vat_number": "VAT789012",
         "image": "/img/Isola-del-pescatore-850x540.jpg",
-        "slug": "il-pescatore"
+        "slug": "il-pescatore",
+        "user_id": "13"
     },
     {
         "id": 14,
@@ -123,7 +136,8 @@
         "address": "Via Lungomare 25, 16121 Genova, Italia",
         "vat_number": "VAT210987",
         "image": "/img/pesce.jpg",
-        "slug": "la-barchetta"
+        "slug": "la-barchetta",
+        "user_id": "14"
     },
     {
         "id": 15,
@@ -132,7 +146,8 @@
         "address": "Via della Griglia 3, 50125 Firenze, Italia",
         "vat_number": "VAT890123",
         "image": "/img/marco-chilese-Gprl8lDVR9c-unsplash.jpg",
-        "slug": "la-griglia"
+        "slug": "la-griglia",
+        "user_id": "15"
     },
     {
         "id": 16,
@@ -141,7 +156,8 @@
         "address": "Via del Corso 45, 00186 Roma, Italia",
         "vat_number": "VAT321098",
         "image": "/img/lukenn-sabellano-ntGqotVPcD0-unsplash.jpg",
-        "slug": "steak-house"
+        "slug": "steak-house",
+        "user_id": "16"
     },
     {
         "id": 17,
@@ -150,7 +166,8 @@
         "address": "Via Partenope 15, 80121 Napoli, Italia",
         "vat_number": "VAT678234",
         "image": "/img/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg",
-        "slug": "pizzeria-napoli"
+        "slug": "pizzeria-napoli",
+        "user_id": "17"
     },
     {
         "id": 18,
@@ -159,6 +176,8 @@
         "address": "Via del Corso 22, 00186 Roma, Italia",
         "vat_number": "VAT987432",
         "image": "/img/gabriella-clare-marino-mYK3JCevRTk-unsplash.jpg",
-        "slug": "pizza-roma"
+        "slug": "pizza-roma",
+        "user_id": "18"
     }
 ]
+
