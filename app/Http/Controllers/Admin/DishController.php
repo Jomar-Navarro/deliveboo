@@ -13,7 +13,8 @@ class DishController extends Controller
      */
     public function index()
     {
-        $dishes = Dish::all();
+        $restaurantId = 10; // ID del ristorante specifico
+        $dishes = Dish::where('restaurant_id', $restaurantId)->get();
 
         return view('admin.dish.index', compact('dishes'));
     }
