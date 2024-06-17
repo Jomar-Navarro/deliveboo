@@ -39,8 +39,8 @@ class RestaurantController extends Controller
         $valData = $request->validate(
             [
                 'name' => 'required|string|max:255',
-                'description' => 'required|string',
-                'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                'description' => 'nullable|string',
+                'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
                 'address' => 'required|string|max:255',
                 'vat_number' => 'required|string|max:50|unique:restaurants,vat_number',
             ],
@@ -48,7 +48,6 @@ class RestaurantController extends Controller
                 'name.required' => 'Il nome è obbligatorio.',
                 'name.string' => 'Il nome deve essere una stringa.',
                 'name.max' => 'Il nome non può superare i 255 caratteri.',
-                'description.required' => 'La descrizione è obbligatoria.',
                 'description.string' => 'La descrizione deve essere una stringa.',
                 'address.required' => "L'indirizzo è obbligatorio.",
                 'address.string' => "L'indirizzo deve essere una stringa.",
@@ -57,7 +56,6 @@ class RestaurantController extends Controller
                 'vat_number.string' => 'Il numero di partita IVA deve essere una stringa.',
                 'vat_number.max' => 'Il numero di partita IVA non può superare i 50 caratteri.',
                 'vat_number.unique' => 'Il numero di partita IVA è già in uso.',
-                'image.required' => "L'immagine è obbligatoria.",
                 'image.image' => "Il file deve essere un'immagine.",
                 'image.mimes' => "L'immagine deve essere nei formati: jpeg, png, jpg, gif, svg.",
                 'image.max' => "L'immagine non può superare i 2MB.",
