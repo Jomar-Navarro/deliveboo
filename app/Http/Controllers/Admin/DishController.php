@@ -146,8 +146,31 @@ class DishController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Dish $dish)
     {
-        //
+        $dish->delete();
+
+        return redirect()->route('admin.dish.index')->with('success', 'Piatto eliminato con successo');
+    }
+
+    public function restore($id)
+    {
+        // Trova il piatto con soft delete
+        $dish = Dish::withTrashed()->findOrFail($id);
+
+        // Ripristina il piatto
+        $dish->restore();
+
+        // Redirezione alla pagina di indice dei piatti con un messaggio di successo
+        return redirect()->route('admin.dish.index')->with('success', 'Piatto ripristinato con successo.');
+    }
+
+    public function trashed()
+    {
+        // Ottieni tutti i piatti eliminati
+        $trashedDishes = Dish::onlyTrashed()->get();
+
+        // Ritorna la vista con i piatti eliminati
+        return view('admin.dish.trashed', compact('trashedDishes'));
     }
 }
