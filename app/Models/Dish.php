@@ -11,6 +11,7 @@ class Dish extends Model
     use HasFactory, SoftDeletes;
     protected $fillable = [
         'dish_name',
+        'restaurant_id',
         'description',
         'price',
         'is_visible',
@@ -18,4 +19,8 @@ class Dish extends Model
     ];
 
     protected $dates = ['deleted_at'];
+
+    public function restaurant(){
+        return $this->belongsTo(Restaurant::class);
+    }
 }
