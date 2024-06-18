@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Functions\Helper as Help;
 use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
+use App\Models\Type;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -26,7 +27,10 @@ class RestaurantController extends Controller
      */
     public function create()
     {
-        return view('admin.restaurant.create');
+
+        $types = Type::all();
+        $restaurant = Restaurant::where('user_id', Auth::id())->get();
+        return view('admin.restaurant.create', compact('types', 'restaurant'));
     }
 
     /**
@@ -82,6 +86,10 @@ class RestaurantController extends Controller
 
         // Salva il ristorante nel database
         $new_restaurant->save();
+
+        if (array_key_exists('types', $valData)) {
+            $new_restaurant->types()->sync($valData['types']);
+        }
 
         // Redirezione alla pagina di indice dei ristoranti con un messaggio di successo
         return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante creato con successo.');
