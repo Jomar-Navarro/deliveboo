@@ -19,7 +19,9 @@
                     @endforeach
                 </div>
 
-                <img class="w-100 rest-img" src="{{ $restaurant->image }}" alt="">
+                {{-- <img class="w-100 rest-img" src="{{ $restaurant->image }}" alt=""> --}}
+                <img class="img-fluid w-50" src="{{ asset('storage/' . $restaurant->image) }}" alt=""
+                    onerror="this.src='/img/no-image.jpg'">
             </div>
 
 

@@ -6,9 +6,9 @@ use App\Functions\Helper as Help;
 use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
 use App\Models\Type;
-use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class RestaurantController extends Controller
 {
@@ -20,8 +20,7 @@ class RestaurantController extends Controller
         $restaurant = Restaurant::where('user_id', Auth::id())->first();
         $types = $restaurant->types()->get();
 
-
-        return view('admin.Restaurant.index', compact('restaurant', 'types'));
+        return view('admin.restaurant.index', compact('restaurant', 'types'));
     }
 
     /**
@@ -29,7 +28,6 @@ class RestaurantController extends Controller
      */
     public function create()
     {
-
         $types = Type::all();
         $restaurant = Restaurant::where('user_id', Auth::id())->get();
         return view('admin.restaurant.create', compact('types', 'restaurant'));
@@ -70,17 +68,15 @@ class RestaurantController extends Controller
 
         // Gestione dell'immagine
         if ($request->hasFile('image')) {
-            $imageName = time() . '.' . $request->image->extension();
-            $request->image->move(public_path('img'), $imageName);
-        } else {
-            $imageName = null; // Imposta a null se l'immagine non è fornita
+            $image_path = $request->file('image')->store('uploads');
+            $valData['image'] = $image_path;
         }
 
         // Creazione del ristorante
         $new_restaurant = new Restaurant();
         $new_restaurant->name = $valData['name'];
         $new_restaurant->description = $valData['description'];
-        $new_restaurant->image = $imageName;
+        $new_restaurant->image = $valData['image'] ?? null;
         $new_restaurant->address = $valData['address'];
         $new_restaurant->vat_number = $valData['vat_number'];
         $new_restaurant->slug = Help::generateSlug($request->input('name'), new Restaurant());
@@ -96,17 +92,16 @@ class RestaurantController extends Controller
         return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante creato con successo.');
     }
 
-
     /**
      * Display the specified resource.
      */
     public function show(Restaurant $restaurant)
     {
         if (Auth::id() != $restaurant->user_id) {
-            abort('404');
+            abort(404);
         }
 
-        return view('admin.Restaurant.index', compact('restaurant'));
+        return view('admin.restaurant.index', compact('restaurant'));
     }
 
     /**
@@ -116,7 +111,7 @@ class RestaurantController extends Controller
     {
         $types = Type::all();
         if (Auth::id() != $restaurant->user_id) {
-            abort('404');
+            abort(404);
         }
         return view('admin.restaurant.edit', compact('restaurant', 'types'));
     }
@@ -159,9 +154,13 @@ class RestaurantController extends Controller
 
         // Gestione dell'immagine
         if ($request->hasFile('image')) {
-            $imageName = time() . '.' . $request->image->getClientOriginalExtension();
-            $request->image->move(public_path('img'), $imageName);
-            $valData['image'] = $imageName;
+            // Rimuovi l'immagine precedente se esiste
+            if ($restaurant->image) {
+                Storage::delete($restaurant->image);
+            }
+
+            $image_path = $request->file('image')->store('uploads');
+            $valData['image'] = $image_path;
         }
 
         // Aggiorna i dati del ristorante
@@ -181,8 +180,14 @@ class RestaurantController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Restaurant $restaurant)
     {
-        //
+        if ($restaurant->image) {
+            Storage::delete($restaurant->image);
+        }
+
+        $restaurant->delete();
+
+        return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante eliminato con successo');
     }
 }
