@@ -39,7 +39,7 @@ class DishController extends Controller
             [
                 'dish_name' => 'required|string|max:100',
                 'description' => 'nullable|string',
-                'price' => 'required|string',
+                'price' => 'required|string|max:10',
                 'is_visible' => 'required|boolean',
                 'image_url' => 'nullable|image|mimes:jpeg,png,jpg,svg|max:2048'
             ],
@@ -49,8 +49,7 @@ class DishController extends Controller
                 'dish_name.max' => 'Il nome del piatto non può superare i 100 caratteri.',
                 'description.string' => 'La descrizione deve essere una stringa.',
                 'price.required' => 'Il prezzo è obbligatorio.',
-                'price.numeric' => 'Il prezzo deve essere un numero.',
-                'price.between' => 'Il prezzo deve essere compreso tra 0 e 999.99.',
+                'price.max' => 'Il prezzo non deve superare :max caratteri',
                 'is_visible.required' => 'Il campo di visibilità è obbligatorio.',
                 'is_visible.boolean' => 'Il campo di visibilità deve essere un valore booleano.',
                 'image_url.image' => "L'immagine deve essere un file di tipo immagine.",
@@ -120,7 +119,7 @@ class DishController extends Controller
             [
                 'dish_name' => 'required|string|max:100',
                 'description' => 'string',
-                'price' => 'required|numeric|between:0,999.99',
+                'price' => 'required|string|max:10',
                 'is_visible' => 'required|boolean',
                 'image_url' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
             ],
@@ -130,8 +129,7 @@ class DishController extends Controller
                 'dish_name.max' => 'Il nome del piatto non può superare i 100 caratteri.',
                 'description.string' => 'La descrizione deve essere una stringa.',
                 'price.required' => 'Il prezzo è obbligatorio.',
-                'price.numeric' => 'Il prezzo deve essere un numero.',
-                'price.between' => 'Il prezzo deve essere compreso tra 0 e 999.99.',
+                'price.max' => 'Il prezzo non deve superare :max caratteri',
                 'is_visible.required' => 'Il campo di visibilità è obbligatorio.',
                 'is_visible.boolean' => 'Il campo di visibilità deve essere un valore booleano.',
                 'image_url.image' => 'L\'immagine deve essere un file di tipo immagine.',
