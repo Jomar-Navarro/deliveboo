@@ -73,6 +73,11 @@ class DishController extends Controller
         $new_dish->price = $valData['price'];
         $new_dish->is_visible = $valData['is_visible'];
         $new_dish->image_url = '/img/' . $imageName;
+        // Ottenere l'ID del ristorante dell'utente autenticato
+
+
+        // Associare il piatto al ristorante dell'utente autenticato
+        $new_dish->restaurant_id = Auth::user()->restaurant->id;
         $new_dish->save();
 
 
