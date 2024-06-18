@@ -12,8 +12,8 @@
 
       <div class="col-4">
         <h1>{{ $restaurant->name }}</h1>
-        <a href="{{ route('admin.restaurant.edit', $restaurant) }}" class="btn btn-outline-warning m-2">
-          <i class="fa-solid fa-pen-nib "></i></a>
+
+        <i class="fa-solid fa-pen-nib "></i></a>
         <img class="w-100 rest-img" src="{{ $restaurant->image }}" alt="">
       </div>
 
