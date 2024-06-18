@@ -1,5 +1,3 @@
-<!-- resources/views/admin/restaurant/edit.blade.php -->
-
 @extends('layouts.admin')
 
 @section('content')
@@ -63,11 +61,10 @@
         <div>
           @foreach ($types as $type)
             <input class="btn-check" type="checkbox" name="types[]" autocomplete="off" id="type{{ $type->id }}"
-              value="{{ $type->id }}" @if (in_array($type->id, old('types', []))) checked @endif>
+              value="{{ $type->id }}" @if (in_array($type->id, old('types', $restaurant->types->pluck('id')->toArray()))) checked @endif>
             <label class="btn btn-outline-primary rounded-5 me-2 mt-3 py-1"
               for="type{{ $type->id }}">{{ $type->type_name }}</label>
           @endforeach
-
 
           @error('types[]')
             <small class="text-danger fw-bold">
