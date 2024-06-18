@@ -13,18 +13,16 @@
       <table class="table m-0">
         <thead>
           <tr>
-            <th scope="col">id</th>
             <th scope="col">Nome</th>
             <th scope="col">Prezzo</th>
             <th scope="col">Descrizione</th>
             <th scope="col">Visibilità</th>
-            <th scope="col">Funzioni</th>
+            <th scope="col">Azioni</th>
           </tr>
         </thead>
         <tbody>
           @foreach ($trashedDishes as $item)
             <tr>
-              <th scope="row">{{ $item->id }}</th>
               <td>{{ $item->dish_name }}</td>
               <td>&euro; {{ $item->price }}</td>
               <td>{{ $item->description }}</td>

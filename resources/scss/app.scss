@@ -1,6 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./partials/header.scss";
 @import "./partials/restaurants.scss";
+@import "./partials/register.scss";
+@import "./partials/login.scss";
 
 .main-wrapper {
     height: calc(100vh - 80px);
