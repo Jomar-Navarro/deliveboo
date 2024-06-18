@@ -39,14 +39,23 @@
           La visibilità è obbligatoria.
         </div>
       </div>
-      <div class="mb-3 col-12">
+
+      {{-- <div class="mb-3 col-12">
         <label for="formFile" class="form-label">Carica Immagine</label>
         <input class="form-control" type="file" id="formFile" name="image_url">
         @error('image_url')
           <div class="text-danger">{{ $message }}</div>
         @enderror
-      </div>
+      </div> --}}
+
+      <div class="mb-3 bg-body-tertiary rounded p-2">
+        <label for="image" class="form-label">Image</label>
+        <input name="image_url" type="file" class="form-control" id="reading_time" aria-describedby="emailHelp"
+            onchange="showImage(event)" {{-- value="{{ old('image', $post->image) }}" --}}>
+        <img class="thumb" id="thumb" src="/img/no-image" alt="">
+        <p> {{ $dish->image_original_name }} </p>
       <div class="col-12">
+
         <button type="submit" class="btn btn-primary">Salva</button>
       </div>
     </form>
