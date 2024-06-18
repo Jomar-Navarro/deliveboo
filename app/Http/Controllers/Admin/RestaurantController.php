@@ -100,9 +100,13 @@ class RestaurantController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
+    public function show(Restaurant $restaurant)
     {
-        //
+        // if (Auth::id() != $restaurant->user_id) {
+        //     abort('404');
+        // }
+
+        // return view('admin.Restaurant.index', compact('restaurant'));
     }
 
     /**
