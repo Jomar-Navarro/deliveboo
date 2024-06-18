@@ -25,7 +25,7 @@
                     @foreach ($dishes as $item)
                         <tr>
                             <td>{{ $item->dish_name }}</td>
-                            <td>{{ $item->price }}</td>
+                            <td>&euro; {{ $item->price }}</td>
                             <td>{{ $item->description }}</td>
                             <td>{{ $item->is_visible }}</td>
                             <td>
