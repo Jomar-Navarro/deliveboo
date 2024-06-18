@@ -4,7 +4,7 @@
         "name": "La Trattoria",
         "description": "Un classico ristorante italiano che serve pasta fresca e specialità regionali.",
         "address": "Via Roma 10, 00100 Roma, Italia",
-        "vat_number": "VAT123456",
+        "vat_number": "73649201845",
         "image": "/img/marialaura-gionfriddo-II3Vo7MJ9Z0-unsplash.jpg",
         "slug": "la-trattoria",
         "user_id": "1"
@@ -14,7 +14,7 @@
         "name": "Osteria del Chianti",
         "description": "Ambiente rustico e accogliente, specializzato in vini toscani e carne alla griglia.",
         "address": "Piazza del Campo 3, 53100 Siena, Italia",
-        "vat_number": "VAT654321",
+        "vat_number": "19238475620",
         "image": "/img/fallon-travels-q03ZLncun2Y-unsplash.jpg",
         "slug": "osteria-del-chianti",
         "user_id": "2"
@@ -24,7 +24,7 @@
         "name": "Global Bistro",
         "description": "Un viaggio culinario attraverso i sapori del mondo, situato nel centro di Roma.",
         "address": "Via Veneto 20, 00187 Roma, Italia",
-        "vat_number": "VAT234567",
+        "vat_number": "84736291057",
         "image": "/img/chris-liverani-oCsaxvGCehM-unsplash.jpg",
         "slug": "global-bistro",
         "user_id": "3"
@@ -34,7 +34,7 @@
         "name": "Fusion Flavors",
         "description": "Piatti creativi che combinano ingredienti e tecniche da diversi continenti.",
         "address": "Corso Buenos Aires 42, 20124 Milano, Italia",
-        "vat_number": "VAT765432",
+        "vat_number": "52463107849",
         "image": "/img/jason-leung-poI7DelFiVA-unsplash.jpg.",
         "slug": "fusion-flavors",
         "user_id": "4"
@@ -44,7 +44,7 @@
         "name": "Dragone d'Oro",
         "description": "Autentica cucina cinese con un'ampia selezione di dim sum e piatti tradizionali.",
         "address": "Via Paolo Sarpi 5, 20154 Milano, Italia",
-        "vat_number": "VAT345678",
+        "vat_number": "31789046521",
         "image": "/img/christian-chen-wKo2FpStw3I-unsplash.jpg",
         "slug": "dragone-doro",
         "user_id": "5"
@@ -54,7 +54,7 @@
         "name": "La Grande Muraglia",
         "description": "Un ristorante che porta in tavola i sapori autentici della Cina.",
         "address": "Via Nazionale 25, 00184 Roma, Italia",
-        "vat_number": "VAT876543",
+        "vat_number": "68543921087",
         "image": "/img/tangi-bertin-4WoSeG-5tzI-unsplash.jpg",
         "slug": "la-grande-muraglia",
         "user_id": "6"
@@ -64,7 +64,7 @@
         "name": "Sakura",
         "description": "Ristorante giapponese con sushi fresco e piatti tipici della cucina nipponica.",
         "address": "Via dei Mille 12, 80121 Napoli, Italia",
-        "vat_number": "VAT456789",
+        "vat_number": "76430291856",
         "image": "/img/baiq-daling-vuZJ1VRHNF4-unsplash.jpg",
         "slug": "sakura",
         "user_id": "7"
@@ -74,7 +74,7 @@
         "name": "Tokyo Garden",
         "description": "Elegante ristorante con una vasta selezione di sushi e sashimi.",
         "address": "Via della Conciliazione 4, 00193 Roma, Italia",
-        "vat_number": "VAT987654",
+        "vat_number": "92834710568",
         "image": "/img/laura-barry-9q6qjZSeW6c-unsplash.jpg",
         "slug": "tokyo-garden",
         "user_id": "8"
@@ -84,7 +84,7 @@
         "name": "El Sombrero",
         "description": "Colorato ristorante messicano con autentici tacos e margaritas.",
         "address": "Corso Vittorio Emanuele II 50, 10123 Torino, Italia",
-        "vat_number": "VAT567890",
+        "vat_number": "28375901647",
         "image": "/img/messicano-two.jpg",
         "slug": "el-sombrero",
         "user_id": "9"
@@ -94,7 +94,7 @@
         "name": "Cantina Mariachi",
         "description": "Un angolo di Messico nel cuore di Milano, con piatti piccanti e saporiti.",
         "address": "Via Manzoni 12, 20121 Milano, Italia",
-        "vat_number": "VAT098765",
+        "vat_number": "63481972053",
         "image": "/img/angolo-messicano.jpg",
         "slug": "cantina-mariachi",
         "user_id": "10"
@@ -104,7 +104,7 @@
         "name": "Taj Mahal",
         "description": "Autentica cucina indiana con sapori speziati e aromi esotici.",
         "address": "Via dei Serpenti 19, 00184 Roma, Italia",
-        "vat_number": "VAT678901",
+        "vat_number": "78245619037",
         "image": "/img/rumman-amin-ltN0BZhlvxY-unsplash.jpg",
         "slug": "taj-mahal",
         "user_id": "11"
@@ -114,7 +114,7 @@
         "name": "Bombay Palace",
         "description": "Ristorante indiano che offre un'esperienza culinaria unica con piatti tradizionali.",
         "address": "Via Cavour 28, 50129 Firenze, Italia",
-        "vat_number": "VAT109876",
+        "vat_number": "31467928501",
         "image": "/img/indiano.jpg",
         "slug": "bombay-palace",
         "user_id": "12"
@@ -124,7 +124,7 @@
         "name": "Il Pescatore",
         "description": "Ristorante specializzato in piatti a base di pesce fresco e frutti di mare.",
         "address": "Lungomare Caracciolo 1, 80122 Napoli, Italia",
-        "vat_number": "VAT789012",
+        "vat_number": "87952043167",
         "image": "/img/Isola-del-pescatore-850x540.jpg",
         "slug": "il-pescatore",
         "user_id": "13"
@@ -134,7 +134,7 @@
         "name": "La Barchetta",
         "description": "Accogliente ristorante di pesce con vista sul mare.",
         "address": "Via Lungomare 25, 16121 Genova, Italia",
-        "vat_number": "VAT210987",
+        "vat_number": "62184507943",
         "image": "/img/pesce.jpg",
         "slug": "la-barchetta",
         "user_id": "14"
@@ -144,7 +144,7 @@
         "name": "La Griglia",
         "description": "Specialità di carne alla griglia e barbecue in un ambiente rustico.",
         "address": "Via della Griglia 3, 50125 Firenze, Italia",
-        "vat_number": "VAT890123",
+        "vat_number": "57823910645",
         "image": "/img/marco-chilese-Gprl8lDVR9c-unsplash.jpg",
         "slug": "la-griglia",
         "user_id": "15"
@@ -154,7 +154,7 @@
         "name": "Steak House",
         "description": "Ristorante per veri amanti della carne con tagli pregiati e cotture perfette.",
         "address": "Via del Corso 45, 00186 Roma, Italia",
-        "vat_number": "VAT321098",
+        "vat_number": "31045782964",
         "image": "/img/lukenn-sabellano-ntGqotVPcD0-unsplash.jpg",
         "slug": "steak-house",
         "user_id": "16"
@@ -164,7 +164,7 @@
         "name": "Pizzeria Napoli",
         "description": "Autentica pizza napoletana cotta nel forno a legna.",
         "address": "Via Partenope 15, 80121 Napoli, Italia",
-        "vat_number": "VAT678234",
+        "vat_number": "48923057614",
         "image": "/img/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg",
         "slug": "pizzeria-napoli",
         "user_id": "17"
@@ -174,10 +174,9 @@
         "name": "Pizza Roma",
         "description": "Deliziose pizze con ingredienti freschi e genuini, situato nel centro di Roma.",
         "address": "Via del Corso 22, 00186 Roma, Italia",
-        "vat_number": "VAT987432",
+        "vat_number": "54678930218",
         "image": "/img/gabriella-clare-marino-mYK3JCevRTk-unsplash.jpg",
         "slug": "pizza-roma",
         "user_id": "18"
     }
 ]
-

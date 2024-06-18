@@ -1,177 +1,345 @@
 [
     {
-        "dish_name": "Pasta alla Carbonara",
-        "description": "Spaghetti con uova, guanciale, pecorino e pepe nero",
-        "price": 12.50,
+        "dish_name": "Spaghetti Carbonara",
+        "description": "Pasta alla carbonara con guanciale e pecorino.",
+        "price": "€12,50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/pasta_carbonara.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Risotto ai Funghi Porcini",
-        "description": "Risotto cremoso con funghi porcini freschi e parmigiano",
-        "price": 14.75,
+        "dish_name": "Lasagna",
+        "description": "Lasagna tradizionale con ragù e besciamella.",
+        "price": "€14.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/risotto_funghi.jpg"
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Risotto ai Funghi",
+        "description": "Risotto cremoso con funghi porcini.",
+        "price": "€13.50",
+        "is_visible": 1,
+        "image_url": "image_url"
     },
     {
         "dish_name": "Pizza Margherita",
-        "description": "Pizza con pomodoro, mozzarella di bufala e basilico fresco",
-        "price": 10.00,
+        "description": "Pizza classica con pomodoro, mozzarella e basilico.",
+        "price": "€8.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/pizza_margherita.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Lasagne al Forno",
-        "description": "Strati di pasta fresca, ragù, besciamella e parmigiano",
-        "price": 13.50,
+        "dish_name": "Parmigiana di Melanzane",
+        "description": "Melanzane alla parmigiana con mozzarella e parmigiano.",
+        "price": "€11.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/lasagne.jpg"
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Tiramisu",
+        "description": "Dessert classico italiano con mascarpone e caffè.",
+        "price": "€6.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Bruschetta al Pomodoro",
+        "description": "Pane tostato con pomodoro fresco e basilico.",
+        "price": "€5.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Focaccia",
+        "description": "Pane morbido al rosmarino.",
+        "price": "€4.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Panna Cotta",
+        "description": "Dessert cremoso alla vaniglia.",
+        "price": "€6.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Gnocchi al Pesto",
+        "description": "Gnocchi di patate con pesto alla genovese.",
+        "price": "€12.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Hamburger",
+        "description": "Classico hamburger con carne e formaggio.",
+        "price": "€9.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Sushi",
+        "description": "Varietà di sushi e sashimi freschi.",
+        "price": "€15.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Pad Thai",
+        "description": "Noodles thailandesi con gamberi.",
+        "price": "€11.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Falafel",
+        "description": "Polpette di ceci servite con pita.",
+        "price": "€7.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Paella",
+        "description": "Riso spagnolo con frutti di mare.",
+        "price": "€13.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Samosa",
+        "description": "Sfoglie ripiene di verdure speziate.",
+        "price": "€6.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "description": "Pesce fritto con patatine.",
+        "price": "€10.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Croissant",
+        "description": "Pasta sfoglia francese al burro.",
+        "price": "€3.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Ceviche",
+        "description": "Pesce marinato in succo di lime.",
+        "price": "€12.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Pollo al Limone",
+        "description": "Pollo fritto in salsa di limone.",
+        "price": "€9.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Maiale in Agrodolce",
+        "description": "Maiale in salsa agrodolce con ananas.",
+        "price": "€10.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Anatra alla Pechinese",
+        "description": "Anatra arrosto con salsa di prugne.",
+        "price": "€15.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Gamberi al Sale e Pepe",
+        "description": "Gamberi saltati con sale e pepe.",
+        "price": "€12.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Tofu Mapo",
+        "description": "Tofu piccante in salsa di fagioli.",
+        "price": "€9.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Manzo con Broccoli",
+        "description": "Manzo saltato con broccoli.",
+        "price": "€11.00",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Zuppa di Miso",
+        "description": "Zuppa di miso con tofu e alghe.",
+        "price": "€4.50",
+        "is_visible": 1,
+        "image_url": "image_url"
+    },
+    {
+        "dish_name": "Gelato Fritto",
+        "description": "Gelato ricoperto da una crosta fritta.",
+        "price": "€6.00",
+        "is_visible": 1,
+        "image_url": "image_url"
     },
     {
         "dish_name": "Sushi Misto",
-        "description": "Assortimento di nigiri, sashimi e maki",
-        "price": 18.50,
+        "description": "Assortimento di sushi e sashimi.",
+        "price": "€18.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/sushi_misto.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Tacos al Pastor",
-        "description": "Tortilla di mais con carne di maiale marinata, ananas e cipolla",
-        "price": 9.99,
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con carne e uova.",
+        "price": "€12.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/tacos_pastor.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Chicken Tikka Masala",
-        "description": "Pollo marinato e speziato con salsa cremosa al curry",
-        "price": 15.25,
+        "dish_name": "Tempura",
+        "description": "Frittura leggera di pesce e verdure.",
+        "price": "€10.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/chicken_tikka_masala.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Tempura di Gamberi",
-        "description": "Gamberi avvolti in pastella croccante, fritti e serviti con salsa dipping",
-        "price": 16.00,
+        "dish_name": "Yakitori",
+        "description": "Spiedini di pollo alla griglia.",
+        "price": "€8.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/tempura_gamberi.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Bistecca alla Fiorentina",
-        "description": "Fiorentina di manzo alla griglia, servita al sangue con contorno di rucola e pomodorini",
-        "price": 28.90,
+        "dish_name": "Udon",
+        "description": "Noodles spessi in brodo di pesce.",
+        "price": "€9.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/bistecca_fiorentina.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Katsudon",
+        "description": "Ciotola di riso con cotoletta di maiale.",
+        "price": "€11.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Takoyaki",
+        "description": "Palline di pastella con polpo.",
+        "price": "€7.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Okonomiyaki",
+        "description": "Pancake giapponese con verdure e carne.",
+        "price": "€9.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Mochi",
+        "description": "Dolcetti di riso ripieni di gelato.",
+        "price": "€5.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Bibimbap",
+        "description": "Ciotola di riso coreana con verdure e carne.",
+        "price": "€11.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Kimchi",
+        "description": "Verdure fermentate coreane piccanti.",
+        "price": "€4.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Bulgogi",
+        "description": "Carne di manzo marinata alla griglia.",
+        "price": "€13.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Tteokbokki",
+        "description": "Gnocchi di riso coreani piccanti.",
+        "price": "€8.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Japchae",
+        "description": "Noodles di patata dolce con verdure.",
+        "price": "€10.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Samgyeopsal",
+        "description": "Pancetta di maiale alla griglia.",
+        "price": "€12.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Banh Mi",
+        "description": "Panino vietnamita con carne e verdure.",
+        "price": "€6.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Pho",
+        "description": "Zuppa di noodle vietnamita.",
+        "price": "€9.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Goi Cuon",
+        "description": "Involtini primavera freschi con gamberi.",
+        "price": "€5.00",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     },
     {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
+        "dish_name": "Ca Phe Sua Da",
+        "description": "Caffè vietnamita freddo con latte condensato.",
+        "price": "€3.50",
         "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
-    },
-    {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
-        "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
-    },
-    {
-        "dish_name": "Enchiladas Verdes",
-        "description": "Tortillas ripiene di pollo con salsa verde, formaggio e crema",
-        "price": 12.75,
-        "is_visible": 1,
-        "image_url": "https://example.com/images/enchiladas_verdes.jpg"
+        "image_url": "image_url"
     }
 ]

@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('dish_name', 100);
             $table->text('description')->nullable();
-            $table->decimal('price', 5, 2);
+            $table->string('price', 10);
             $table->tinyInteger('is_visible');
             $table->text('image_url')->nullable();
             $table->timestamps();
