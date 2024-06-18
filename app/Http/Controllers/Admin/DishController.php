@@ -73,11 +73,10 @@ class DishController extends Controller
         $new_dish->price = $valData['price'];
         $new_dish->is_visible = $valData['is_visible'];
         $new_dish->image_url = '/img/' . $imageName;
-
-        // Salva il piatto nel database
         $new_dish->save();
 
-        // Redirezione alla pagina di indice dei piatti con un messaggio di successo
+
+
         return redirect()->route('admin.dish.index')->with('success', 'Piatto creato con successo.');
     }
 

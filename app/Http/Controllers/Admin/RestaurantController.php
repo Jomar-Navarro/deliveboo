@@ -47,6 +47,8 @@ class RestaurantController extends Controller
                 'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
                 'address' => 'required|string|max:255',
                 'vat_number' => 'required|string|max:50|unique:restaurants,vat_number',
+                'types' => 'nullable|array',
+                'types.*' => 'exists:types,id',
             ],
             [
                 'name.required' => 'Il nome è obbligatorio.',
@@ -63,6 +65,8 @@ class RestaurantController extends Controller
                 'image.image' => "Il file deve essere un'immagine.",
                 'image.mimes' => "L'immagine deve essere nei formati: jpeg, png, jpg, gif, svg.",
                 'image.max' => "L'immagine non può superare i 2MB.",
+                'types.array' => 'Il campo tipi deve essere un array.',
+                'types.*.exists' => 'Uno o più tipi selezionati non sono validi.',
             ]
         );
         // $valData['user_id'] = Auth::id(); //dubbio
