@@ -19,11 +19,11 @@
                                 <div class="invalid-feedback">
                                     L'indirizzo email è obbligatorio e deve essere un indirizzo valido.
                                 </div>
-                                @error('email')
+                                {{-- @error('email')
                                 <span class="invalid-feedback">
                                     <strong>{{ $message }}</strong>
                                 </span>
-                                @enderror
+                                @enderror --}}
                             </div>
                         </div>
 
@@ -35,11 +35,11 @@
                                 <div class="invalid-feedback">
                                     La password è obbligatoria.
                                 </div>
-                                @error('password')
+                                {{-- @error('password')
                                 <span class="invalid-feedback">
                                     <strong>{{ $message }}</strong>
                                 </span>
-                                @enderror
+                                @enderror --}}
                             </div>
                         </div>
 
