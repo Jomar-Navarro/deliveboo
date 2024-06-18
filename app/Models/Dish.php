@@ -16,6 +16,7 @@ class Dish extends Model
         'price',
         'is_visible',
         'image_url',
+        'image_original_name'
     ];
 
     protected $dates = ['deleted_at'];

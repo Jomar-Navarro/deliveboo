@@ -18,6 +18,7 @@
             <th scope="col">Prezzo</th>
             <th scope="col">Descrizione</th>
             <th scope="col">Visibilità</th>
+            <th scope="col">Immagine</th>
             <th scope="col">Azioni</th>
           </tr>
         </thead>
@@ -28,6 +29,10 @@
               <td>{{ $item->price }}</td>
               <td>{{ $item->description }}</td>
               <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>
+              <td>
+                <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
+                    onerror="this.src='/img/no-image">
+              </td>
               <td>
 
                                 <div class="d-flex">

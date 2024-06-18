@@ -7,6 +7,7 @@ use App\Models\Dish;
 use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Storage;
 
 class DishController extends Controller
 {
@@ -27,7 +28,7 @@ class DishController extends Controller
      */
     public function create()
     {
-        return view('admin.Dish.create');
+        return view('admin.dish.create');
     }
 
     /**
@@ -58,11 +59,14 @@ class DishController extends Controller
             ]
         );
 
-        if ($request->hasFile('image')) {
-            $imageName = time() . '.' . $request->image->extension();
-            $request->image->move(public_path('img'), $imageName);
-        } else {
-            $imageName = null; // Imposta a null se l'immagine non è fornita
+        if ($request->hasFile('image_url')) {
+            // Salva l'immagine nello storage e ottiene il percorso
+            $image_path = $request->file('image_url')->store('uploads');
+
+            // Ottiene il nome originale dell'immagine
+            $original_name = $request->file('image_url')->getClientOriginalName();
+            $valData['image_url'] = $image_path;
+            $valData['image_original_name'] = $original_name;
         }
 
         // Creazione del nuovo piatto
@@ -71,15 +75,13 @@ class DishController extends Controller
         $new_dish->description = $valData['description'];
         $new_dish->price = $valData['price'];
         $new_dish->is_visible = $valData['is_visible'];
-        $new_dish->image_url = '/img/' . $imageName;
-        // Ottenere l'ID del ristorante dell'utente autenticato
-
+        if (isset($valData['image_url'])) {
+            $new_dish->image_url = $valData['image_url'];
+        }
 
         // Associare il piatto al ristorante dell'utente autenticato
         $new_dish->restaurant_id = Auth::user()->restaurant->id;
         $new_dish->save();
-
-
 
         return redirect()->route('admin.dish.index')->with('success', 'Piatto creato con successo.');
     }
@@ -89,9 +91,8 @@ class DishController extends Controller
      */
     public function show(Dish $dish)
     {
-
-        if (Auth::id() != $dish->restaurant_id) {
-            abort('404');
+        if (Auth::id() != $dish->restaurant->user_id) {
+            abort(404);
         }
 
         return view('admin.dish.show', compact('dish'));
@@ -102,11 +103,10 @@ class DishController extends Controller
      */
     public function edit(Dish $dish)
     {
-
-        if (Auth::id() != $dish->restaurant_id) {
-            abort('404');
+        if (Auth::id() != $dish->restaurant->user_id) {
+            abort(404);
         }
-        return view('admin.Dish.edit', compact('dish'));
+        return view('admin.dish.edit', compact('dish'));
     }
 
     /**
@@ -118,10 +118,10 @@ class DishController extends Controller
         $valData = $request->validate(
             [
                 'dish_name' => 'required|string|max:100',
-                'description' => 'string',
+                'description' => 'nullable|string',
                 'price' => 'required|string|max:10',
                 'is_visible' => 'required|boolean',
-                'image_url' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048'
+                'image_url' => 'nullable|image|mimes:jpeg,png,jpg,svg|max:2048'
             ],
             [
                 'dish_name.required' => 'Il nome del piatto è obbligatorio.',
@@ -133,7 +133,7 @@ class DishController extends Controller
                 'is_visible.required' => 'Il campo di visibilità è obbligatorio.',
                 'is_visible.boolean' => 'Il campo di visibilità deve essere un valore booleano.',
                 'image_url.image' => 'L\'immagine deve essere un file di tipo immagine.',
-                'image_url.mimes' => 'L\'immagine deve essere nei formati: jpeg, png, jpg, gif, svg.',
+                'image_url.mimes' => 'L\'immagine deve essere nei formati: jpeg, png, jpg, svg.',
                 'image_url.max' => 'L\'immagine non può superare i 2MB.'
             ]
         );
@@ -147,13 +147,13 @@ class DishController extends Controller
         // Gestione dell'immagine
         if ($request->hasFile('image_url')) {
             // Rimuovi l'immagine precedente se esiste
-            if ($dish->image_url && file_exists(public_path($dish->image_url))) {
-                unlink(public_path($dish->image_url));
+            if ($dish->image_url) {
+                Storage::delete($dish->image_url);
             }
 
-            $imageName = time() . '.' . $request->image_url->extension();
-            $request->image_url->move(public_path('img'), $imageName);
-            $dish->image_url = '/img/' . $imageName;
+            // Salva la nuova immagine nello storage e ottiene il percorso
+            $image_path = $request->file('image_url')->store('uploads');
+            $dish->image_url = $image_path;
         }
 
         // Salva le modifiche nel database
@@ -168,6 +168,10 @@ class DishController extends Controller
      */
     public function destroy(Dish $dish)
     {
+        if ($dish->image_url) {
+            Storage::delete($dish->image_url);
+        }
+
         $dish->delete();
 
         return redirect()->route('admin.dish.index')->with('success', 'Piatto eliminato con successo');
