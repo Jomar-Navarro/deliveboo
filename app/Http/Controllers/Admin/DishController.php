@@ -37,7 +37,7 @@ class DishController extends Controller
     {
         $valData = $request->validate(
             [
-                'dish_name' => 'required|string|max:1',
+                'dish_name' => 'required|string|max:100',
                 'description' => 'nullable|string',
                 'price' => 'required|numeric|between:0,999.99',
                 'is_visible' => 'required|boolean',
@@ -59,9 +59,12 @@ class DishController extends Controller
             ]
         );
 
-        // Gestione dell'immagine
-        $imageName = time() . '.' . $request->image_url->extension();
-        $request->image_url->move(public_path('img'), $imageName);
+        if ($request->hasFile('image')) {
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('img'), $imageName);
+        } else {
+            $imageName = null; // Imposta a null se l'immagine non è fornita
+        }
 
         // Creazione del nuovo piatto
         $new_dish = new Dish();

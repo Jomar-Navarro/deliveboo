@@ -40,7 +40,7 @@ class RestaurantController extends Controller
             [
                 'name' => 'required|string|max:255',
                 'description' => 'nullable|string',
-                'image' => 'image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
                 'address' => 'required|string|max:255',
                 'vat_number' => 'required|string|max:50|unique:restaurants,vat_number',
             ],
@@ -61,17 +61,21 @@ class RestaurantController extends Controller
                 'image.max' => "L'immagine non può superare i 2MB.",
             ]
         );
-        $valData['user_id'] = Auth::id(); //dubbio
+        // $valData['user_id'] = Auth::id(); //dubbio
 
         // Gestione dell'immagine
-        $imageName = time() . '.' . $request->image->extension();
-        $request->image->move(public_path('img'), $imageName);
+        if ($request->hasFile('image')) {
+            $imageName = time() . '.' . $request->image->extension();
+            $request->image->move(public_path('img'), $imageName);
+        } else {
+            $imageName = null; // Imposta a null se l'immagine non è fornita
+        }
 
         // Creazione del ristorante
         $new_restaurant = new Restaurant();
         $new_restaurant->name = $valData['name'];
         $new_restaurant->description = $valData['description'];
-        $new_restaurant->image = '/img/' . $imageName;
+        $new_restaurant->image = $imageName;
         $new_restaurant->address = $valData['address'];
         $new_restaurant->vat_number = $valData['vat_number'];
         $new_restaurant->slug = Help::generateSlug($request->input('name'), new Restaurant());
