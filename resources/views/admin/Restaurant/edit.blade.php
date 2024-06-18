@@ -51,11 +51,16 @@
       </div>
       <div class="mb-3 col-12">
         <div class="mb-3  rounded p-2">
-          <label for="image" class="form-label">Image</label>
-          <input name="image" type="file" class="form-control" id="image" aria-describedby="emailHelp"
+          <label for="image" class="form-label">Immagine</label>
+          <input name="image" type="file" class="form-control" id="image" aria-describedby="imageHelp"
             onchange="showImage(event)" value="{{ old('image', $restaurant->image) }}">
-          <img class="thumb" id="thumb" src="/img/no-image.jpg" alt="">
-          <p> {{ $restaurant->image_original_name }} </p>
+          @if ($restaurant->image)
+            <img class="thumb mt-3" id="thumb" src="{{ asset('storage/' . $restaurant->image) }}"
+              alt="Immagine del ristorante">
+            <p>{{ $restaurant->image_original_name }}</p>
+          @else
+            <img class="thumb mt-3" id="thumb" src="/img/no-image.jpg" alt="Immagine non disponibile">
+          @endif
           @error('image')
             <div class="text-danger">{{ $message }}</div>
           @enderror
@@ -100,7 +105,6 @@
     })()
 
     function showImage(event) {
-      // console.log(URL.createObjectURL(event.target.files[0]);
       const thumb = document.getElementById('thumb');
       thumb.src = URL.createObjectURL(event.target.files[0]);
     }
