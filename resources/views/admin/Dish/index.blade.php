@@ -14,7 +14,6 @@
             <table class="table m-0">
                 <thead>
                     <tr>
-                        <th scope="col">id</th>
                         <th scope="col">Nome</th>
                         <th scope="col">Prezzo</th>
                         <th scope="col">Descrizione</th>
@@ -25,7 +24,6 @@
                 <tbody>
                     @foreach ($dishes as $item)
                         <tr>
-                            <th scope="row">{{ $item->id }}</th>
                             <td>{{ $item->dish_name }}</td>
                             <td>{{ $item->price }}</td>
                             <td>{{ $item->description }}</td>
