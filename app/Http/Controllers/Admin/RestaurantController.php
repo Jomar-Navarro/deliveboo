@@ -110,17 +110,67 @@ class RestaurantController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit(Restaurant $restaurant)
     {
-        //
+        $types = Type::all();
+        return view('admin.restaurant.edit', compact('restaurant', 'types'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, Restaurant $restaurant)
     {
-        //
+        // Validazione dei dati
+        $valData = $request->validate(
+            [
+                'name' => 'required|string|max:255',
+                'description' => 'nullable|string',
+                'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                'address' => 'required|string|max:255',
+                'vat_number' => 'required|string|max:50|unique:restaurants,vat_number,' . $restaurant->id,
+                'types' => 'nullable|array',
+                'types.*' => 'exists:types,id',
+            ],
+            [
+                'name.required' => 'Il nome è obbligatorio.',
+                'name.string' => 'Il nome deve essere una stringa.',
+                'name.max' => 'Il nome non può superare i 255 caratteri.',
+                'description.string' => 'La descrizione deve essere una stringa.',
+                'address.required' => "L'indirizzo è obbligatorio.",
+                'address.string' => "L'indirizzo deve essere una stringa.",
+                'address.max' => "L'indirizzo non può superare i 255 caratteri.",
+                'vat_number.required' => 'Il numero di partita IVA è obbligatorio.',
+                'vat_number.string' => 'Il numero di partita IVA deve essere una stringa.',
+                'vat_number.max' => 'Il numero di partita IVA non può superare i 50 caratteri.',
+                'vat_number.unique' => 'Il numero di partita IVA è già in uso.',
+                'image.image' => "Il file deve essere un'immagine.",
+                'image.mimes' => "L'immagine deve essere nei formati: jpeg, png, jpg, gif, svg.",
+                'image.max' => "L'immagine non può superare i 2MB.",
+                'types.array' => 'Il campo tipi deve essere un array.',
+                'types.*.exists' => 'Uno o più tipi selezionati non sono validi.',
+            ]
+        );
+
+        // Gestione dell'immagine
+        if ($request->hasFile('image')) {
+            $imageName = time() . '.' . $request->image->getClientOriginalExtension();
+            $request->image->move(public_path('img'), $imageName);
+            $valData['image'] = $imageName;
+        }
+
+        // Aggiorna i dati del ristorante
+        $restaurant->update($valData);
+
+        // Sincronizza i tipi con il ristorante
+        if (array_key_exists('types', $valData)) {
+            $restaurant->types()->sync($valData['types']);
+        } else {
+            $restaurant->types()->sync([]);
+        }
+
+        // Redirezione alla pagina di indice dei ristoranti con un messaggio di successo
+        return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante aggiornato con successo.');
     }
 
     /**
