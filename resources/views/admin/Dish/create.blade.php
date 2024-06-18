@@ -12,9 +12,6 @@
                 <div class="invalid-feedback">
                     Il nome del piatto è obbligatorio.
                 </div>
-                @error('dish_name')
-                    <div class="text-danger">{{ $message }}</div>
-                @enderror
             </div>
             <div class="col-12">
                 <label for="inputDescription" class="form-label">Descrizione</label>
@@ -22,9 +19,6 @@
                 <div class="invalid-feedback">
                     La descrizione è obbligatoria.
                 </div>
-                @error('description')
-                    <div class="text-danger">{{ $message }}</div>
-                @enderror
             </div>
             <div class="col-md-6">
                 <label for="inputPrice" class="form-label">Prezzo</label>
@@ -33,9 +27,6 @@
                 <div class="invalid-feedback">
                     Il prezzo è obbligatorio.
                 </div>
-                @error('price')
-                    <div class="text-danger">{{ $message }}</div>
-                @enderror
             </div>
             <div class="col-md-6">
                 <label for="inputIsVisible" class="form-label">Visibile</label>
@@ -46,9 +37,6 @@
                 <div class="invalid-feedback">
                     La visibilità è obbligatoria.
                 </div>
-                @error('is_visible')
-                    <div class="text-danger">{{ $message }}</div>
-                @enderror
             </div>
 
 

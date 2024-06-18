@@ -39,7 +39,7 @@ class DishController extends Controller
             [
                 'dish_name' => 'required|string|max:100',
                 'description' => 'nullable|string',
-                'price' => 'required|numeric|between:0,999.99',
+                'price' => 'required|string',
                 'is_visible' => 'required|boolean',
                 'image_url' => 'nullable|image|mimes:jpeg,png,jpg,svg|max:2048'
             ],
@@ -104,7 +104,7 @@ class DishController extends Controller
     public function edit(Dish $dish)
     {
 
-        if (Auth::id() != $dish->user_id) {
+        if (Auth::id() != $dish->restaurant_id) {
             abort('404');
         }
         return view('admin.Dish.edit', compact('dish'));
