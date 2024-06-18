@@ -20,7 +20,13 @@ class Dish extends Model
 
     protected $dates = ['deleted_at'];
 
-    public function restaurant(){
+    public function restaurant()
+    {
         return $this->belongsTo(Restaurant::class);
+    }
+
+    public function orders()
+    {
+        return $this->belongsToMany(Type::class);
     }
 }

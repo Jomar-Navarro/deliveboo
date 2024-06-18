@@ -11,31 +11,33 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('restaurant_type', function (Blueprint $table) {
+        Schema::create('dish_order', function (Blueprint $table) {
+            $table->id();
+            $table->unsignedBigInteger('dish_id');
+            $table->unsignedBigInteger('order_id');
+            $table->integer('quantity');
 
-            $table->unsignedBigInteger('restaurant_id');
 
-
-            $table->foreign('restaurant_id')
+            $table->foreign('dish_id')
                 ->references('id')
-                ->on('restaurants')
+                ->on('dishes')
                 ->cascadeOnDelete();
 
-            $table->unsignedBigInteger('type_id');
 
 
-            $table->foreign('type_id')
+            $table->foreign('order_id')
                 ->references('id')
-                ->on('types')
+                ->on('orders')
                 ->cascadeOnDelete();
+
+            $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      */
     public function down(): void
     {
-        Schema::dropIfExists('restaurant_type');
+        Schema::dropIfExists('dish_order');
     }
 };
