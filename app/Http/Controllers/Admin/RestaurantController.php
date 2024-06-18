@@ -102,11 +102,11 @@ class RestaurantController extends Controller
      */
     public function show(Restaurant $restaurant)
     {
-        // if (Auth::id() != $restaurant->user_id) {
-        //     abort('404');
-        // }
+        if (Auth::id() != $restaurant->user_id) {
+            abort('404');
+        }
 
-        // return view('admin.Restaurant.index', compact('restaurant'));
+        return view('admin.Restaurant.index', compact('restaurant'));
     }
 
     /**
@@ -115,6 +115,9 @@ class RestaurantController extends Controller
     public function edit(Restaurant $restaurant)
     {
         $types = Type::all();
+        if (Auth::id() != $restaurant->user_id) {
+            abort('404');
+        }
         return view('admin.restaurant.edit', compact('restaurant', 'types'));
     }
 
