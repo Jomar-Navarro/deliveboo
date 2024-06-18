@@ -15,24 +15,24 @@
 
         <div class="border-top border-bottom py-3">
           <h6 class="text-uppercase mt-2">Ristorante</h6>
-          <li>
-            <a href="{{ route('admin.restaurant.index') }}">
-              <i class="fa-solid fa-utensils"></i>
-              <span>Il mio ristorante</span>
-            </a>
-          </li>
-          @if (!Auth::user()->restaurant()->exists())
+          @if (Auth::user()->restaurant()->exists())
             <li>
-              <a href="{{ route('admin.restaurant.create') }}">
-                <i class="fa-solid fa-plus"></i>
-                <span>Aggiungi Ristorante</span>
+              <a href="{{ route('admin.restaurant.index') }}">
+                <i class="fa-solid fa-utensils"></i>
+                <span>Il mio ristorante</span>
               </a>
             </li>
-          @else
             <li>
               <a href="{{ route('admin.restaurant.edit', Auth::user()->restaurant) }}">
                 <i class="fa-solid fa-pen"></i>
                 <span>Modifica Ristorante</span>
+              </a>
+            </li>
+          @else
+            <li>
+              <a href="{{ route('admin.restaurant.create') }}">
+                <i class="fa-solid fa-plus"></i>
+                <span>Aggiungi Ristorante</span>
               </a>
             </li>
           @endif
@@ -48,7 +48,7 @@
           </li>
 
           <li>
-            <a href={{ route('admin.dish.create') }}>
+            <a href="{{ route('admin.dish.create') }}">
               <i class="fa-solid fa-plus"></i>
               <span>Aggiungi Piatto</span>
             </a>
@@ -58,7 +58,7 @@
         <div class="py-3">
           <h6></h6>
           <li>
-            <a href={{ route('admin.dish.trashed') }}>
+            <a href="{{ route('admin.dish.trashed') }}">
               <i class="fa-solid fa-trash-arrow-up"></i>
               <span>Piatti Eliminati</span>
             </a>
