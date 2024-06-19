@@ -1,0 +1,771 @@
+[
+    {
+      "dish_name": "Spaghetti Carbonara",
+      "dish_slug": "spaghetti-carbonara",
+      "description": "Pasta alla carbonara con guanciale e pecorino.",
+      "price": 12.50,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+    },
+    {
+      "dish_name": "Lasagna",
+      "dish_slug": "lasagna",
+      "description": "Lasagna tradizionale con ragù e besciamella.",
+      "price": 14.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Risotto ai Funghi",
+      "dish_slug": "risotto-ai-funghi",
+      "description": "Risotto cremoso con funghi porcini.",
+      "price": 13.50,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Pizza Margherita",
+      "dish_slug": "pizza-margherita",
+      "description": "Pizza classica con pomodoro, mozzarella e basilico.",
+      "price": 8.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Parmigiana di Melanzane",
+      "dish_slug": "parmigiana-di-melanzane",
+      "description": "Melanzane alla parmigiana con mozzarella e parmigiano.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Tiramisu",
+      "dish_slug": "tiramisu",
+      "description": "Dessert classico italiano con mascarpone e caffè.",
+      "price": 6.50,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Bruschetta al Pomodoro",
+      "dish_slug": "bruschetta-al-pomodoro",
+      "description": "Pane tostato con pomodoro fresco e basilico.",
+      "price": 5.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Focaccia",
+      "dish_slug": "focaccia",
+      "description": "Pane morbido al rosmarino.",
+      "price": 4.50,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Panna Cotta",
+      "dish_slug": "panna-cotta",
+      "description": "Dessert cremoso alla vaniglia.",
+      "price": 6.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+    {
+      "dish_name": "Gnocchi al Pesto",
+      "dish_slug": "gnocchi-al-pesto",
+      "description": "Gnocchi di patate con pesto alla genovese.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1,
+      "restaurant_id": 1
+
+    },
+
+
+
+    {
+      "dish_name": "Hamburger",
+      "dish_slug": "hamburger",
+      "description": "Classico hamburger con carne e formaggio.",
+      "price": 9.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Sushi",
+      "dish_slug": "sushi",
+      "description": "Varietà di sushi e sashimi freschi.",
+      "price": 15.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tacos",
+      "dish_slug": "tacos",
+      "description": "Tacos messicani con carne e verdure.",
+      "price": 8.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pad Thai",
+      "dish_slug": "pad-thai",
+      "description": "Noodles thailandesi con gamberi.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Falafel",
+      "dish_slug": "falafel",
+      "description": "Polpette di ceci servite con pita.",
+      "price": 7.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Paella",
+      "dish_slug": "paella",
+      "description": "Riso spagnolo con frutti di mare.",
+      "price": 13.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Samosa",
+      "dish_slug": "samosa",
+      "description": "Sfoglie ripiene di verdure speziate.",
+      "price": 6.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Fish and Chips",
+      "dish_slug": "fish-and-chips",
+      "description": "Pesce fritto con patatine.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Croissant",
+      "dish_slug": "croissant",
+      "description": "Pasta sfoglia francese al burro.",
+      "price": 3.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Ceviche",
+      "dish_slug": "ceviche",
+      "description": "Pesce marinato in succo di lime.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "dish_name": "Pollo al Limone",
+      "dish_slug": "pollo-al-limone",
+      "description": "Pollo fritto in salsa di limone.",
+      "price": 9.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Maiale in Agrodolce",
+      "dish_slug": "maiale-in-agrodolce",
+      "description": "Maiale in salsa agrodolce con ananas.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Riso alla Cantonese",
+      "dish_slug": "riso-alla-cantonese",
+      "description": "Riso fritto con verdure e uova.",
+      "price": 8.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Anatra alla Pechinese",
+      "dish_slug": "anatra-alla-pechinese",
+      "description": "Anatra arrosto con salsa di prugne.",
+      "price": 15.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Gamberi al Sale e Pepe",
+      "dish_slug": "gamberi-al-sale-e-pepe",
+      "description": "Gamberi saltati con sale e pepe.",
+      "price": 12.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Involtini Primavera",
+      "dish_slug": "involtini-primavera",
+      "description": "Involtini fritti ripieni di verdure.",
+      "price": 5.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tofu Mapo",
+      "dish_slug": "tofu-mapo",
+      "description": "Tofu piccante in salsa di fagioli.",
+      "price": 9.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Manzo con Broccoli",
+      "dish_slug": "manzo-con-broccoli",
+      "description": "Manzo saltato con broccoli.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Zuppa di Miso",
+      "dish_slug": "zuppa-di-miso",
+      "description": "Zuppa di miso con tofu e alghe.",
+      "price": 4.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Gelato Fritto",
+      "dish_slug": "gelato-fritto",
+      "description": "Gelato ricoperto da una crosta fritta.",
+      "price": 6.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "dish_name": "Sushi Misto",
+      "dish_slug": "sushi-misto",
+      "description": "Assortimento di sushi e sashimi.",
+      "price": 18.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Ramen",
+      "dish_slug": "ramen",
+      "description": "Zuppa di noodles con carne e uova.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tempura",
+      "dish_slug": "tempura",
+      "description": "Frittura leggera di pesce e verdure.",
+      "price": 10.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Yakitori",
+      "dish_slug": "yakitori",
+      "description": "Spiedini di pollo alla griglia.",
+      "price": 8.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Udon",
+      "dish_slug": "udon",
+      "description": "Noodles spessi in brodo di pesce.",
+      "price": 9.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Gyoza",
+      "dish_slug": "gyoza",
+      "description": "Ravioli giapponesi ripieni di carne.",
+      "price": 7.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tonkatsu",
+      "dish_slug": "tonkatsu",
+      "description": "Cotoletta di maiale impanata e fritta.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Mochi",
+      "dish_slug": "mochi",
+      "description": "Dolcetti di riso ripieni di gelato.",
+      "price": 6.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Okonomiyaki",
+      "dish_slug": "okonomiyaki",
+      "description": "Pancake salato con vari ingredienti.",
+      "price": 8.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Chawanmushi",
+      "dish_slug": "chawanmushi",
+      "description": "Flan salato giapponese.",
+      "price": 7.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+
+    {
+      "dish_name": "Tacos al Pastor",
+      "dish_slug": "tacos-al-pastor",
+      "description": "Tacos con carne di maiale marinata.",
+      "price": 8.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Quesadilla",
+      "dish_slug": "quesadilla",
+      "description": "Tortilla ripiena di formaggio e carne.",
+      "price": 7.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Guacamole",
+      "dish_slug": "guacamole",
+      "description": "Crema di avocado con lime e coriandolo.",
+      "price": 5.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Chili con Carne",
+      "dish_slug": "chili-con-carne",
+      "description": "Stufato piccante di carne e fagioli.",
+      "price": 9.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Enchiladas",
+      "dish_slug": "enchiladas",
+      "description": "Tortilla ripiena e cotta al forno con salsa.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Burrito",
+      "dish_slug": "burrito",
+      "description": "Grande tortilla ripiena di carne, fagioli e riso.",
+      "price": 8.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tostada",
+      "dish_slug": "tostada",
+      "description": "Tortilla fritta con vari condimenti.",
+      "price": 6.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pozole",
+      "dish_slug": "pozole",
+      "description": "Zuppa tradizionale di carne e mais.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tamales",
+      "dish_slug": "tamales",
+      "description": "Involtini di mais ripieni di carne.",
+      "price": 7.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Churros",
+      "dish_slug": "churros",
+      "description": "Dolcetti fritti con zucchero e cannella.",
+      "price": 4.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+      "dish_name": "Chicken Tikka Masala",
+      "dish_slug": "chicken-tikka-masala",
+      "description": "Pollo in salsa di pomodoro e spezie.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Lamb Curry",
+      "dish_slug": "lamb-curry",
+      "description": "Agnello al curry con riso basmati.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Naan",
+      "dish_slug": "naan",
+      "description": "Pane indiano cotto nel tandoor.",
+      "price": 3.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Samosa",
+      "dish_slug": "samosa",
+      "description": "Sfoglia fritta ripiena di patate e piselli.",
+      "price": 4.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Paneer Butter Masala",
+      "dish_slug": "paneer-butter-masala",
+      "description": "Formaggio indiano in salsa di burro.",
+      "price": 8.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tandoori Chicken",
+      "dish_slug": "tandoori-chicken",
+      "description": "Pollo marinato e cotto al forno tandoor.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Chole Bhature",
+      "dish_slug": "chole-bhature",
+      "description": "Ceci in salsa speziata con pane fritto.",
+      "price": 7.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Gulab Jamun",
+      "dish_slug": "gulab-jamun",
+      "description": "Dolcetti di latte fritti e immersi in sciroppo.",
+      "price": 5.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Raita",
+      "dish_slug": "raita",
+      "description": "Salsa di yogurt con cetrioli e spezie.",
+      "price": 3.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Biryani",
+      "dish_slug": "biryani",
+      "description": "Riso basmati speziato con carne e verdure.",
+      "price": 10.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+    {
+      "dish_name": "Salmone Grigliato",
+      "dish_slug": "salmone-grigliato",
+      "description": "Salmone alla griglia con verdure.",
+      "price": 14.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tonno Tartar",
+      "dish_slug": "tonno-tartar",
+      "description": "Tartar di tonno fresco con avocado.",
+      "price": 13.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Gamberoni alla Griglia",
+      "dish_slug": "gamberoni-alla-griglia",
+      "description": "Gamberoni alla griglia con limone e aglio.",
+      "price": 16.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Zuppa di Pesce",
+      "dish_slug": "zuppa-di-pesce",
+      "description": "Zuppa ricca di frutti di mare.",
+      "price": 12.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Polpo alla Griglia",
+      "dish_slug": "polpo-alla-griglia",
+      "description": "Polpo grigliato con patate.",
+      "price": 15.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Filetto di Branzino",
+      "dish_slug": "filetto-di-branzino",
+      "description": "Filetto di branzino al forno con erbe.",
+      "price": 14.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Risotto ai Frutti di Mare",
+      "dish_slug": "risotto-ai-frutti-di-mare",
+      "description": "Risotto cremoso con frutti di mare.",
+      "price": 13.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Calamari Fritti",
+      "dish_slug": "calamari-fritti",
+      "description": "Calamari fritti con salsa tartara.",
+      "price": 9.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pesce Spada",
+      "dish_slug": "pesce-spada",
+      "description": "Pesce spada alla griglia con verdure.",
+      "price": 15.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Cozze alla Marinara",
+      "dish_slug": "cozze-alla-marinara",
+      "description": "Cozze cucinate con pomodoro e aglio.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+
+    {
+      "dish_name": "Bistecca alla Fiorentina",
+      "dish_slug": "bistecca-alla-fiorentina",
+      "description": "Classica bistecca toscana.",
+      "price": 25.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Costata di Manzo",
+      "dish_slug": "costata-di-manzo",
+      "description": "Costata di manzo alla griglia.",
+      "price": 22.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pollo alla Cacciatora",
+      "dish_slug": "pollo-alla-cacciatora",
+      "description": "Pollo in umido con verdure e vino.",
+      "price": 14.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Agnello al Forno",
+      "dish_slug": "agnello-al-forno",
+      "description": "Agnello arrosto con erbe aromatiche.",
+      "price": 18.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Cotolette alla Milanese",
+      "dish_slug": "cotolette-alla-milanese",
+      "description": "Cotolette di vitello impanate e fritte.",
+      "price": 16.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Spezzatino di Manzo",
+      "dish_slug": "spezzatino-di-manzo",
+      "description": "Manzo stufato con patate e carote.",
+      "price": 13.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Brasato al Barolo",
+      "dish_slug": "brasato-al-barolo",
+      "description": "Manzo brasato al vino Barolo.",
+      "price": 20.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Filetto al Pepe Verde",
+      "dish_slug": "filetto-al-pepe-verde",
+      "description": "Filetto di manzo con salsa al pepe verde.",
+      "price": 19.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Porchetta",
+      "dish_slug": "porchetta",
+      "description": "Maiale arrosto ripieno di erbe.",
+      "price": 17.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Tagliata di Manzo",
+      "dish_slug": "tagliata-di-manzo",
+      "description": "Manzo tagliato a fette con rucola e parmigiano.",
+      "price": 21.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+
+
+
+
+
+
+
+    {
+      "dish_name": "Pizza Margherita",
+      "dish_slug": "pizza-margherita",
+      "description": "Pomodoro, mozzarella, basilico.",
+      "price": 8.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pizza Diavola",
+      "dish_slug": "pizza-diavola",
+      "description": "Pomodoro, mozzarella, salame piccante.",
+      "price": 9.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pizza Quattro Formaggi",
+      "dish_slug": "pizza-quattro-formaggi",
+      "description": "Mozzarella, gorgonzola, parmigiano, fontina.",
+      "price": 10.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pizza Capricciosa",
+      "dish_slug": "pizza-capricciosa",
+      "description": "Pomodoro, mozzarella, funghi, prosciutto, carciofi.",
+      "price": 11.00,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pizza Marinara",
+      "dish_slug": "pizza-marinara",
+      "description": "Pomodoro, aglio, origano.",
+      "price": 7.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    },
+    {
+      "dish_name": "Pizza Napoli",
+      "dish_slug": "pizza-napoli",
+      "description": "Pomodoro, mozzarella, acciughe.",
+      "price": 9.50,
+      "image_url": "image_url",
+      "is_visible": 1
+    }
+
+]
