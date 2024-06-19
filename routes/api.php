@@ -1,7 +1,12 @@
 <?php
 
+use App\Http\Controllers\Admin\DishController;
+use App\Http\Controllers\Admin\RestaurantController;
+use App\Http\Controllers\Api\PageController;
+use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +19,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/restaurants', [PageController::class, 'index']);
