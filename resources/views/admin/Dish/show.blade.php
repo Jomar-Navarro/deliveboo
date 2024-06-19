@@ -23,8 +23,10 @@
         {{---------------------- WARNING -------------------------------------}}
 
 
-          <img class="img-fluid w-50" src="{{ asset('storage/' . $dish->image_url) }}" alt=""
-            onerror="this.src='/img/no-image.jpg'">
+          {{-- <img class="img-fluid w-50" src="{{ asset('storage/' . $dish->image_url) }}" alt=""
+            onerror="this.src='/img/no-image.jpg'"> --}}
+
+            <img class="thumb" src="{{$dish->image_url}}" alt="">
 
         {{---------------------- WARNING -------------------------------------}}
 
