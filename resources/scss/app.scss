@@ -8,9 +8,15 @@
 
 .main-wrapper {
     height: calc(100vh - 80px);
+
     .content {
         height: 100%;
         width: 100%;
         overflow: auto;
     }
+}
+
+.input_type {
+    border: none;
+    outline: none;
 }
