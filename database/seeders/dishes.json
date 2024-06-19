@@ -4,7 +4,7 @@
         "description": "Pasta alla carbonara con guanciale e pecorino.",
         "price": "€12,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-square640-v2.jpg",
         "restaurant_id": 1
     },
     {
@@ -12,7 +12,7 @@
         "description": "Lasagna tradizionale con ragù e besciamella.",
         "price": "€14,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-500x375.jpg",
         "restaurant_id": 1
     },
     {
@@ -20,7 +20,7 @@
         "description": "Risotto cremoso con funghi porcini.",
         "price": "€13,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/61fb19a9a9db3736d06bbc03/1:1/w_2560%2Cc_limit/empty",
         "restaurant_id": 1
     },
     {
@@ -28,7 +28,7 @@
         "description": "Pizza classica con pomodoro, mozzarella e basilico.",
         "price": "€8,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://images.prismic.io/eataly-us/ed3fcec7-7994-426d-a5e4-a24be5a95afd_pizza-recipe-main.jpg?auto=compress,format",
         "restaurant_id": 1
     },
     {
@@ -36,7 +36,7 @@
         "description": "Melanzane alla parmigiana con mozzarella e parmigiano.",
         "price": "€11,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9zKQSLQAGJq0sNaDKRBLNdF7pM97m_HjpA&s",
         "restaurant_id": 1
     },
     {
@@ -44,7 +44,7 @@
         "description": "Dessert classico italiano con mascarpone e caffè.",
         "price": "€6,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.moltofood.it/wp-content/uploads/2022/03/Tiramisu-1.jpg",
         "restaurant_id": 1
     },
     {
@@ -52,7 +52,7 @@
         "description": "Pane tostato con pomodoro fresco e basilico.",
         "price": "€5,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2009/11/ricetta-bruschetta-pomodoro/_MG_8642.jpg",
         "restaurant_id": 1
     },
     {
@@ -60,7 +60,7 @@
         "description": "Pane morbido al rosmarino.",
         "price": "€4,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/6E729D6A-ADFA-4492-AE57-0E3BE1F8D945/Derivates/F5669723-EBDF-444C-BBB1-B54F1AB1D8F7.jpg",
         "restaurant_id": 1
     },
     {
@@ -68,7 +68,7 @@
         "description": "Dessert cremoso alla vaniglia.",
         "price": "€6,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2009/11/ricetta-panna-cotta/panna%20cotta-1.jpg",
         "restaurant_id": 1
     },
     {
@@ -76,7 +76,7 @@
         "description": "Gnocchi di patate con pesto alla genovese.",
         "price": "€12,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://primochef.it/wp-content/uploads/2017/06/SH_gnocchi_salsa_rucola.jpg",
         "restaurant_id": 1
     },
 
@@ -108,7 +108,7 @@
         "description": "Classica bistecca toscana.",
         "price": "€25,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.giallozafferano.it/images/257-25714/Bistecca-alla-fiorentina_650x433_wm.jpg",
         "restaurant_id": 2
     },
     {
@@ -116,7 +116,7 @@
         "description": "Costata di manzo alla griglia.",
         "price": "€22,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.piuricette.it/wp-content/uploads/2022/06/IMG_20220616_133148-770x500.jpg",
         "restaurant_id": 2
     },
     {
@@ -124,7 +124,7 @@
         "description": "Pollo in umido con verdure e vino.",
         "price": "€14,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/12/ricetta-pollo-cacciatora/_jcr_content/header-par/image_single.img.jpg/1579020893122.jpg",
         "restaurant_id": 2
     },
     {
@@ -132,7 +132,7 @@
         "description": "Agnello arrosto con erbe aromatiche.",
         "price": "€18,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.misya.info/wp-content/uploads/2017/03/agnello-al-forno.jpg",
         "restaurant_id": 2
     },
     {
@@ -140,7 +140,7 @@
         "description": "Manzo stufato con patate e carote.",
         "price": "€13,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.buttalapasta.it/wp-content/uploads/2016/11/spezzatino-di-manzo-3.jpg",
         "restaurant_id": 2
     },
     {
@@ -148,7 +148,7 @@
         "description": "Filetto di manzo con salsa al pepe verde.",
         "price": "€19,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://cdn.cook.stbm.it/thumbnails/ricette/144/144231/hd750x421.jpg",
         "restaurant_id": 2
     },
     {
@@ -156,23 +156,7 @@
         "description": "Maiale arrosto ripieno di erbe.",
         "price": "€17,00",
         "is_visible": 1,
-        "image_url": "image_url",
-        "restaurant_id": 2
-    },
-    {
-        "dish_name": "Tiramisu",
-        "description": "Dessert classico italiano con mascarpone e caffè.",
-        "price": "€6,50",
-        "is_visible": 1,
-        "image_url": "image_url",
-        "restaurant_id": 2
-    },
-    {
-        "dish_name": "Risotto ai Funghi",
-        "description": "Risotto cremoso con funghi porcini.",
-        "price": "€13,50",
-        "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.moltofood.it/wp-content/uploads/2022/08/porchetta-maiale-carne-rosmarino.jpg",
         "restaurant_id": 2
     },
     {
@@ -180,7 +164,7 @@
         "description": "Zuppa tradizionale toscana con verdure, pane raffermo e fagioli cannellini.",
         "price": "€9,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cibovagare.it/uploads/editor/media/Ribollita2.png",
         "restaurant_id": 2
     },
     {
@@ -188,7 +172,7 @@
         "description": "Dolce con strati di mascarpone, caffè e savoiardi.",
         "price": "€6,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://tiramisudicasa.it/wp-content/uploads/2021/11/BM-Img-Dolce-1024x581-ok.png",
         "restaurant_id": 2
     },
 
@@ -1111,7 +1095,7 @@
         "description": "Tacos ripieni di carne di maiale brasata.",
         "price": "€9,50",
         "is_visible": 1,
-        "image_url": "https://www.allrecipes.com/thmb/4B2hlaGm8HgeB1BERpS0M4Bo__o=/1500x0/filters:no_upscale[…]recipes-Magazine-4x3-1-5facd4fd51d3440e8f4de6bf0fd1b247.jpg",
+        "image_url": "https://www.wellseasonedstudio.com/wp-content/uploads/2022/01/Pulled-pork-tacos.jpg",
         "restaurant_id": 10
     },
     {
@@ -1167,7 +1151,7 @@
         "description": "Pollo in salsa di mole con riso.",
         "price": "€12,50",
         "is_visible": 1,
-        "image_url": "https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-catego[…]165012Z&extension=webp&hash=A1E6549E6559FC1F4DBA8FD923D07893",
+        "image_url": "https://laroussecocina.mx/wp-content/uploads/2017/12/mole-poblano-001-larousse-cocina_0-e1671586546996.jpg",
         "restaurant_id": 10
     },
     {
@@ -1175,7 +1159,7 @@
         "description": "Uova servite su tortilla con salsa ranchera.",
         "price": "€8,50",
         "is_visible": 1,
-        "image_url": "https://images.themodernproper.com/billowy-turkey/production/posts/HuevoRacheros_6.jpg?w=1[…]t=crop&dm=1708477029&s=b65633823e884114e5a534a4e361f969",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAUY8hpRnIa9L9Si2MqrAF4UBEnkRgsX-Dg&s",
         "restaurant_id": 10
     },
     {
@@ -1183,7 +1167,7 @@
         "description": "Peperone ripieno di carne e frutta, con salsa di noci.",
         "price": "€14,00",
         "is_visible": 1,
-        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/5B1D3306-E[…]BA750E34/Derivates/89E9127B-6326-4FAB-BE4D-ECB6947A3DC9.jpg",
+        "image_url": "https://www.daisybrand.com/wp-content/uploads/2019/12/CHILI-RELLENOS-770x628.jpg",
         "restaurant_id": 10
     },
     {
@@ -1226,7 +1210,7 @@
         "description": "Pollo marinato in yogurt e spezie, cotto in una salsa cremosa al curry.",
         "price": "€12,50",
         "is_visible": 1,
-        "image_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscal[…]-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+        "image_url": "https://www.allrecipes.com/thmb/1ul-jdOz8H4b6BDrRcYOuNmJgt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572-e02a25f8c7b745459a9106e9eb13de10.jpg",
         "restaurant_id": 11
     },
     {
