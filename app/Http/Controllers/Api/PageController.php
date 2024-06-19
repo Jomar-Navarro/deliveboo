@@ -14,4 +14,10 @@ class PageController extends Controller
         $restaurants = Restaurant::with('types', 'dishes')->get();
         return response()->json($restaurants);
     }
+
+        public function type(){
+        $types = Type::all();
+        return response()->json($types);
+    }
+
 }
