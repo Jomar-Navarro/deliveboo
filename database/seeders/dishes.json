@@ -93,6 +93,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
     {
         "dish_name": "Bistecca alla Fiorentina",
         "description": "Classica bistecca toscana.",
@@ -180,7 +190,361 @@
         "is_visible": 1,
         "image_url": "image_url",
         "restaurant_id": 2
-    }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Spaghetti Carbonara",
+        "description": "Pasta alla carbonara con guanciale e pecorino.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Hamburger",
+        "description": "Classico hamburger con carne e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Sushi",
+        "description": "Varietà di sushi e sashimi freschi.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Falafel",
+        "description": "Polpette di ceci servite con pita.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Paella",
+        "description": "Riso spagnolo con frutti di mare.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "description": "Pesce fritto con patatine.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Frittura leggera di pesce e verdure.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Grande tortilla ripiena di carne, fagioli e riso.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pomodoro, mozzarella, basilico.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 3
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Falafel",
+        "description": "Polpette di ceci servite con pita.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Lamb Curry",
+        "description": "Agnello al curry con riso basmati.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Paella",
+        "description": "Riso spagnolo con frutti di mare.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "description": "Pesce fritto con patatine.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Mochi",
+        "description": "Dolcetti di riso ripieni di gelato.",
+        "price": "€6,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Frittura leggera di pesce e verdure.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Grande tortilla ripiena di carne, fagioli e riso.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolcetti fritti con zucchero e cannella.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pomodoro, mozzarella, basilico.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pomodoro, mozzarella, salame piccante.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Spaghetti Carbonara",
+        "description": "Pasta alla carbonara con guanciale e pecorino.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Hamburger",
+        "description": "Classico hamburger con carne e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Sushi",
+        "description": "Varietà di sushi e sashimi freschi.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con carne e uova.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolcetti fritti con zucchero e cannella.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con carne e uova.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Risotto ai Funghi",
+        "dish_slug": "risotto-ai-funghi",
+        "description": "Risotto cremoso con funghi porcini.",
+        "price": 13.50,
+        "image_url": "image_url",
+        "is_visible": 1,
+        "restaurant_id": 1
+    },
+    {
+        "dish_name": "Maiale in Agrodolce",
+        "dish_slug": "maiale-in-agrodolce",
+        "description": "Maiale in salsa agrodolce con ananas.",
+        "price": 10.00,
+        "image_url": "image_url",
+        "is_visible": 1
+    },
+    {
+        "dish_name": "Anatra alla Pechinese",
+        "dish_slug": "anatra-alla-pechinese",
+        "description": "Anatra arrosto con salsa di prugne.",
+        "price": 15.00,
+        "image_url": "image_url",
+        "is_visible": 1
+    },
+
+
+
+
 
 
 
