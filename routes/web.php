@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\DishController;
 use App\Http\Controllers\Admin\RestaurantController;
+use App\Http\Controllers\Admin\TypeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +30,7 @@ Route::middleware(['auth', 'verified'])
         Route::get('/', [DashboardController::class, 'index'])->name('home');
         Route::resource('restaurant', RestaurantController::class);
         Route::resource('dish', DishController::class);
+        Route::resource('type', TypeController::class);
         Route::get('dishes/trashed', [DishController::class, 'trashed'])->name('dish.trashed');
         Route::post('dish/{id}/restore', [DishController::class, 'restore'])->name('dish.restore');
     });
