@@ -21,3 +21,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/restaurants', [PageController::class, 'index']);
 Route::get('/types', [PageController::class, 'type']);
+Route::get('/restaurants/filter', [PageController::class, 'getFilteredRestaurants']);
