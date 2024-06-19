@@ -29,8 +29,10 @@
                 {{ $item->dish_name }}
               </td>
               <td>
-                  <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
-                      onerror="this.src='/img/no-image">
+                  {{-- <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
+                      onerror="this.src='/img/no-image"> --}}
+
+                      <img class="thumb" src="{{$item->image_url}}" alt="">
               </td>
               <td>{{ $item->price }}</td>
               <td>{{ $item->description }}</td>

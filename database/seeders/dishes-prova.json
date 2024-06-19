@@ -712,7 +712,14 @@
       "image_url": "image_url",
       "is_visible": 1
     },
-
+    {
+        "dish_name": "Petto di Pollo con patate",
+        "dish_slug": "Petto di Pollo con patate",
+        "description": "Petto di Pollo con patate",
+        "price": 12.00,
+        "image_url": "image_url",
+        "is_visible": 1
+      },
 
 
 

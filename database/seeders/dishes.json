@@ -324,6 +324,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
     {
         "dish_name": "Falafel",
         "description": "Polpette di ceci servite con pita.",
@@ -476,13 +485,19 @@
 
 
 
+
+
+
+
+
+
     {
         "dish_name": "Riso alla Cantonese",
         "description": "Riso fritto con verdure e uova.",
         "price": "€8,50",
         "is_visible": 1,
         "image_url": "image_url",
-        "restaurant_id": 4
+        "restaurant_id": 5
     },
     {
         "dish_name": "Involtini Primavera",
@@ -490,7 +505,7 @@
         "price": "€5,00",
         "is_visible": 1,
         "image_url": "image_url",
-        "restaurant_id": 4
+        "restaurant_id": 5
     },
     {
         "dish_name": "Churros",
@@ -498,7 +513,7 @@
         "price": "€4,50",
         "is_visible": 1,
         "image_url": "image_url",
-        "restaurant_id": 4
+        "restaurant_id": 5
     },
     {
         "dish_name": "Tacos",
@@ -506,7 +521,7 @@
         "price": "€8,50",
         "is_visible": 1,
         "image_url": "image_url",
-        "restaurant_id": 4
+        "restaurant_id": 5
     },
     {
         "dish_name": "Ramen",
@@ -514,32 +529,71 @@
         "price": "€12,00",
         "is_visible": 1,
         "image_url": "image_url",
-        "restaurant_id": 4
+        "restaurant_id": 5
     },
     {
         "dish_name": "Risotto ai Funghi",
-        "dish_slug": "risotto-ai-funghi",
         "description": "Risotto cremoso con funghi porcini.",
-        "price": 13.50,
-        "image_url": "image_url",
+        "price": "€13,50",
         "is_visible": 1,
-        "restaurant_id": 1
+        "image_url": "image_url",
+        "restaurant_id": 5
     },
     {
         "dish_name": "Maiale in Agrodolce",
-        "dish_slug": "maiale-in-agrodolce",
         "description": "Maiale in salsa agrodolce con ananas.",
-        "price": 10.00,
+        "price": "€10,00",
+        "is_visible": 1,
         "image_url": "image_url",
-        "is_visible": 1
+        "restaurant_id": 5
     },
     {
         "dish_name": "Anatra alla Pechinese",
-        "dish_slug": "anatra-alla-pechinese",
         "description": "Anatra arrosto con salsa di prugne.",
-        "price": 15.00,
+        "price": "€15,00",
+        "is_visible": 1,
         "image_url": "image_url",
-        "is_visible": 1
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Gamberoni alla Griglia",
+        "description": "Gamberoni alla griglia con limone e aglio.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Calamari Fritti",
+        "description": "Calamari fritti con salsa tartara.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Pesce Spada",
+        "description": "Pesce spada alla griglia con verdure.",
+        "price": "€15,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Manzo tagliato a fette con rucola e parmigiano.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Cotolette alla Milanese",
+        "description": "Cotolette di vitello impanate e fritte.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 5
     },
 
 
@@ -552,4 +606,1406 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pollo al Limone",
+        "description": "Pollo fritto in salsa di limone.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Maiale in Agrodolce",
+        "description": "Maiale in salsa agrodolce con ananas.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Anatra alla Pechinese",
+        "description": "Anatra arrosto con salsa di prugne.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Gamberi al Sale e Pepe",
+        "description": "Gamberi saltati con sale e pepe.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Tofu Mapo",
+        "description": "Tofu piccante in salsa di fagioli.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Manzo con Broccoli",
+        "description": "Manzo saltato con broccoli.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Zuppa di Miso",
+        "description": "Zuppa di miso con tofu e alghe.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Gelato Fritto",
+        "description": "Gelato ricoperto da una crosta fritta.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Salmone Grigliato",
+        "description": "Salmone alla griglia con verdure.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Zuppa di Pesce",
+        "description": "Zuppa ricca di frutti di mare.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Cotolette alla Milanese",
+        "description": "Cotolette di vitello impanate e fritte.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Manzo tagliato a fette con rucola e parmigiano.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Petto di Pollo e patate",
+        "description": "Petto di Pollo con patate.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 6
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Sushi Misto",
+        "description": "Assortimento di sushi e sashimi freschi.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Gamberi e verdure fritte in pastella leggera.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Uramaki",
+        "description": "Rotolo di sushi con avocado, cetriolo e salmone.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Sashimi",
+        "description": "Fettine di pesce crudo assortite.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con brodo di carne e uova.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Gyoza",
+        "description": "Ravioli di carne e verdure cotti alla piastra.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Edamame",
+        "description": "Baccelli di soia al vapore con sale.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tempura Udon",
+        "description": "Noodles udon con tempura di gamberi e verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Chirashi",
+        "description": "Ciotola di riso con pesce crudo assortito.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tonkatsu",
+        "description": "Cotoletta di maiale fritta servita con cavolo e salsa tonkatsu.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Yakitori",
+        "description": "Spiedini di pollo grigliati con salsa teriyaki.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 7
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Sushi Deluxe",
+        "description": "Un mix di sushi e sashimi di alta qualità.",
+        "price": "€30,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Sashimi Platter",
+        "description": "Selezione di pesce crudo fresco.",
+        "price": "€28,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Nigiri Sushi",
+        "description": "Sushi con fettine di pesce su riso.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Dragon Roll",
+        "description": "Sushi roll con gambero tempura e avocado.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Tempura Udon",
+        "description": "Noodles udon con tempura di gamberi e verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Chirashi",
+        "description": "Ciotola di riso con pesce crudo assortito.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Katsu Curry",
+        "description": "Cotoletta di maiale con curry giapponese e riso.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Yakisoba",
+        "description": "Noodles saltati con verdure e carne.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Unagi Don",
+        "description": "Ciotola di riso con anguilla grigliata.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Tonkotsu Ramen",
+        "description": "Ramen con brodo di maiale ricco e cremoso.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Matcha Tiramisu",
+        "description": "Tiramisu al tè verde matcha.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Green Tea Ice Cream",
+        "description": "Gelato al tè verde.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 8
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tacos al Pastor",
+        "description": "Tacos con maiale marinato e ananas.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Guacamole",
+        "description": "Guacamole fresco servito con tortilla chips.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Enchiladas",
+        "description": "Tortillas ripiene di pollo, ricoperte di salsa rossa.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Quesadilla",
+        "description": "Tortilla con formaggio fuso e carne a scelta.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Tortilla ripiena di riso, fagioli, carne e formaggio.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Chiles Rellenos",
+        "description": "Peperoni ripieni di formaggio e carne, fritti.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Nachos",
+        "description": "Tortilla chips con formaggio fuso, jalapeños e salsa.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Fajitas",
+        "description": "Strisce di carne alla griglia con peperoni e cipolle, servite con tortillas.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Tamales",
+        "description": "Masa ripiena di carne e cotta in foglie di mais.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Pozole",
+        "description": "Zuppa tradizionale con carne di maiale e hominy.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolce fritto spolverato di zucchero e cannella, servito con salsa al cioccolato.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Margarita",
+        "description": "Cocktail tradizionale messicano a base di tequila.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 9
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tacos de Carnitas",
+        "description": "Tacos ripieni di carne di maiale brasata.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.allrecipes.com/thmb/4B2hlaGm8HgeB1BERpS0M4Bo__o=/1500x0/filters:no_upscale[…]recipes-Magazine-4x3-1-5facd4fd51d3440e8f4de6bf0fd1b247.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Sopa de Tortilla",
+        "description": "Zuppa tradizionale messicana con strisce di tortilla.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "https://glebekitchen.com/wp-content/uploads/2019/02/chickentortillasouplowcrop.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Chimichanga",
+        "description": "Tortilla fritta ripiena di carne, fagioli e formaggio.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://www.foodgustoso.it/wp-content/uploads/2023/03/chimichangas-1-14.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Tostadas",
+        "description": "Tortilla croccante con vari condimenti, come pollo, fagioli e formaggio.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://static01.nyt.com/images/2023/09/29/multimedia/RM-tostadas-lpgf/RM-tostadas-lpgf-superJumbo.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Elote",
+        "description": "Pannocchie di mais arrostite e condite con maionese, formaggio e chili.",
+        "price": "€5,50",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsAk_h5babr1KftbhoOTQzRwJ0kiwGmfTaWw&s",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Flan",
+        "description": "Dessert cremoso al caramello.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://natashaskitchen.com/wp-content/uploads/2023/04/Flan-Recipe-SQ-500x375.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Sopes",
+        "description": "Base di mais fritta con vari condimenti, come carne, fagioli e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://www.goya.com/media/7924/sopes.jpg?quality=80",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Mole Poblano",
+        "description": "Pollo in salsa di mole con riso.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://www.mccormick.com/-/media/project/oneweb/mccormick-us/mccormick/recipe-catego[…]165012Z&extension=webp&hash=A1E6549E6559FC1F4DBA8FD923D07893",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Huevos Rancheros",
+        "description": "Uova servite su tortilla con salsa ranchera.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://images.themodernproper.com/billowy-turkey/production/posts/HuevoRacheros_6.jpg?w=1[…]t=crop&dm=1708477029&s=b65633823e884114e5a534a4e361f969",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Chile en Nogada",
+        "description": "Peperone ripieno di carne e frutta, con salsa di noci.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/5B1D3306-E[…]BA750E34/Derivates/89E9127B-6326-4FAB-BE4D-ECB6947A3DC9.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Aguas Frescas",
+        "description": "Bevande rinfrescanti a base di frutta.",
+        "price": "€3,50",
+        "is_visible": 1,
+        "image_url": "https://www.thetacoguycatering.com/wp-content/uploads/2024/02/shutterstock_2023599671.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Michelada",
+        "description": "Cocktail di birra con succo di lime, salse e spezie.",
+        "price": "€6,50",
+        "is_visible": 1,
+        "image_url": "https://www.muydelish.com/wp-content/uploads/2023/04/michelada-beer.jpg",
+        "restaurant_id": 10
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Chicken Tikka Masala",
+        "description": "Pollo marinato in yogurt e spezie, cotto in una salsa cremosa al curry.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://www.seriouseats.com/thmb/DbQHUK2yNCALBnZE-H1M2AKLkok=/1500x0/filters:no_upscal[…]-grill-recipe-hero-2_1-cb493f49e30140efbffec162d5f2d1d7.JPG",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Naan",
+        "description": "Pane indiano cotto nel forno tandoor.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2021-02/naan-3.jpg?itok=86tJcYX_",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Samosa",
+        "description": "Fagottino fritto ripieno di patate e piselli.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://www.cookwithnabeela.com/wp-content/uploads/2024/02/AlooSamosa3.webp",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Palak Paneer",
+        "description": "Spinaci cotti con formaggio indiano (paneer) e spezie.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/palak-paneer-65bd4cf42880f.jpg?crop=1.00xw:0.738xh;0,0.206xh&resize=1200:*",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Biryani",
+        "description": "Riso speziato cotto con carne o verdure, servito con raita.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgciYG7LyEYu_9IPqoupaUsKmFtjesz_AACQ&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Pakora",
+        "description": "Verdure fritte in pastella di ceci.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2021/09/Pakora-1200x675.jpg",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Tandoori Chicken",
+        "description": "Pollo marinato con yogurt e spezie, cotto nel forno tandoor.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://onestophalal.com/cdn/shop/articles/air_fryer_chicken_tandoori-1694242200588_1200x.jpg?v=1694242335",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Paneer Tikka",
+        "description": "Formaggio indiano (paneer) marinato in spezie e cotto nel forno tandoor.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqif6dMWWRsJYu7ebexnQzy_xY9_KD-95QVw&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Gulab Jamun",
+        "description": "Dolce indiano a base di latte fritto e sciroppo di zucchero di canna.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyLnqwvFMViNB99L_4WV3X2LIY0cGgL2jSw&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Mango Lassi",
+        "description": "Bevanda cremosa al mango con yogurt e spezie.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://houseofnasheats.com/wp-content/uploads/2023/08/Mango-Lassi-Recipe-15.jpg",
+        "restaurant_id": 11
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Chicken Tikka",
+        "description": "Pollo marinato in yogurt e spezie, cotto nel forno tandoor.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "/img/chicken_tikka.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Butter Chicken",
+        "description": "Pollo cotto in una salsa cremosa di pomodoro, burro e spezie.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "/img/butter_chicken.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Paneer Butter Masala",
+        "description": "Formaggio indiano (paneer) cotto in una salsa cremosa di pomodoro e burro.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "/img/paneer_butter_masala.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Dal Makhani",
+        "description": "Lenticchie nere cotte lentamente con burro e panna.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "/img/dal_makhani.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Aloo Gobi",
+        "description": "Patate e cavolfiore saltati con spezie.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "/img/aloo_gobi.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Vegetable Biryani",
+        "description": "Riso speziato cotto con verdure miste, servito con raita.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "/img/vegetable_biryani.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Papadum",
+        "description": "Sottile cracker di lenticchie speziato e croccante.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "/img/papadum.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Raita",
+        "description": "Yogurt con cetrioli e spezie fresche.",
+        "price": "€3,50",
+        "is_visible": 1,
+        "image_url": "/img/raita.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Gulab Jamun",
+        "description": "Dolce indiano a base di latte fritto e sciroppo di zucchero di canna.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "/img/gulab_jamun.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Mango Lassi",
+        "description": "Bevanda cremosa al mango con yogurt e spezie.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "/img/mango_lassi.jpg",
+        "restaurant_id": 12
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Spaghetti allo Scoglio",
+        "description": "Spaghetti conditi con frutti di mare freschi e pomodorini.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "/img/spaghetti_scoglio.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Calamari Fritti",
+        "description": "Calamari freschi fritti e serviti con salsa tartara.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "/img/calamari_fritti.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Zuppa di Cozze",
+        "description": "Zuppa di cozze fresche in un brodo di pomodoro e prezzemolo.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "/img/zuppa_cozze.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Insalata di Mare",
+        "description": "Insalata mista di frutti di mare freschi con verdure croccanti.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "/img/insalata_mare.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Frittura di Paranza",
+        "description": "Selezione di pesce fresco fritto con verdure.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "/img/frittura_paranza.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Risotto ai Frutti di Mare",
+        "description": "Risotto cremoso con frutti di mare e zafferano.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "/img/risotto_frutti_mare.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Polpo alla Griglia",
+        "description": "Polpo alla griglia con patate e olio d'oliva.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "/img/polpo_griglia.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Cous Cous di Pesce",
+        "description": "Cous cous con mix di pesce, verdure e spezie esotiche.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "/img/couscous_pesce.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Seppie Ripiene",
+        "description": "Seppie ripiene di pane, prezzemolo e frutti di mare.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "/img/seppie_ripiene.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Grigliata di Mare",
+        "description": "Misto di pesce fresco alla griglia con contorno di verdure.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "/img/grigliata_mare.jpg",
+        "restaurant_id": 13
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tagliolini ai Frutti di Mare",
+        "description": "Tagliolini freschi con frutti di mare e pomodorini.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "/img/tagliolini_frutti_mare.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Antipasto di Mare",
+        "description": "Selezione di antipasti a base di pesce fresco.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "/img/antipasto_mare.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Risotto al Nero di Seppia",
+        "description": "Risotto cremoso preparato con nero di seppia e frutti di mare.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "/img/risotto_nero_seppia.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Fritto Misto di Pesce",
+        "description": "Mix di pesce fresco fritto con verdure croccanti.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "/img/fritto_misto_pesce.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Calamari alla Griglia",
+        "description": "Calamari freschi alla griglia con contorno di verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "/img/calamari_griglia.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Spaghetti alle Vongole",
+        "description": "Spaghetti con vongole fresche e aglio.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "/img/spaghetti_vongole.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Insalata di Polpo",
+        "description": "Insalata fresca con polpo cotto e verdure di stagione.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "/img/insalata_polpo.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Carpaccio di Pesce Spada",
+        "description": "Carpaccio di pesce spada fresco marinato con olio d'oliva e limone.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "/img/carpaccio_pesce_spada.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Cozze alla Marinara",
+        "description": "Cozze fresche preparate in un sugo di pomodoro e prezzemolo.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "/img/cozze_marinara.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Granchio Reale alla Catalana",
+        "description": "Granchio reale servito con salsa alla catalana e insalata mista.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "/img/granchio_catalana.jpg",
+        "restaurant_id": 14
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Bistecca alla Fiorentina",
+        "description": "Bistecca alla griglia servita al sangue con contorno di patate arrosto.",
+        "price": "€35,00",
+        "is_visible": 1,
+        "image_url": "/img/bistecca_fiorentina.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla brace con salsa chimichurri e insalata verde.",
+        "price": "€30,00",
+        "is_visible": 1,
+        "image_url": "/img/costata_manzo.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Filetto di Manzo al Pepe Verde",
+        "description": "Filetto di manzo alla griglia con salsa al pepe verde e patate al forno.",
+        "price": "€32,00",
+        "is_visible": 1,
+        "image_url": "/img/filetto_pepe_verde.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Tagliata di Angus",
+        "description": "Tagliata di carne di angus con rucola, parmigiano e aceto balsamico.",
+        "price": "€28,00",
+        "is_visible": 1,
+        "image_url": "/img/tagliata_angus.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Costolette di Agnello alla Brace",
+        "description": "Costolette di agnello grigliate servite con verdure di stagione.",
+        "price": "€29,00",
+        "is_visible": 1,
+        "image_url": "/img/costolette_agnello.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Braciola di Maiale",
+        "description": "Braciola di maiale con salsa barbecue e patatine fritte.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "/img/braciola_maiale.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Grigliata Mista di Carne",
+        "description": "Selezione di carni alla griglia con salsine e contorni misti.",
+        "price": "€33,00",
+        "is_visible": 1,
+        "image_url": "/img/grigliata_mista_carne.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Pollo alla Diavola",
+        "description": "Pollo marinato alla diavola grigliato con patate al forno.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "/img/pollo_diavola.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Fiorentina di Vitello",
+        "description": "Fiorentina di vitello alla griglia con erbe aromatiche e contorno di verdure.",
+        "price": "€31,00",
+        "is_visible": 1,
+        "image_url": "/img/fiorentina_vitello.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Galletto alla Brace",
+        "description": "Galletto giovane alla brace con salsa all'aglio e prezzemolo.",
+        "price": "€26,00",
+        "is_visible": 1,
+        "image_url": "/img/galletto_brace.jpg",
+        "restaurant_id": 15
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Filetto di Manzo",
+        "description": "Filetto di manzo alla griglia con salsa al pepe verde e patate arrosto.",
+        "price": "€34,00",
+        "is_visible": 1,
+        "image_url": "/img/filetto_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla brace con contorno di verdure grigliate.",
+        "price": "€32,00",
+        "is_visible": 1,
+        "image_url": "/img/costata_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Bistecca Fiorentina",
+        "description": "Bistecca alla griglia servita al sangue con patate al forno.",
+        "price": "€36,00",
+        "is_visible": 1,
+        "image_url": "/img/bistecca_fiorentina.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Tagliata di manzo con rucola, parmigiano e aceto balsamico.",
+        "price": "€30,00",
+        "is_visible": 1,
+        "image_url": "/img/tagliata_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Filetto al Pepe Verde",
+        "description": "Filetto di manzo alla griglia con salsa al pepe verde e patate al forno.",
+        "price": "€35,00",
+        "is_visible": 1,
+        "image_url": "/img/filetto_pepe_verde.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Carpaccio di Manzo",
+        "description": "Carpaccio di manzo marinato con rucola, parmigiano e olio extravergine.",
+        "price": "€28,00",
+        "is_visible": 1,
+        "image_url": "/img/carpaccio_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Tartare di Manzo",
+        "description": "Tartare di manzo con tuorlo d'uovo, capperi e crostini di pane.",
+        "price": "€29,00",
+        "is_visible": 1,
+        "image_url": "/img/tartare_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Costolette di Agnello",
+        "description": "Costolette di agnello alla brace con salsa chimichurri e insalata verde.",
+        "price": "€31,00",
+        "is_visible": 1,
+        "image_url": "/img/costolette_agnello.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Brasato di Manzo",
+        "description": "Brasato di manzo con polenta e funghi porcini.",
+        "price": "€27,00",
+        "is_visible": 1,
+        "image_url": "/img/brasato_di_manzo.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Pollo alla Griglia",
+        "description": "Petto di pollo alla griglia con verdure saltate in padella.",
+        "price": "€24,00",
+        "is_visible": 1,
+        "image_url": "/img/pollo_alla_griglia.jpg",
+        "restaurant_id": 16
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pizza con pomodoro, mozzarella di bufala DOP, basilico fresco e olio extravergine d'oliva.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_margherita.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Marinara",
+        "description": "Pizza con pomodoro, aglio, origano, basilico e olio extravergine d'oliva.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_marinara.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Quattro Stagioni",
+        "description": "Pizza divisa in quattro parti, ognuna con ingredienti rappresentanti le quattro stagioni dell'anno.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_quattro_stagioni.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Capricciosa",
+        "description": "Pizza con pomodoro, mozzarella, funghi, prosciutto cotto, carciofi e olive.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_capricciosa.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pizza con pomodoro, mozzarella, salame piccante, peperoncino e olio extravergine d'oliva.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_diavola.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Prosciutto e Funghi",
+        "description": "Pizza con pomodoro, mozzarella, prosciutto cotto e funghi champignon.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_prosciutto_funghi.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Tonno e Cipolla",
+        "description": "Pizza con pomodoro, mozzarella, tonno sott'olio, cipolla e origano.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_tonno_cipolla.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Vegetariana",
+        "description": "Pizza con pomodoro, mozzarella, melanzane grigliate, peperoni, zucchine e olive nere.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_vegetariana.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Calzone Classico",
+        "description": "Calzone ripieno di pomodoro, mozzarella, prosciutto cotto e funghi.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "/img/calzone_classico.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Gorgonzola e Noci",
+        "description": "Pizza con pomodoro, mozzarella, gorgonzola DOP, noci e rucola fresca.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_gorgonzola_noci.jpg",
+        "restaurant_id": 17
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pizza classica con pomodoro, mozzarella e basilico fresco.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_margherita.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Capricciosa",
+        "description": "Pizza con pomodoro, mozzarella, prosciutto cotto, funghi, carciofi e olive.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_capricciosa.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Quattro Formaggi",
+        "description": "Pizza con pomodoro, mozzarella, gorgonzola, provola affumicata e parmigiano.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_quattro_formaggi.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Vegetariana",
+        "description": "Pizza con pomodoro, mozzarella, peperoni, melanzane grigliate, zucchine e olive.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_vegetariana.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pizza con pomodoro, mozzarella, salame piccante e peperoncino.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "/img/pizza_diavola.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Funghi e Salsiccia",
+        "description": "Pizza con pomodoro, mozzarella, funghi champignon e salsiccia.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_funghi_salsiccia.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Calzone Classico",
+        "description": "Calzone ripieno di pomodoro, mozzarella, prosciutto cotto e funghi.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "/img/calzone_classico.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Patate e Rosmarino",
+        "description": "Pizza con pomodoro, mozzarella, patate a fette e rosmarino.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_patate_rosmarino.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Bufalina",
+        "description": "Pizza con pomodoro, mozzarella di bufala DOP e basilico fresco.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_bufalina.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Ricotta e Spinaci",
+        "description": "Pizza con pomodoro, mozzarella, ricotta fresca e spinaci.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "/img/pizza_ricotta_spinaci.jpg",
+        "restaurant_id": 18
+    }
 ]
