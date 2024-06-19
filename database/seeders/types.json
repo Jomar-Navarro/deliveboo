@@ -1,37 +1,46 @@
 [
     {
+        "id": 1,
         "type_name": "Italiano",
         "description": "Cucina italiana tradizionale e moderna."
     },
     {
+        "id": 2,
         "type_name": "Internazionale",
         "description": "Piatti da tutto il mondo."
     },
     {
+        "id": 3,
         "type_name": "Cinese",
         "description": "Cucina cinese tradizionale e contemporanea."
     },
     {
+        "id": 4,
         "type_name": "Giapponese",
         "description": "Cucina giapponese, sushi e sashimi."
     },
     {
+        "id": 5,
         "type_name": "Messicano",
         "description": "Sapori autentici del Messico."
     },
     {
+        "id": 6,
         "type_name": "Indiano",
         "description": "Cucina indiana, speziata e aromatica."
     },
     {
+        "id": 7,
         "type_name": "Pesce",
         "description": "Piatti a base di pesce fresco."
     },
     {
+        "id": 8,
         "type_name": "Carne",
         "description": "Specialità a base di carne."
     },
     {
+        "id": 9,
         "type_name": "Pizza",
         "description": "Pizze classiche e gourmet."
     }
