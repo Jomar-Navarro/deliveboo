@@ -78,5 +78,114 @@
         "is_visible": 1,
         "image_url": "image_url",
         "restaurant_id": 1
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Bistecca alla Fiorentina",
+        "description": "Classica bistecca toscana.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla griglia.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Pollo alla Cacciatora",
+        "description": "Pollo in umido con verdure e vino.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Agnello al Forno",
+        "description": "Agnello arrosto con erbe aromatiche.",
+        "price": "€18,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Spezzatino di Manzo",
+        "description": "Manzo stufato con patate e carote.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Filetto al Pepe Verde",
+        "description": "Filetto di manzo con salsa al pepe verde.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Porchetta",
+        "description": "Maiale arrosto ripieno di erbe.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Tiramisu",
+        "description": "Dessert classico italiano con mascarpone e caffè.",
+        "price": "€6,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Risotto ai Funghi",
+        "description": "Risotto cremoso con funghi porcini.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Ribollita Toscana",
+        "description": "Zuppa tradizionale toscana con verdure, pane raffermo e fagioli cannellini.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Tiramisù della Casa",
+        "description": "Dolce con strati di mascarpone, caffè e savoiardi.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "image_url",
+        "restaurant_id": 2
     }
+
+
+
+
+
+
+
 ]

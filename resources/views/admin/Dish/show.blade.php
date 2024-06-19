@@ -11,7 +11,7 @@
           </div>
         @endif
         <p><strong>Descrizione:</strong> {{ $dish->description }}</p>
-        <p><strong>Prezzo:</strong> €{{ $dish->price }}</p>
+        <p><strong>Prezzo:</strong> {{ $dish->price }}</p>
         <p><strong>Visibile:</strong> {{ $dish->is_visible ? 'Sì' : 'No' }}</p>
 
         @if ($dish->image_url)
