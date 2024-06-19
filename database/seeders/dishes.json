@@ -4,7 +4,7 @@
         "description": "Pasta alla carbonara con guanciale e pecorino.",
         "price": "€12,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-square640-v2.jpg",
         "restaurant_id": 1
     },
     {
@@ -12,7 +12,7 @@
         "description": "Lasagna tradizionale con ragù e besciamella.",
         "price": "€14,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-14-500x375.jpg",
         "restaurant_id": 1
     },
     {
@@ -20,7 +20,7 @@
         "description": "Risotto cremoso con funghi porcini.",
         "price": "€13,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/61fb19a9a9db3736d06bbc03/1:1/w_2560%2Cc_limit/empty",
         "restaurant_id": 1
     },
     {
@@ -28,7 +28,7 @@
         "description": "Pizza classica con pomodoro, mozzarella e basilico.",
         "price": "€8,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://images.prismic.io/eataly-us/ed3fcec7-7994-426d-a5e4-a24be5a95afd_pizza-recipe-main.jpg?auto=compress,format",
         "restaurant_id": 1
     },
     {
@@ -36,7 +36,7 @@
         "description": "Melanzane alla parmigiana con mozzarella e parmigiano.",
         "price": "€11,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ9zKQSLQAGJq0sNaDKRBLNdF7pM97m_HjpA&s",
         "restaurant_id": 1
     },
     {
@@ -44,7 +44,7 @@
         "description": "Dessert classico italiano con mascarpone e caffè.",
         "price": "€6,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.moltofood.it/wp-content/uploads/2022/03/Tiramisu-1.jpg",
         "restaurant_id": 1
     },
     {
@@ -52,7 +52,7 @@
         "description": "Pane tostato con pomodoro fresco e basilico.",
         "price": "€5,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2009/11/ricetta-bruschetta-pomodoro/_MG_8642.jpg",
         "restaurant_id": 1
     },
     {
@@ -60,7 +60,7 @@
         "description": "Pane morbido al rosmarino.",
         "price": "€4,50",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/6E729D6A-ADFA-4492-AE57-0E3BE1F8D945/Derivates/F5669723-EBDF-444C-BBB1-B54F1AB1D8F7.jpg",
         "restaurant_id": 1
     },
     {
@@ -68,7 +68,7 @@
         "description": "Dessert cremoso alla vaniglia.",
         "price": "€6,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://www.cucchiaio.it/content/dam/cucchiaio/it/ricette/2009/11/ricetta-panna-cotta/panna%20cotta-1.jpg",
         "restaurant_id": 1
     },
     {
@@ -76,7 +76,1881 @@
         "description": "Gnocchi di patate con pesto alla genovese.",
         "price": "€12,00",
         "is_visible": 1,
-        "image_url": "image_url",
+        "image_url": "https://primochef.it/wp-content/uploads/2017/06/SH_gnocchi_salsa_rucola.jpg",
         "restaurant_id": 1
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Bistecca alla Fiorentina",
+        "description": "Classica bistecca toscana.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/257-25714/Bistecca-alla-fiorentina_650x433_wm.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla griglia.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "https://www.piuricette.it/wp-content/uploads/2022/06/IMG_20220616_133148-770x500.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Pollo alla Cacciatora",
+        "description": "Pollo in umido con verdure e vino.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/12/ricetta-pollo-cacciatora/_jcr_content/header-par/image_single.img.jpg/1579020893122.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Agnello al Forno",
+        "description": "Agnello arrosto con erbe aromatiche.",
+        "price": "€18,50",
+        "is_visible": 1,
+        "image_url": "https://www.misya.info/wp-content/uploads/2017/03/agnello-al-forno.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Spezzatino di Manzo",
+        "description": "Manzo stufato con patate e carote.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "https://www.buttalapasta.it/wp-content/uploads/2016/11/spezzatino-di-manzo-3.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Filetto al Pepe Verde",
+        "description": "Filetto di manzo con salsa al pepe verde.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "https://cdn.cook.stbm.it/thumbnails/ricette/144/144231/hd750x421.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Porchetta",
+        "description": "Maiale arrosto ripieno di erbe.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "https://www.moltofood.it/wp-content/uploads/2022/08/porchetta-maiale-carne-rosmarino.jpg",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Ribollita Toscana",
+        "description": "Zuppa tradizionale toscana con verdure, pane raffermo e fagioli cannellini.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.cibovagare.it/uploads/editor/media/Ribollita2.png",
+        "restaurant_id": 2
+    },
+    {
+        "dish_name": "Tiramisù della Casa",
+        "description": "Dolce con strati di mascarpone, caffè e savoiardi.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://tiramisudicasa.it/wp-content/uploads/2021/11/BM-Img-Dolce-1024x581-ok.png",
+        "restaurant_id": 2
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Spaghetti Carbonara",
+        "description": "Pasta alla carbonara con guanciale e pecorino.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://images.services.kitchenstories.io/6glN_4JhpVS9aUiBS7JnGsuDULA=/3840x0/filters:quality(80)/images.kitchenstories.io/wagtailOriginalImages/R2568-photo-final-_0.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Hamburger",
+        "description": "Classico hamburger con carne e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://trentapizza.co.uk/wp-content/uploads/2016/07/cheeseburger-600x450-600x450.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Sushi",
+        "description": "Varietà di sushi e sashimi freschi.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://ik.imagekit.io/awwybhhmo/satellite_images/japanese/beyondmenu/hero/16.jpg?tr=w-3840,q-50",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.allrecipes.com/thmb/qWvc3DAtgp4sVE40nPKQiTW0OoI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/70935-taqueria-style-tacos-mfs-1x2-40-691efd4df7f14cdd8280ca9d7a62692e.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Falafel",
+        "description": "Polpette di ceci servite con pita.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "https://tastythriftytimely.com/wp-content/uploads/2023/06/Falafel-Pita-FEATURED.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Paella",
+        "description": "Riso spagnolo con frutti di mare.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "https://realfood.tesco.com/media/images/1400x919-SeafoodPaella-Recipe-d345d50e-8bf1-40a5-a424-a0443972c226-0-1400x919.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "description": "Pesce fritto con patatine.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://www.womensweeklyfood.com.au/wp-content/uploads/sites/4/2021/04/29/25168/fish-and-chips-scaled.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/229-22992/Riso-alla-cantonese_450x300.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://wips.plug.it/cips/buonissimo.org/cms/2019/02/Involtiniprimavera.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Frittura leggera di pesce e verdure.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWNfP7rIagqzSTTSxNSEfH-_zQtIItH7AeEA&s",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Grande tortilla ripiena di carne, fagioli e riso.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://cdn.britannica.com/13/234013-050-73781543/rice-and-chorizo-burrito.jpg",
+        "restaurant_id": 3
+    },
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pomodoro, mozzarella, basilico.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://www.cibotoday.it/~media/horizontal-hi/31583586473285/pizza-margherita-di-sofia.jpg",
+        "restaurant_id": 3
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Falafel",
+        "description": "Polpette di ceci servite con pita.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScyDJyPMVvR7SE6NkkOVPmv2Mh1901By8epA&s",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Lamb Curry",
+        "description": "Agnello al curry con riso basmati.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/04/Pressure-cooker-lamb-12d573e.jpg?resize=900%2C471",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Paella",
+        "description": "Riso spagnolo con frutti di mare.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2018/06/Oven-paella-5d16b06.jpg?resize=768,574",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Fish and Chips",
+        "description": "Pesce fritto con patatine.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://staticcookist.akamaized.net/wp-content/uploads/sites/22/2023/08/fish-and-chi-1200x675.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/1dd71a6b-bd81-4a7a-8013-114c731d1165/Derivates/21db79a0-9d69-44d2-8852-6945bc8fc0de.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/ricette/230/23004/foto_hd/hd650x433_wm.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Mochi",
+        "description": "Dolcetti di riso ripieni di gelato.",
+        "price": "€6,50",
+        "is_visible": 1,
+        "image_url": "https://cdn.cook.stbm.it/thumbnails/ricette/144/144995/hd750x421.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Frittura leggera di pesce e verdure.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2020/03/tempura-gamberi-1200x675.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Grande tortilla ripiena di carne, fagioli e riso.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.espressomykitchen.com/wp-content/uploads/2024/04/EMK-The-Ultimate-California-Burrito-hero.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolcetti fritti con zucchero e cannella.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/242-24299/Churros_650x433_wm.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pomodoro, mozzarella, basilico.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFl3ZKWd7WhX6LFZWlOyn3s6cJssoR6ccnpQ&s",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pomodoro, mozzarella, salame piccante.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://redketchup.it/wp-content/uploads/2023/11/pizza-alla-diavola.webp",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Spaghetti Carbonara",
+        "description": "Pasta alla carbonara con guanciale e pecorino.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://www.ilcuoreinpentola.it/wp-content/uploads/2024/03/spaghetti-alla-carbonara-ok.jpeg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Hamburger",
+        "description": "Classico hamburger con carne e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://assets.biggreenegg.eu/app/uploads/2019/03/28145521/topimage-classic-hamburger-2019m04-800x534.jpg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Sushi",
+        "description": "Varietà di sushi e sashimi freschi.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://dimages2.gazzettaobjects.it/files/image_768_434/uploads/2022/03/20/6236bae4b81f7.jpeg",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con carne e uova.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://www.marionskitchen.com/wp-content/uploads/2024/04/20240329_MIW_15-Minute-Creamy-Korean-Ramen_Bangkok-7-scaled.webp",
+        "restaurant_id": 4
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.goya.com/media/7912/birria-tacos.jpg?quality=80",
+        "restaurant_id": 4
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://coopmaster.it/blog/wp-content/uploads/2020/09/riso-alla-cantonese.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM3VBIArsT5KnPJOScbACGFyJQ0yppVF81Cw&s",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolcetti fritti con zucchero e cannella.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "https://thescranline.com/wp-content/uploads/2023/09/CHURROS-S-01.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Tacos",
+        "description": "Tacos messicani con carne e verdure.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.thecookierookie.com/wp-content/uploads/2023/04/featured-quesabirria-tacos-recipe.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con carne e uova.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://static01.nyt.com/images/2024/01/10/multimedia/ND-Shoyu-Ramen-qflv/ND-Shoyu-Ramen-qflv-square640.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Risotto ai Funghi",
+        "description": "Risotto cremoso con funghi porcini.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "https://www.buttalapasta.it/wp-content/uploads/2023/08/Risotto-ai-funghi-porcini-25082023-buttalapasta.it_.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Maiale in Agrodolce",
+        "description": "Maiale in salsa agrodolce con ananas.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://i2.wp.com/www.piccolericette.net/piccolericette/wp-content/uploads/2018/01/3476_Maiale.jpg?resize=895%2C616&ssl=1",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Anatra alla Pechinese",
+        "description": "Anatra arrosto con salsa di prugne.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://www.buttalapasta.it/wp-content/uploads/2021/02/anatra-alla-pechinese.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Gamberoni alla Griglia",
+        "description": "Gamberoni alla griglia con limone e aglio.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "https://media.grandchef.net/ricette/gamberoni-alla-griglia/galleria/gamberoni-alla-griglia.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Calamari Fritti",
+        "description": "Calamari fritti con salsa tartara.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/256-25669/Calamari-fritti-con-friggitrice-ad-aria_780x520_wm.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Pesce Spada",
+        "description": "Pesce spada alla griglia con verdure.",
+        "price": "€15,50",
+        "is_visible": 1,
+        "image_url": "https://media.grandchef.net/ricette/pesce-spada-arrostito/galleria/pesce-spada-arrostito.jpg",
+        "restaurant_id": 5
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Manzo tagliato a fette con rucola e parmigiano.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "https://t4.ftcdn.net/jpg/00/95/09/31/360_F_95093198_5LG7XM351jByljLGglFL8mlEYOJyWKcS.jpg",
+        "restaurant_id": 5
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pollo al Limone",
+        "description": "Pollo fritto in salsa di limone.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.conad.it/assets/images/ricette/viabagutta/cpq/Bocconcini%20di%20pollo%20al%20limone_0005.jpg?_u=f718e007550d482d7c05098b7059abc697906d3f",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Maiale in Agrodolce",
+        "description": "Maiale in salsa agrodolce con ananas.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://www.misya.info/wp-content/uploads/2008/04/ricetta-maiale-in-agrodolce.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Riso alla Cantonese",
+        "description": "Riso fritto con verdure e uova.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.tavolartegusto.it/wp/wp-content/uploads/2019/05/Riso-alla-cantonese-Ricetta-Riso-cantonese-.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Anatra alla Pechinese",
+        "description": "Anatra arrosto con salsa di prugne.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://c8.alamy.com/compit/mb161r/fette-di-anatra-alla-pechinese-servita-con-fresco-cetriolo-cipollotti-coriandolo-e-arrosto-cinese-wheaten-pancake-con-salsa-di-hoysin-close-up-mb161r.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Gamberi al Sale e Pepe",
+        "description": "Gamberi saltati con sale e pepe.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://www.ricettasprint.it/wp-content/uploads/2021/06/Gamberi-al-pepe-nella-friggitrice-ad-aria.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Involtini Primavera",
+        "description": "Involtini fritti ripieni di verdure.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://images2.corriereobjects.it/methode_image/2021/04/15/Cucina/Foto%20Cucina/_N7A1187-cf-cropped-0-1820-4480-2515.jpg?v=202104160652",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Tofu Mapo",
+        "description": "Tofu piccante in salsa di fagioli.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://www.seriouseats.com/thmb/CaR7btHrJgEO3OKZD1Z_795VmII=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2011__07__2021-02-12-Mapo-Tofu-MHOM-10-804db1211f1d47dbae505341d1e7b994.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Manzo con Broccoli",
+        "description": "Manzo saltato con broccoli.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://www.ricettasprint.it/wp-content/uploads/2021/03/Manzo-e-broccoli-saltati-alla-cantonese-ricettasprint.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Zuppa di Miso",
+        "description": "Zuppa di miso con tofu e alghe.",
+        "price": "€4,50",
+        "is_visible": 1,
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/zuppa-di-miso-1650457585.png?crop=0.75xw:1xh;center,top&resize=1200:*",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Gelato Fritto",
+        "description": "Gelato ricoperto da una crosta fritta.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://wips.plug.it/cips/buonissimo.org/cms/2019/05/gelato-fritto.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Salmone Grigliato",
+        "description": "Salmone alla griglia con verdure.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://media.grandchef.net/ricette/salmone-alla-griglia/galleria/salmone-alla-griglia.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Zuppa di Pesce",
+        "description": "Zuppa ricca di frutti di mare.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/050aa2c5-e52d-4eac-89c3-112edac9cab1/Derivates/2000491c-fa06-4c7f-8389-560da2c00810.jpg",
+        "restaurant_id": 6
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Manzo tagliato a fette con rucola e parmigiano.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "https://m.my-personaltrainer.it/images/ricette/168/tagliata-manzo-rucola-grana-aceto-balsamico.jpg",
+        "restaurant_id": 6
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Sushi Misto",
+        "description": "Assortimento di sushi e sashimi freschi.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://marsala.gohan-sushi.it/upload/cache/immagini/prodotti/uramaki/xxxxxsakuramenu02_167-412x309.jpg",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tempura",
+        "description": "Gamberi e verdure fritte in pastella leggera.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7WV7EeOJmgkYLLOTh2Mh4CA4_EAng_JSvDA&s",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Uramaki",
+        "description": "Rotolo di sushi con avocado, cetriolo e salmone.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://sushienoodles.it/wp-content/uploads/2021/04/uramaki-el-puente-1200x750.jpg",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Sashimi",
+        "description": "Fettine di pesce crudo assortite.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/02/sashimi-c123df7.jpg?quality=90&resize=556,505",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Ramen",
+        "description": "Zuppa di noodles con brodo di carne e uova.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/190208-delish-ramen-horizontal-093-1550096715.jpg?crop=0.668xw:1.00xh;0.184xw,0&resize=1200:*",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Gyoza",
+        "description": "Ravioli di carne e verdure cotti alla piastra.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "https://japanesetaste.com/cdn/shop/articles/how-to-make-gyoza-japanese-dumplings-at-home-japanese-taste.jpg?v=1694487043&width=5760",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Edamame",
+        "description": "Baccelli di soia al vapore con sale.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://images.services.kitchenstories.io/gwBULxPG7Q4QmFzkK_SoUCNJYKA=/3840x0/filters:quality(85)/images.kitchenstories.io/wagtailOriginalImages/R2958-final-photo-.jpg",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tempura Udon",
+        "description": "Noodles udon con tempura di gamberi e verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://miro.medium.com/v2/resize:fit:1400/1*teg1mmoJ29KfoRA4fsng5w.png",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Chirashi",
+        "description": "Ciotola di riso con pesce crudo assortito.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://www.sushimaisoncrema2.it/wp-content/uploads/2020/04/102-Sushi-Maison-Crema-2.jpg",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Tonkatsu",
+        "description": "Cotoletta di maiale fritta servita con cavolo e salsa tonkatsu.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/04/Baked-Tonkatsu-4914.jpg",
+        "restaurant_id": 7
+    },
+    {
+        "dish_name": "Yakitori",
+        "description": "Spiedini di pollo grigliati con salsa teriyaki.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://assets.biggreenegg.eu/app/uploads/2019/08/01171633/mobileheader-yakitori-2019m08-1000x750.jpg",
+        "restaurant_id": 7
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Sushi Deluxe",
+        "description": "Un mix di sushi e sashimi di alta qualità.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREAPxNyav_RMDL30z3o4vXXQguu6UE0ex-cQ&s",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Sashimi Platter",
+        "description": "Selezione di pesce crudo fresco.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://popmenucloud.com/cdn-cgi/image/width=1200,height=630,format=auto,fit=cover/zlpcybrs/65b046e8-92ef-43d1-ba1f-8c993c9e82ae.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Nigiri Sushi",
+        "description": "Sushi con fettine di pesce su riso.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/64EF898D-2EDD-4B47-A456-E6A7D137AC91/Derivates/00f76cac-64f6-4573-be4f-e604a7d99143.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Dragon Roll",
+        "description": "Sushi roll con gambero tempura e avocado.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://i.pinimg.com/736x/65/47/46/654746e6d084789f374c8798247eec39.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Tempura Udon",
+        "description": "Noodles udon con tempura di gamberi e verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://images.yummy.ph/yummy/uploads/2023/03/tempura-udon-640.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Chirashi",
+        "description": "Ciotola di riso con pesce crudo assortito.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "https://wips.plug.it/cips/buonissimo.org/cms/2018/10/Chirashi-4.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Katsu Curry",
+        "description": "Cotoletta di maiale con curry giapponese e riso.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "https://www.justonecookbook.com/wp-content/uploads/2020/05/Katsu-Curry-4993-I-500x375.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Yakisoba",
+        "description": "Noodles saltati con verdure e carne.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://www.myplantifulcooking.com/wp-content/uploads/2022/10/vegan-yakisoba-featured.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Unagi Don",
+        "description": "Ciotola di riso con anguilla grigliata.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/07/Unadon-Eel-Rice-9543-I-1-500x500.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Tonkotsu Ramen",
+        "description": "Ramen con brodo di maiale ricco e cremoso.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://www.foodandwine.com/thmb/0AXGLeY6dYnY8sEXFqxBa8opDrs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Tonkotsu-Ramen-FT-BLOG1122-8fe6c12d609a4fd4ab246bea3aae140e.jpg",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Matcha Tiramisu",
+        "description": "Tiramisu al tè verde matcha.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRi8wLnAN3BGatRc_nSTbJcEZHn4ttJyFqw&s",
+        "restaurant_id": 8
+    },
+    {
+        "dish_name": "Green Tea Ice Cream",
+        "description": "Gelato al tè verde.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://www.justonecookbook.com/wp-content/uploads/2021/08/Green-Tea-Ice-Cream-0120-II.jpg",
+        "restaurant_id": 8
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tacos al Pastor",
+        "description": "Tacos con maiale marinato e ananas.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://www.culinaryhill.com/wp-content/uploads/2022/12/Tacos-al-Pastor-Culinary-Hill-1200x800-1-500x375.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Guacamole",
+        "description": "Guacamole fresco servito con tortilla chips.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.com/images/255-25549/Guacamole_1200x800.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Enchiladas",
+        "description": "Tortillas ripiene di pollo, ricoperte di salsa rossa.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://www.elcomal.com/wp-content/uploads/2021/11/Enchiladas-2-scaled.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Quesadilla",
+        "description": "Tortilla con formaggio fuso e carne a scelta.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://cookingformysoul.com/wp-content/uploads/2019/02/feat2-chicken-quesadillas.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Burrito",
+        "description": "Tortilla ripiena di riso, fagioli, carne e formaggio.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd1lyIkmWXSrhO7tbfvjniI43dJQLt_9L_uA&s",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Chiles Rellenos",
+        "description": "Peperoni ripieni di formaggio e carne, fritti.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9jUtxjz0qJ6c21_-D1D3tNOTGH9RiwqHPmg&s",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Nachos",
+        "description": "Tortilla chips con formaggio fuso, jalapeños e salsa.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://www.theslowroasteditalian.com/wp-content/uploads/2021/11/Air-Fryer-Nachos-SQUARE.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Fajitas",
+        "description": "Strisce di carne alla griglia con peperoni e cipolle, servite con tortillas.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://www.budgetbytes.com/wp-content/uploads/2022/07/Sheet-Pan-Portobello-Fajitas-plate.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Tamales",
+        "description": "Masa ripiena di carne e cotta in foglie di mais.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://keviniscooking.com/wp-content/uploads/2023/08/Pork-Tamales-Rojos-sauce-500x375.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Pozole",
+        "description": "Zuppa tradizionale con carne di maiale e hominy.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://www.zenbelly.com/wp-content/uploads/2020/09/pozole-3-scaled.jpg",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Churros",
+        "description": "Dolce fritto spolverato di zucchero e cannella, servito con salsa al cioccolato.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScVCr5KQ48iLK3wa9oG0uC18vJLAzwaqFaVw&s",
+        "restaurant_id": 9
+    },
+    {
+        "dish_name": "Margarita",
+        "description": "Cocktail tradizionale messicano a base di tequila.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "https://www.liquor.com/thmb/JQgDGy26Zsw-_cFGKH4zNH9PlXk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Frozen-Margarita-1500x1500-hero-191e49b3ab4f4781b93f3cfacac25136.jpg",
+        "restaurant_id": 9
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tacos de Carnitas",
+        "description": "Tacos ripieni di carne di maiale brasata.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.wellseasonedstudio.com/wp-content/uploads/2022/01/Pulled-pork-tacos.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Sopa de Tortilla",
+        "description": "Zuppa tradizionale messicana con strisce di tortilla.",
+        "price": "€7,50",
+        "is_visible": 1,
+        "image_url": "https://glebekitchen.com/wp-content/uploads/2019/02/chickentortillasouplowcrop.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Chimichanga",
+        "description": "Tortilla fritta ripiena di carne, fagioli e formaggio.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://www.foodgustoso.it/wp-content/uploads/2023/03/chimichangas-1-14.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Tostadas",
+        "description": "Tortilla croccante con vari condimenti, come pollo, fagioli e formaggio.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://static01.nyt.com/images/2023/09/29/multimedia/RM-tostadas-lpgf/RM-tostadas-lpgf-superJumbo.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Elote",
+        "description": "Pannocchie di mais arrostite e condite con maionese, formaggio e chili.",
+        "price": "€5,50",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsAk_h5babr1KftbhoOTQzRwJ0kiwGmfTaWw&s",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Flan",
+        "description": "Dessert cremoso al caramello.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://natashaskitchen.com/wp-content/uploads/2023/04/Flan-Recipe-SQ-500x375.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Sopes",
+        "description": "Base di mais fritta con vari condimenti, come carne, fagioli e formaggio.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://www.goya.com/media/7924/sopes.jpg?quality=80",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Mole Poblano",
+        "description": "Pollo in salsa di mole con riso.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://laroussecocina.mx/wp-content/uploads/2017/12/mole-poblano-001-larousse-cocina_0-e1671586546996.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Huevos Rancheros",
+        "description": "Uova servite su tortilla con salsa ranchera.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMAUY8hpRnIa9L9Si2MqrAF4UBEnkRgsX-Dg&s",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Chile en Nogada",
+        "description": "Peperone ripieno di carne e frutta, con salsa di noci.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://www.daisybrand.com/wp-content/uploads/2019/12/CHILI-RELLENOS-770x628.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Aguas Frescas",
+        "description": "Bevande rinfrescanti a base di frutta.",
+        "price": "€3,50",
+        "is_visible": 1,
+        "image_url": "https://www.thetacoguycatering.com/wp-content/uploads/2024/02/shutterstock_2023599671.jpg",
+        "restaurant_id": 10
+    },
+    {
+        "dish_name": "Michelada",
+        "description": "Cocktail di birra con succo di lime, salse e spezie.",
+        "price": "€6,50",
+        "is_visible": 1,
+        "image_url": "https://www.muydelish.com/wp-content/uploads/2023/04/michelada-beer.jpg",
+        "restaurant_id": 10
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Chicken Tikka Masala",
+        "description": "Pollo marinato in yogurt e spezie, cotto in una salsa cremosa al curry.",
+        "price": "€12,50",
+        "is_visible": 1,
+        "image_url": "https://www.allrecipes.com/thmb/1ul-jdOz8H4b6BDrRcYOuNmJgt4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/239867chef-johns-chicken-tikka-masala-ddmfs-3X4-0572-e02a25f8c7b745459a9106e9eb13de10.jpg",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Naan",
+        "description": "Pane indiano cotto nel forno tandoor.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://www.kingarthurbaking.com/sites/default/files/styles/featured_image_2x/public/2021-02/naan-3.jpg?itok=86tJcYX_",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Samosa",
+        "description": "Fagottino fritto ripieno di patate e piselli.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://www.cookwithnabeela.com/wp-content/uploads/2024/02/AlooSamosa3.webp",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Palak Paneer",
+        "description": "Spinaci cotti con formaggio indiano (paneer) e spezie.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/palak-paneer-65bd4cf42880f.jpg?crop=1.00xw:0.738xh;0,0.206xh&resize=1200:*",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Biryani",
+        "description": "Riso speziato cotto con carne o verdure, servito con raita.",
+        "price": "€13,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgciYG7LyEYu_9IPqoupaUsKmFtjesz_AACQ&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Pakora",
+        "description": "Verdure fritte in pastella di ceci.",
+        "price": "€6,00",
+        "is_visible": 1,
+        "image_url": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2021/09/Pakora-1200x675.jpg",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Tandoori Chicken",
+        "description": "Pollo marinato con yogurt e spezie, cotto nel forno tandoor.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://onestophalal.com/cdn/shop/articles/air_fryer_chicken_tandoori-1694242200588_1200x.jpg?v=1694242335",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Paneer Tikka",
+        "description": "Formaggio indiano (paneer) marinato in spezie e cotto nel forno tandoor.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqif6dMWWRsJYu7ebexnQzy_xY9_KD-95QVw&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Gulab Jamun",
+        "description": "Dolce indiano a base di latte fritto e sciroppo di zucchero di canna.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfyLnqwvFMViNB99L_4WV3X2LIY0cGgL2jSw&s",
+        "restaurant_id": 11
+    },
+    {
+        "dish_name": "Mango Lassi",
+        "description": "Bevanda cremosa al mango con yogurt e spezie.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://houseofnasheats.com/wp-content/uploads/2023/08/Mango-Lassi-Recipe-15.jpg",
+        "restaurant_id": 11
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Chicken Tikka",
+        "description": "Pollo marinato in yogurt e spezie, cotto nel forno tandoor.",
+        "price": "€13,50",
+        "is_visible": 1,
+        "image_url": "https://recipes.net/wp-content/uploads/2023/05/air-fryer-chicken-tikka-recipe_dbe252db9a567a504d0553178f269750.jpeg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Butter Chicken",
+        "description": "Pollo cotto in una salsa cremosa di pomodoro, burro e spezie.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://www.cookingclassy.com/wp-content/uploads/2021/01/butter-chicken-4.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Paneer Butter Masala",
+        "description": "Formaggio indiano (paneer) cotto in una salsa cremosa di pomodoro e burro.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://farm5.staticflickr.com/4244/34375209303_fe133a2921_o_d.png",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Dal Makhani",
+        "description": "Lenticchie nere cotte lentamente con burro e panna.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://vikalinka.com/wp-content/uploads/2023/12/dal-makhani-20-1.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Aloo Gobi",
+        "description": "Patate e cavolfiore saltati con spezie.",
+        "price": "€11,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Xo0vXS_W2D9RyIALIucHc9956dSWLCPg1Q&s",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Vegetable Biryani",
+        "description": "Riso speziato cotto con verdure miste, servito con raita.",
+        "price": "€12,00",
+        "is_visible": 1,
+        "image_url": "https://www.sharmispassions.com/wp-content/uploads/2022/03/VegBiryani4.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Papadum",
+        "description": "Sottile cracker di lenticchie speziato e croccante.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EmX14NeHzVkESZxzCmgrgAPho2R1p93vvQ&s",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Raita",
+        "description": "Yogurt con cetrioli e spezie fresche.",
+        "price": "€3,50",
+        "is_visible": 1,
+        "image_url": "https://www.feastingathome.com/wp-content/uploads/2019/05/Raita-Recipe-2.jpg",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Gulab Jamun",
+        "description": "Dolce indiano a base di latte fritto e sciroppo di zucchero di canna.",
+        "price": "€5,00",
+        "is_visible": 1,
+        "image_url": "https://i.ytimg.com/vi/dGGY3aIken4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB0fM5phKSY3mCCa4XM1q0NICbBVQ",
+        "restaurant_id": 12
+    },
+    {
+        "dish_name": "Mango Lassi",
+        "description": "Bevanda cremosa al mango con yogurt e spezie.",
+        "price": "€4,00",
+        "is_visible": 1,
+        "image_url": "https://www.cookwithmanali.com/wp-content/uploads/2017/05/Best-Mango-Mango-Lassi-Recipe.jpg",
+        "restaurant_id": 12
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Spaghetti allo Scoglio",
+        "description": "Spaghetti conditi con frutti di mare freschi e pomodorini.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/ricette/182/18285/foto_hd/hd650x433_wm.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Calamari Fritti",
+        "description": "Calamari freschi fritti e serviti con salsa tartara.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://www.giallozafferano.it/images/153-15363/Frittura-di-calamari_780x520_wm.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Zuppa di Cozze",
+        "description": "Zuppa di cozze fresche in un brodo di pomodoro e prezzemolo.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "https://www.ilnapolista.it/wp-content/uploads/2016/06/zuppcozze.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Insalata di Mare",
+        "description": "Insalata mista di frutti di mare freschi con verdure croccanti.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://www.casapappagallo.it/storage/21432/Insalata-di-mare.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Frittura di Paranza",
+        "description": "Selezione di pesce fresco fritto con verdure.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "https://orapesce.it/cdn/shop/articles/fritto-paranza_1100x.jpg?v=1650380665",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Risotto ai Frutti di Mare",
+        "description": "Risotto cremoso con frutti di mare e zafferano.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/620fbfeba3b70ea567aa86ca/1:1/w_1600%2Cc_limit/empty",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Polpo alla Griglia",
+        "description": "Polpo alla griglia con patate e olio d'oliva.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "https://blog.giallozafferano.it/inventaricette/wp-content/uploads/2020/05/polpo-alla-piastra-vid-720x480.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Cous Cous di Pesce",
+        "description": "Cous cous con mix di pesce, verdure e spezie esotiche.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://www.salepepe.it/files/2023/02/AA323875_alta-1140x636.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Seppie Ripiene",
+        "description": "Seppie ripiene di pane, prezzemolo e frutti di mare.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/620fbfefe7e7382463999172/16:9/w_1599,h_899,c_limit/seppie-ripiene.jpg",
+        "restaurant_id": 13
+    },
+    {
+        "dish_name": "Grigliata di Mare",
+        "description": "Misto di pesce fresco alla griglia con contorno di verdure.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://www.donnamoderna.com/content/uploads/2008/07/grigliata-di-pesce-delladriatico-725x545.jpg",
+        "restaurant_id": 13
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Tagliolini ai Frutti di Mare",
+        "description": "Tagliolini freschi con frutti di mare e pomodorini.",
+        "price": "€16,00",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/644166516795be2c6414ea96/3:2/w_2121,h_1414,c_limit/GettyImages-1006587840.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Antipasto di Mare",
+        "description": "Selezione di antipasti a base di pesce fresco.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://www.marblu.it/wp-content/uploads/2018/08/la-voce-del-mare.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Risotto al Nero di Seppia",
+        "description": "Risotto cremoso preparato con nero di seppia e frutti di mare.",
+        "price": "€20,00",
+        "is_visible": 1,
+        "image_url": "https://www.cucinareconamc.info/sites/default/files/styles/hero/public/migrate/recipe/1553595968-amc-rid1834-image1772.jpeg.jpg?itok=e6RMCRQO",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Fritto Misto di Pesce",
+        "description": "Mix di pesce fresco fritto con verdure croccanti.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "https://cdn.cook.stbm.it/thumbnails/ricette/144/144854/hd750x421.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Calamari alla Griglia",
+        "description": "Calamari freschi alla griglia con contorno di verdure.",
+        "price": "€18,00",
+        "is_visible": 1,
+        "image_url": "https://www.misya.info/wp-content/uploads/2022/06/Calamari-alla-griglia.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Spaghetti alle Vongole",
+        "description": "Spaghetti con vongole fresche e aglio.",
+        "price": "€19,00",
+        "is_visible": 1,
+        "image_url": "https://www.moltofood.it/wp-content/uploads/2022/04/Spaghetti_all_vongole_copertina-1.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Insalata di Polpo",
+        "description": "Insalata fresca con polpo cotto e verdure di stagione.",
+        "price": "€15,00",
+        "is_visible": 1,
+        "image_url": "https://www.cucchiaio.it/content/cucchiaio/it/ricette/2009/12/ricetta-insalata-di-polpo-con-patate/_jcr_content/header-par/image_single.img.jpg/1593161805863.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Carpaccio di Pesce Spada",
+        "description": "Carpaccio di pesce spada fresco marinato con olio d'oliva e limone.",
+        "price": "€21,00",
+        "is_visible": 1,
+        "image_url": "https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2022/11/carpccio-di-pesce-spada-still-life-finale-1--1200x675.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Cozze alla Marinara",
+        "description": "Cozze fresche preparate in un sugo di pomodoro e prezzemolo.",
+        "price": "€17,00",
+        "is_visible": 1,
+        "image_url": "https://www.foodblog.it/wp-content/uploads/2019/11/ricetta-per-cozze-alla-marinara-con-pomodoro.jpg",
+        "restaurant_id": 14
+    },
+    {
+        "dish_name": "Granchio Reale alla Catalana",
+        "description": "Granchio reale servito con salsa alla catalana e insalata mista.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://blog.giallozafferano.it/dolcesalatomiky/wp-content/uploads/2023/09/IMG_0615.jpg",
+        "restaurant_id": 14
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Bistecca alla Fiorentina",
+        "description": "Bistecca alla griglia servita al sangue con contorno di patate arrosto.",
+        "price": "€35,00",
+        "is_visible": 1,
+        "image_url": "https://www.centrocarnirigamonti.it/wp-content/uploads/2023/08/bistecca-alla-fiorentina.webp",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla brace con salsa chimichurri e insalata verde.",
+        "price": "€30,00",
+        "is_visible": 1,
+        "image_url": "https://www.italiaatavola.net/images/contenutiarticoli/costata_manzo.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Filetto di Manzo al Pepe Verde",
+        "description": "Filetto di manzo alla griglia con salsa al pepe verde e patate al forno.",
+        "price": "€32,00",
+        "is_visible": 1,
+        "image_url": "https://www.fattoincasadabenedetta.it/wp-content/uploads/2022/12/Filetto-al-pepe-verde-step-22.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Tagliata di Angus",
+        "description": "Tagliata di carne di angus con rucola, parmigiano e aceto balsamico.",
+        "price": "€28,00",
+        "is_visible": 1,
+        "image_url": "https://www.passionecarnale.it/wp-content/uploads/2017/08/PASSIONE_Articolo-Angus_Testata.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Costolette di Agnello alla Brace",
+        "description": "Costolette di agnello grigliate servite con verdure di stagione.",
+        "price": "€29,00",
+        "is_visible": 1,
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwdzK_JOAODR8s77OMn_N5Is5xPZKYT3gU_Q&s",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Braciola di Maiale",
+        "description": "Braciola di maiale con salsa barbecue e patate al forno.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://www.conad.it/assets/images/ricette/viabagutta/logo-rosso/braciole-di-maiale-al-forno-con-patate/braciole-e-patate-0014.jpg?_u=c44b95fd294bb153b08af067438e0ab86400ab35",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Grigliata Mista di Carne",
+        "description": "Selezione di carni alla griglia con salsine e contorni misti.",
+        "price": "€33,00",
+        "is_visible": 1,
+        "image_url": "https://www.ilgiornalebg.it/wp-content/uploads/2020/12/grigliata-di-carne.jpg",
+        "restaurant_id": 15
+    },
+    {
+        "dish_name": "Pollo alla Diavola",
+        "description": "Pollo marinato alla diavola grigliato con patate al forno.",
+        "price": "€22,00",
+        "is_visible": 1,
+        "image_url": "https://cdn.cook.stbm.it/thumbnails/ricette/145/145019/hd750x421.jpg",
+        "restaurant_id": 15
+    },
+
+    {
+        "dish_name": "Galletto alla Brace",
+        "description": "Galletto giovane alla brace con salsa all'aglio e prezzemolo.",
+        "price": "€26,00",
+        "is_visible": 1,
+        "image_url": "https://www.lospicchiodaglio.it/img/ricette/gallettobrace.jpg",
+        "restaurant_id": 15
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Filetto di Manzo",
+        "description": "Filetto di manzo alla griglia con pepe verde e funghi.",
+        "price": "€34,00",
+        "is_visible": 1,
+        "image_url": "https://www.cucinareconamc.info/sites/default/files/styles/hero/public/migrate/recipe/1666710388-amc-rid14444-image18212.jpeg.jpg?itok=UK0_phJA",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Costata di Manzo",
+        "description": "Costata di manzo alla brace con contorno di verdure grigliate.",
+        "price": "€32,00",
+        "is_visible": 1,
+        "image_url": "https://www.conad.it/assets/images/ricette/viabagutta/beneinsieme/grigliata%20di%20carne%20con%20verdure%20grigliate.jpg?_u=994c79d7600e0b9a15d8a8c9b5d397fb11c48dcf",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Bistecca Fiorentina",
+        "description": "Bistecca alla griglia servita al sangue.",
+        "price": "€36,00",
+        "is_visible": 1,
+        "image_url": "https://www.buttalapasta.it/wp-content/uploads/2021/11/bistecca-da-passeggio-1024x683.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Tagliata di Manzo",
+        "description": "Tagliata di manzo con rucola, parmigiano e aceto balsamico.",
+        "price": "€30,00",
+        "is_visible": 1,
+        "image_url": "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/my_simple_italian_1_43_img_s900x0_c2038x1192_l0x856.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Filetto al Pepe Verde",
+        "description": "Filetto di manzo alla griglia con salsa al pepe verde e patate al forno.",
+        "price": "€25,00",
+        "is_visible": 1,
+        "image_url": "https://leonardoromanelli.it/wp-content/uploads/2018/04/30725326_10155982792178880_1267492402927501312_o.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Carpaccio di Manzo",
+        "description": "Carpaccio di manzo marinato con rucola, parmigiano e olio extravergine.",
+        "price": "€28,00",
+        "is_visible": 1,
+        "image_url": "https://blog.giallozafferano.it/annatorte/wp-content/uploads/2019/07/carpaccio-di-manzo-e-rucola-e_.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Tartare di Manzo",
+        "description": "Tartare di manzo con tuorlo d'uovo, capperi e crostini di pane.",
+        "price": "€29,00",
+        "is_visible": 1,
+        "image_url": "https://primochef.it/wp-content/uploads/2018/04/SH_Tartare_manzo-1200x800.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Costolette di Agnello",
+        "description": "Costolette di agnello alla brace con salsa chimichurri e insalata verde.",
+        "price": "€31,00",
+        "is_visible": 1,
+        "image_url": "https://club.tescomaonline.com/wp-content/uploads/2021/02/COSTOLETTE-DI-AGNELLO-RICETTA.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Brasato di Manzo",
+        "description": "Brasato di manzo con polenta.",
+        "price": "€27,00",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/61fd1f029464ddbce0e648d6/1:1/w_2560%2Cc_limit/photo-10199406901-2-Cropped.jpg",
+        "restaurant_id": 16
+    },
+    {
+        "dish_name": "Pollo alla Griglia",
+        "description": "Petto di pollo alla griglia con verdure saltate in padella.",
+        "price": "€14,00",
+        "is_visible": 1,
+        "image_url": "https://cdn.shopify.com/s/files/1/0610/4596/5000/files/Pollo-alla-piastra-1200x900_480x480.jpg?v=1655368759",
+        "restaurant_id": 16
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pizza con pomodoro, mozzarella di bufala DOP, basilico fresco e olio extravergine d'oliva.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://www.cibotoday.it/~media/horizontal-hi/31583586473285/pizza-margherita-di-sofia.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Marinara",
+        "description": "Pizza con pomodoro, aglio, origano, basilico e olio extravergine d'oliva.",
+        "price": "€7,00",
+        "is_visible": 1,
+        "image_url": "https://www.pizzarecipe.org/wp-content/uploads/2019/01/Pizza-Marinara-2000x1500.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Quattro Stagioni",
+        "description": "Pizza divisa in quattro parti, ognuna con ingredienti rappresentanti le quattro stagioni dell'anno.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://primochef.it/wp-content/uploads/2020/04/SH_pizza_quattro_stagioni.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Capricciosa",
+        "description": "Pizza con pomodoro, mozzarella, funghi, prosciutto cotto, carciofi e olive.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://cdn.ilclubdellericette.it/wp-content/uploads/2020/07/pizza-capricciosa-1280x720.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pizza con pomodoro, mozzarella, salame piccante, peperoncino e olio extravergine d'oliva.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://i1.wp.com/www.piccolericette.net/piccolericette/wp-content/uploads/2017/06/3236_Pizza.jpg?resize=895%2C616&ssl=1",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Prosciutto e Funghi",
+        "description": "Pizza con pomodoro, mozzarella, prosciutto cotto e funghi champignon.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://www.ricettasprint.it/wp-content/uploads/2020/11/Pizza-alprosciutto-e-funghi-ricettasprint.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Tonno e Cipolla",
+        "description": "Pizza con pomodoro, mozzarella, tonno sott'olio, cipolla e origano.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/61fbd8df3697f3ffd0cffbc5/3:2/w_1200,h_800,c_limit/pizza-tonno-cipolle-800.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Vegetariana",
+        "description": "Pizza con pomodoro, mozzarella, melanzane grigliate, peperoni, zucchine e olive nere.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.fruttaweb.com/consigli/wp-content/uploads/2018/06/pizza-vegana.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Calzone Classico",
+        "description": "Calzone ripieno di pomodoro, mozzarella, prosciutto cotto e funghi.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://media-assets.lacucinaitaliana.it/photos/645b90d8f783ffb60d878be3/4:3/w_1884,h_1413,c_limit/Calzone%20al%20forno.jpg",
+        "restaurant_id": 17
+    },
+    {
+        "dish_name": "Pizza Gorgonzola e Noci",
+        "description": "Pizza con pomodoro, mozzarella, gorgonzola DOP, noci e rucola fresca.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://www.silviocicchi.com/pizzachef/wp-content/uploads/2015/08/gorgonzola-noci-evid-640x372.jpg",
+        "restaurant_id": 17
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "dish_name": "Pizza Margherita",
+        "description": "Pizza classica con pomodoro, mozzarella e basilico fresco.",
+        "price": "€8,00",
+        "is_visible": 1,
+        "image_url": "https://www.sorrentina.in/cdn/shop/articles/Classic_Margherita_Pizza_Recipe.webp?v=1688396952",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Capricciosa",
+        "description": "Pizza con pomodoro, mozzarella, prosciutto cotto, funghi, carciofi e olive.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://cdn.ilclubdellericette.it/wp-content/uploads/2020/07/pizza_capricciosa-360x240.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Quattro Formaggi",
+        "description": "Pizza con pomodoro, mozzarella, gorgonzola, provola affumicata e parmigiano.",
+        "price": "€10,00",
+        "is_visible": 1,
+        "image_url": "https://thecheeseatlas.com/wp-content/uploads/2022/04/Quattro-Formaggi-Pizza-rotated-e1649302460364.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Vegetariana",
+        "description": "Pizza con pomodoro, mozzarella, peperoni, melanzane grigliate, zucchine e olive.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://www.guardini.com/images/guardinispa/ricette/full/pizza_set_2021_full.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Diavola",
+        "description": "Pizza con pomodoro, mozzarella, salame piccante e peperoncino.",
+        "price": "€9,00",
+        "is_visible": 1,
+        "image_url": "https://redketchup.it/wp-content/uploads/2023/11/pizza-alla-diavola.webp",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Funghi e Salsiccia",
+        "description": "Pizza con pomodoro, mozzarella, funghi champignon e salsiccia.",
+        "price": "€8,50",
+        "is_visible": 1,
+        "image_url": "https://blog.giallozafferano.it/ricettandocondany/wp-content/uploads/2018/12/IMG_5395ott.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Calzone Classico",
+        "description": "Calzone ripieno di pomodoro, mozzarella, prosciutto cotto e funghi.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://blog.giallozafferano.it/lacucinadivane/wp-content/uploads/2022/09/CALZONE-AL-FORNO.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Bufalina",
+        "description": "Pizza con pomodoro, mozzarella di bufala DOP e basilico fresco.",
+        "price": "€10,50",
+        "is_visible": 1,
+        "image_url": "https://www.tasteatlas.com/images/dishes/ee6654d7ee434fe79fde54ad4abe9102.jpg",
+        "restaurant_id": 18
+    },
+    {
+        "dish_name": "Pizza Ricotta e Spinaci",
+        "description": "Pizza con pomodoro, mozzarella, ricotta fresca e spinaci.",
+        "price": "€9,50",
+        "is_visible": 1,
+        "image_url": "https://images.ctfassets.net/nw5k25xfqsik/PWX9cVehDHnKvNoGcFBXV/d70ba1e6c93a54efd995bf739354c438/image1.jpg",
+        "restaurant_id": 18
     }
 ]
