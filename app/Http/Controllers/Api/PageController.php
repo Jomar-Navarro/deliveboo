@@ -30,14 +30,15 @@ class PageController extends Controller
 
         $restaurants = Restaurant::with('types', 'dishes');
 
-        if (count($typesArray) > 0) {
-            $restaurants = $restaurants->whereHas('types', function ($q) use ($typesArray) {
-                $q->whereIn('type_name', $typesArray);
-            });
+        if ($query) {
+            $restaurants->where('name', 'LIKE', "%$query%");
         }
 
-        if ($query) {
-            $restaurants = $restaurants->where('name', 'LIKE', "%$query%");
+        // Filter restaurants that have all selected types
+        foreach ($typesArray as $type) {
+            $restaurants->whereHas('types', function ($query) use ($type) {
+                $query->where('type_name', $type);
+            });
         }
 
         return response()->json($restaurants->get());
