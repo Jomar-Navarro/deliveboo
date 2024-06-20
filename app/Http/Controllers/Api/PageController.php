@@ -38,4 +38,10 @@ class PageController extends Controller
 
         return response()->json($restaurants);
     }
+    public function search(Request $request)
+    {
+        $query = $request->input('query');
+        $restaurants = Restaurant::where('name', 'LIKE', "%$query%")->get();
+        return response()->json($restaurants);
+    }
 }
