@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
 use App\Models\Type;
-use App\Models\Dish;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -21,6 +20,7 @@ class PageController extends Controller
         $types = Type::all();
         return response()->json($types);
     }
+
     public function getFilteredRestaurants(Request $request)
     {
         $types = $request->query('types');
@@ -31,8 +31,8 @@ class PageController extends Controller
         $restaurants = Restaurant::with('types', 'dishes');
 
         if (count($typesArray) > 0) {
-            $restaurants = $restaurants->whereHas('types', function ($query) use ($typesArray) {
-                $query->whereIn('type_name', $typesArray);
+            $restaurants = $restaurants->whereHas('types', function ($q) use ($typesArray) {
+                $q->whereIn('type_name', $typesArray);
             });
         }
 
@@ -41,12 +41,5 @@ class PageController extends Controller
         }
 
         return response()->json($restaurants->get());
-    }
-
-    public function search(Request $request)
-    {
-        $query = $request->input('query');
-        $restaurants = Restaurant::where('name', 'LIKE', "%$query%")->get();
-        return response()->json($restaurants);
     }
 }
