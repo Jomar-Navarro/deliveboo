@@ -5,10 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Type;
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Restaurant extends Model
 {
-    use HasFactory;
+    use HasFactory, SoftDeletes;
 
     protected $fillable = [
         'name',
@@ -19,6 +20,8 @@ class Restaurant extends Model
         'image',
         'user_id'
     ];
+
+    protected $dates = ['deleted_at'];
 
     public function user()
     {

@@ -28,11 +28,15 @@ Route::middleware(['auth', 'verified'])
     ->group(function () {
         // Qua le route della CRUD protette da auth
         Route::get('/', [DashboardController::class, 'index'])->name('home');
-        Route::resource('restaurant', RestaurantController::class);
-        Route::resource('dish', DishController::class);
         Route::resource('type', TypeController::class);
+
+        Route::resource('dish', DishController::class);
         Route::get('dishes/trashed', [DishController::class, 'trashed'])->name('dish.trashed');
         Route::post('dish/{id}/restore', [DishController::class, 'restore'])->name('dish.restore');
+
+        Route::resource('restaurant', RestaurantController::class);
+        Route::post('restaurant/{id}/restore', [RestaurantController::class, 'restore'])->name('restaurant.restore');
+        Route::get('restaurants/trashed', [RestaurantController::class, 'trashed'])->name('restaurant.trashed');
     });
 
 Route::middleware('auth')->group(function () {

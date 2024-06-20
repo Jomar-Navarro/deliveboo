@@ -18,7 +18,8 @@ class RestaurantController extends Controller
     public function index()
     {
         $restaurant = Restaurant::where('user_id', Auth::id())->first();
-        $types = $restaurant->types()->get();
+
+        $types = $restaurant ? $restaurant->types()->get() : collect();
 
         return view('admin.restaurant.index', compact('restaurant', 'types'));
     }
@@ -189,5 +190,26 @@ class RestaurantController extends Controller
         $restaurant->delete();
 
         return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante eliminato con successo');
+    }
+
+    public function restore($id)
+    {
+        // Trova il piatto con soft delete
+        $restaurant = Restaurant::withTrashed()->findOrFail($id);
+
+        // Ripristina il piatto
+        $restaurant->restore();
+
+        // Redirezione alla pagina di indice dei piatti con un messaggio di successo
+        return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante ripristinato con successo.');
+    }
+
+    public function trashed()
+    {
+        // Ottieni tutti i piatti eliminati
+        $trashedRestaurants = Restaurant::onlyTrashed()->get();
+
+        // Ritorna la vista con i piatti eliminati
+        return view('admin.restaurant.trashed', compact('trashedRestaurants'));
     }
 }

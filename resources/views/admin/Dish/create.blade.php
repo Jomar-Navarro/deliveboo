@@ -39,7 +39,7 @@
         </div>
       </div>
 
-      <div class="mb-3 bg-body-tertiary rounded p-2">
+      <div class="mb-3 rounded p-2">
         <label for="image" class="form-label">Image</label>
         <input name="image_url" type="file" class="form-control" id="reading_time" aria-describedby="emailHelp"
           onchange="showImage(event)">

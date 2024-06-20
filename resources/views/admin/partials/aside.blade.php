@@ -71,6 +71,13 @@
               <span>Piatti Eliminati</span>
             </a>
           </li>
+
+        <li>
+            <a href="{{ route('admin.restaurant.trashed') }}">
+              <i class="fa-solid fa-trash-arrow-up"></i>
+              <span>Ristoranti Eliminati</span>
+            </a>
+          </li>
         </div>
 
       </div>
