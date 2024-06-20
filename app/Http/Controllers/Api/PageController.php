@@ -24,20 +24,25 @@ class PageController extends Controller
     public function getFilteredRestaurants(Request $request)
     {
         $types = $request->query('types');
+        $query = $request->query('query');
 
         $typesArray = $types ? explode(',', $types) : [];
 
-        if (count($typesArray) == 0) {
-            $restaurants = Restaurant::with('types', 'dishes')->get();
-            return response()->json($restaurants);
+        $restaurants = Restaurant::with('types', 'dishes');
+
+        if (count($typesArray) > 0) {
+            $restaurants = $restaurants->whereHas('types', function ($query) use ($typesArray) {
+                $query->whereIn('type_name', $typesArray);
+            });
         }
 
-        $restaurants = Restaurant::whereHas('types', function ($query) use ($typesArray) {
-            $query->whereIn('type_name', $typesArray);
-        }, '=', count($typesArray))->get();
+        if ($query) {
+            $restaurants = $restaurants->where('name', 'LIKE', "%$query%");
+        }
 
-        return response()->json($restaurants);
+        return response()->json($restaurants->get());
     }
+
     public function search(Request $request)
     {
         $query = $request->input('query');
