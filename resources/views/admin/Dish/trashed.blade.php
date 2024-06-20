@@ -24,7 +24,7 @@
           @foreach ($trashedDishes as $item)
             <tr>
               <td>{{ $item->dish_name }}</td>
-              <td>&euro; {{ $item->price }}</td>
+              <td>{{ $item->price }}</td>
               <td>{{ $item->description }}</td>
               <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>
               <td>
