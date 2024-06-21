@@ -43,4 +43,11 @@ class PageController extends Controller
 
         return response()->json($restaurants->get());
     }
+
+    public function menu()
+    {
+        $menu = Restaurant::with('dishes')->get();
+        return response()->json($menu);
+    }
+
 }
