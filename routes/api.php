@@ -23,3 +23,5 @@ Route::get('/restaurants', [PageController::class, 'index']);
 Route::get('/types', [PageController::class, 'type']);
 Route::get('/restaurants/filter', [PageController::class, 'getFilteredRestaurants']);
 Route::get('restaurants/search', [PageController::class, 'search']);
+Route::get('/menues', [PageController::class, 'menu']);
+
