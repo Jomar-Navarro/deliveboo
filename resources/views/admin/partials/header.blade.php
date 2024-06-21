@@ -1,4 +1,3 @@
-
 <header>
     <nav class="navbar navbar-expand-lg text-white">
         <div class="container-fluid h-100">
@@ -6,7 +5,7 @@
             <div class="d-flex h-100 align-items-center w-75">
 
                 <div class="logo d-flex justify-content-center">
-                    <img class="rounded-circle img-fluid" src="/img/logo-dark.png" alt="">
+                    <img class="rounded-circle img-fluid logo" src="/img/logo-final.png" alt="">
                     {{-- <h3 class="d-flex align-items-center fw-bolder ps-2">Deliboo</h3> --}}
                 </div>
 
@@ -16,7 +15,8 @@
                             <span class="pe-2">
                                 <i class="fa-solid fa-magnifying-glass text-secondary"></i>
                             </span>
-                            <input class="form-control-plaintext me-3" type="search" placeholder="Search" name="stringSearch">
+                            <input class="form-control-plaintext me-3" type="search" placeholder="Search"
+                                name="stringSearch">
                         </div>
                     </form>
                 </div>
@@ -31,19 +31,22 @@
 
                 <div class="d-flex align-items-center p-3">
                     <div class="logo-user d-flex justify-content-center">
-                        <img class="rounded-circle img-fluid" src="/img/logo-dark.png" alt="">
+                        <img class="rounded-circle img-fluid logo" src="/img/logo-final.png" alt="">
                     </div>
                     <li class="nav-item dropdown list-group px-2">
-                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                         </a>
 
-                        <div class="dropdown-menu dropdown-menu-right bg-body-secondary" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url('admin') }}">{{__('Dashboard')}}</a>
-                            <a class="dropdown-item" href="{{ url('profile') }}">{{__('Profilo')}}</a>
-                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
+                        <div class="dropdown-menu dropdown-menu-right bg-body-secondary"
+                            aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url('admin') }}">{{ __('Dashboard') }}</a>
+                            <a class="dropdown-item" href="{{ url('profile') }}">{{ __('Profilo') }}</a>
+                            <a class="dropdown-item" href="{{ route('logout') }}"
+                                onclick="event.preventDefault();
                                                             document.getElementById('logout-form').submit();">
-                                    {{ __('Esci') }}
+                                {{ __('Esci') }}
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
