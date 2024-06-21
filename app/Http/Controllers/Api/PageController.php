@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\Restaurant;
 use App\Models\Type;
+use App\Models\Dish;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -44,10 +45,10 @@ class PageController extends Controller
         return response()->json($restaurants->get());
     }
 
-    public function menu()
+    public function getDishesById($id)
     {
-        $menu = Restaurant::with('dishes')->get();
-        return response()->json($menu);
+        $restaurants = Restaurant::where('id', $id)->with('dishes')->first();
+        return response()->json($restaurants);
     }
 
 }
