@@ -53,14 +53,16 @@
               <span>Aggiungi Piatto</span>
             </a>
           </li>
+        </div>
 
-          <li>
-            <a href="{{ route('admin.type.index') }}">
-              <i class="fa-solid fa-plus"></i>
-              <span>Tipologie</span>
-            </a>
-          </li>
-
+        <div class="border-bottom py-3">
+            <h6 class="text-uppercase mt-2">Tipologie</h6>
+            <li>
+                <a href="{{ route('admin.type.index') }}">
+                    <i class="fa-solid fa-layer-group"></i></i>
+                <span>Tipologie</span>
+                </a>
+            </li>
         </div>
 
         <div class="py-3">
