@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container mt-5 overflow-auto">
-        <h1>My dish</h1>
+        <h1>Menu</h1>
         @if (session('success'))
             <div class="alert alert-success">
                 {{ session('success') }}
@@ -11,43 +11,43 @@
 
         <div>
 
-        <table class="table m-0">
-        <thead>
-          <tr>
-            <th scope="col">Nome</th>
-            <th scope="col">Immagine</th>
-            <th scope="col">Prezzo</th>
-            <th scope="col">Descrizione</th>
-            <th scope="col">Visibilità</th>
-            <th scope="col">Azioni</th>
-          </tr>
-        </thead>
-        <tbody>
-          @foreach ($dishes as $item)
-            <tr>
-              <td>
-                {{ $item->dish_name }}
-              </td>
-              <td>
+            <table class="table m-0">
+                <thead>
+                    <tr>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Immagine</th>
+                        <th scope="col">Prezzo</th>
+                        <th scope="col">Descrizione</th>
+                        <th scope="col">Visibilità</th>
+                        <th scope="col">Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach ($dishes as $item)
+                        <tr>
+                            <td>
+                                {{ $item->dish_name }}
+                            </td>
+                            <td>
 
 
-                {{---------------------- WARNING -------------------------------------}}
+                                {{-- -------------------- WARNING ----------------------------------- --}}
 
-                  {{-- <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
+                                {{-- <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
                       onerror="this.src='/img/no-image"> --}}
 
-                      <img class="thumb" src="{{$item->image_url}}" alt="">
+                                <img class="thumb" src="{{ $item->image_url }}" alt="">
 
 
-                {{---------------------- WARNING -------------------------------------}}
+                                {{-- -------------------- WARNING ----------------------------------- --}}
 
 
 
-              </td>
-              <td>{{ $item->price }}</td>
-              <td>{{ $item->description }}</td>
-              <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>
-              <td>
+                            </td>
+                            <td>{{ $item->price }}</td>
+                            <td>{{ $item->description }}</td>
+                            <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>
+                            <td>
 
                                 <div class="d-flex">
 
