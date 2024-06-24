@@ -9,9 +9,14 @@ class Order extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'name', 'lastname', 'address', 'postal_code',
+        'phone_number', 'email', 'total_price'
+    ];
+
 
     public function dishes()
     {
-        return $this->belongsToMany(Type::class);
+        return $this->belongsToMany(Dish::class, 'dish_order')->withPivot('quantity');
     }
 }

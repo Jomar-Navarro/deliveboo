@@ -12,6 +12,5 @@ class DishOrderTableSeeder extends Seeder
      */
     public function run(): void
     {
-        //
     }
 }
