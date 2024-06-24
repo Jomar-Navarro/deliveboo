@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\Dish;
 use App\Models\Restaurant;
 use App\Models\Type;
-use App\Models\Dish;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -35,7 +35,7 @@ class PageController extends Controller
             $restaurants->where('name', 'LIKE', "%$query%");
         }
 
-        // Filter restaurants that have all selected types
+
         foreach ($typesArray as $type) {
             $restaurants->whereHas('types', function ($query) use ($type) {
                 $query->where('type_name', $type);
@@ -50,5 +50,4 @@ class PageController extends Controller
         $restaurants = Restaurant::where('id', $id)->with('dishes')->first();
         return response()->json($restaurants);
     }
-
 }
