@@ -36,7 +36,7 @@ class OrderController extends Controller
             'address' => 'required|string|max:150',
             'postal_code' => 'required|string|max:5',
             'phone_number' => 'required|string|max:20',
-            'email' => 'required|string|email|max:100',
+            'email' => 'string|email|max:100',
             'total_price' => 'required|numeric',
             'dishes' => 'required|array',
             'dishes.*.dish_id' => 'required|exists:dishes,id',
