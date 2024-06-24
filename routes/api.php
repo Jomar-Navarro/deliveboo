@@ -7,6 +7,8 @@ use App\Http\Controllers\Api\PageController;
 use App\Models\Restaurant;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PaymentController;
+
 
 
 /*
@@ -26,3 +28,6 @@ Route::get('/restaurants/filter', [PageController::class, 'getFilteredRestaurant
 Route::get('restaurants/search', [PageController::class, 'search']);
 Route::get('/menu/{id}', [PageController::class, 'getDishesById']);
 Route::post('/orders', [OrderController::class, 'store']);
+
+Route::get('client_token', [PaymentController::class, 'getClientToken']);
+Route::post('payment', [PaymentController::class, 'processPayment']);
