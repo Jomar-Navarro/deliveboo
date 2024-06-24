@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\DishController;
+use App\Http\Controllers\Admin\OrderController;
 use App\Http\Controllers\Admin\RestaurantController;
 use App\Http\Controllers\Api\PageController;
 use App\Models\Restaurant;
@@ -24,4 +25,4 @@ Route::get('/types', [PageController::class, 'type']);
 Route::get('/restaurants/filter', [PageController::class, 'getFilteredRestaurants']);
 Route::get('restaurants/search', [PageController::class, 'search']);
 Route::get('/menu/{id}', [PageController::class, 'getDishesById']);
-
+Route::post('/orders', [OrderController::class, 'store']);
