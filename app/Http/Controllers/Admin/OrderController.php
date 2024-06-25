@@ -4,7 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\Order;
+use App\Models\Restaurant;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
@@ -14,8 +16,23 @@ class OrderController extends Controller
      */
     public function index()
     {
-        // Recupera tutti gli ordini dal database
-        $orders = Order::all();
+        // Recupera l'ID del ristorante dell'utente loggato
+        $user = Auth::user();
+        $restaurant = Restaurant::where('user_id', $user->id)->first();
+
+        if (!$restaurant) {
+            abort(404, 'Restaurant not found.');
+        }
+
+        // Recupera tutti i piatti del ristorante
+        $dishes = $restaurant->dishes;
+
+        // Recupera gli ordini associati ai piatti del ristorante
+        $orders = collect();
+
+        foreach ($dishes as $dish) {
+            $orders = $orders->merge($dish->orders);
+        }
 
         // Ritorna una vista con la lista degli ordini
         return view('admin.orders.index', compact('orders'));

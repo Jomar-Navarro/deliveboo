@@ -39,21 +39,24 @@
         </div>
 
         <div class="border-bottom py-3">
-          <h6 class="text-uppercase mt-2">Piatti</h6>
-          <li>
-            <a href="{{ route('admin.dish.index') }}">
-              <i class="fa-solid fa-bowl-rice"></i>
-              <span>Piatti</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="{{ route('admin.dish.create') }}">
-              <i class="fa-solid fa-plus"></i>
-              <span>Aggiungi Piatto</span>
-            </a>
-          </li>
+          @if (Auth::user()->restaurant && Auth::user()->restaurant->dishes()->exists())
+            <h6 class="text-uppercase mt-2">Piatti</h6>
+            <li>
+              <a href="{{ route('admin.dish.index') }}">
+                <i class="fa-solid fa-bowl-rice"></i>
+                <span>Piatti</span>
+              </a>
+            </li>
+          @endif
+          @if (Auth::user()->restaurant()->exists())
+            <li>
+              <a href="{{ route('admin.dish.create') }}">
+                <i class="fa-solid fa-plus"></i>
+                <span>Aggiungi Piatto</span>
+              </a>
+            </li>
         </div>
+        @endif
 
         <div class="border-bottom py-3">
           <h6 class="text-uppercase mt-2">Tipologie</h6>
