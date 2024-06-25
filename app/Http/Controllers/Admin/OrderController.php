@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Order;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class OrderController extends Controller
 {
@@ -13,7 +14,11 @@ class OrderController extends Controller
      */
     public function index()
     {
-        //
+        // Recupera tutti gli ordini dal database
+        $orders = Order::all();
+
+        // Ritorna una vista con la lista degli ordini
+        return view('admin.orders.index', compact('orders'));
     }
 
     /**
@@ -30,7 +35,7 @@ class OrderController extends Controller
     public function store(Request $request)
     {
         // Validazione dei dati
-        $request->validate([
+        $valData = $request->validate([
             'name' => 'required|string|max:100',
             'lastname' => 'required|string|max:100',
             'address' => 'required|string|max:150',
@@ -38,31 +43,63 @@ class OrderController extends Controller
             'phone_number' => 'required|string|max:20',
             'email' => 'required|string|email|max:100',
             'total_price' => 'required|numeric',
+
+            // Validazione per i piatti (dishes) associati
             'dishes' => 'required|array',
             'dishes.*.dish_id' => 'required|exists:dishes,id',
             'dishes.*.quantity' => 'required|integer|min:1'
+        ], [
+            'name.required' => 'Il nome è obbligatorio.',
+            'name.string' => 'Il nome deve essere una stringa.',
+            'name.max' => 'Il nome non può superare i 100 caratteri.',
+            'lastname.required' => 'Il cognome è obbligatorio.',
+            'lastname.string' => 'Il cognome deve essere una stringa.',
+            'lastname.max' => 'Il cognome non può superare i 100 caratteri.',
+            'address.required' => "L'indirizzo è obbligatorio.",
+            'address.string' => "L'indirizzo deve essere una stringa.",
+            'address.max' => "L'indirizzo non può superare i 150 caratteri.",
+            'postal_code.required' => 'Il CAP è obbligatorio.',
+            'postal_code.string' => 'Il CAP deve essere una stringa.',
+            'postal_code.max' => 'Il CAP non può superare i 5 caratteri.',
+            'phone_number.required' => 'Il numero di telefono è obbligatorio.',
+            'phone_number.string' => 'Il numero di telefono deve essere una stringa.',
+            'phone_number.max' => 'Il numero di telefono non può superare i 20 caratteri.',
+            'email.required' => 'L\'email è obbligatoria.',
+            'email.string' => 'L\'email deve essere una stringa.',
+            'email.email' => 'L\'email deve essere un indirizzo email valido.',
+            'email.max' => 'L\'email non può superare i 100 caratteri.',
+            'total_price.required' => 'Il prezzo totale è obbligatorio.',
+            'total_price.numeric' => 'Il prezzo totale deve essere numerico.',
+
+            'dishes.required' => 'È necessario selezionare almeno un piatto.',
+            'dishes.array' => 'I piatti devono essere un array.',
+            'dishes.*.dish_id.required' => 'ID del piatto obbligatorio.',
+            'dishes.*.dish_id.exists' => 'Uno o più piatti selezionati non sono validi.',
+            'dishes.*.quantity.required' => 'La quantità del piatto è obbligatoria.',
+            'dishes.*.quantity.integer' => 'La quantità del piatto deve essere un numero intero.',
+            'dishes.*.quantity.min' => 'La quantità del piatto deve essere almeno 1.'
         ]);
 
         // Creazione dell'ordine
         $order = Order::create([
-            'name' => $request->name,
-            'lastname' => $request->lastname,
-            'address' => $request->address,
-            'postal_code' => $request->postal_code,
-            'phone_number' => $request->phone_number,
-            'email' => $request->email,
-            'total_price' => $request->total_price,
+            'name' => $valData['name'],
+            'lastname' => $valData['lastname'],
+            'address' => $valData['address'],
+            'postal_code' => $valData['postal_code'],
+            'phone_number' => $valData['phone_number'],
+            'email' => $valData['email'],
+            'total_price' => $valData['total_price'],
         ]);
 
-        // Creazione delle relazioni con i piatti ordinati
-        $order->dishes()->attach(
-            collect($request->dishes)->mapWithKeys(function ($dish) {
-                return [$dish['dish_id'] => ['quantity' => $dish['quantity']]];
-            })->toArray()
-        );
+        // Associazione dei piatti (dishes) all'ordine
+        foreach ($valData['dishes'] as $dish) {
+            $order->dishes()->attach($dish['dish_id'], ['quantity' => $dish['quantity']]);
+        }
 
         return response()->json(['message' => 'Ordine effettuato con successo!', 'order' => $order], 201);
     }
+
+
 
     /**
      * Display the specified resource.
