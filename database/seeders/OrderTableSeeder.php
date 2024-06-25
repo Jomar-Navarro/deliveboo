@@ -33,6 +33,8 @@ class OrderTableSeeder extends Seeder
                 'phone_number' => $faker->phoneNumber,
                 'email' => $faker->email,
                 'total_price' => $faker->randomFloat(2, 10, 100),
+                'created_at' => $date,
+                'updated_at' => $date,
 
             ]);
 
