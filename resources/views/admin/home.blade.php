@@ -2,7 +2,7 @@
 
 @section('content')
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <div class="container text-center m-0">
+  <div class="container-fluid text-center m-0">
     <div class="row">
       <div class="col-md-6 px-5 pt-5">
         @if (!empty($months) && !empty($chartData))
@@ -17,7 +17,7 @@
           </div>
         @endif
       </div>
-      <div class="col-md-6  px-5 pt-5">
+      <div class="col-md-6 px-5 pt-5">
         @if (!empty($dishNames) && !empty($dishQuantities))
           <div class="card">
             <h3>Piatti popolari</h3>
