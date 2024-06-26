@@ -113,6 +113,8 @@ class OrderController extends Controller
             $order->dishes()->attach($dish['dish_id'], ['quantity' => $dish['quantity']]);
         }
 
+        $order->load('dishes');
+
         return response()->json(['message' => 'Ordine effettuato con successo!', 'order' => $order], 201);
     }
 
