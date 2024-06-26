@@ -65,7 +65,7 @@
             <div class="text-danger">{{ $message }}</div>
           @enderror
         </div>
-        <div class="col-6 d-flex flex-column mt-3 mb-5">
+        <div class="col-10 d-flex flex-column mt-3 mb-3">
           <label>Tipologia Ristorante:</label>
           <div>
             @foreach ($types as $type)
@@ -82,7 +82,7 @@
             @enderror
           </div>
         </div>
-        <div class="col-12">
+        <div class="col-12 d-flex justify-content-end">
           <button type="submit" class="btn btn-primary">Salva</button>
         </div>
     </form>

@@ -28,9 +28,9 @@
   <div class="main-wrapper d-flex">
     @include('admin.partials.aside')
 
-    <div class="content p-5">
-      @yield('content')
-    </div>
+
+    @yield('content')
+
   </div>
 
 </body>

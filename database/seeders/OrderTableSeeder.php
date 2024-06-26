@@ -17,34 +17,33 @@ class OrderTableSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Faker::create();
+        $faker = Faker::create('it_IT'); // Impostiamo Faker per generare dati in italiano
         $dishes = Dish::all();
 
-        // Generate orders for the past year
+        // Generiamo ordini per l'ultimo anno
         foreach (range(1, 365) as $index) {
-            // Random date in the past year
+            // Data casuale nell'ultimo anno
             $date = Carbon::now()->subDays($index);
 
             $order = Order::create([
                 'name' => $faker->firstName,
                 'lastname' => $faker->lastName,
                 'address' => $faker->address,
-                'postal_code' => $faker->numerify('#####'), // Ensure 5 characters for postal code
-                'phone_number' => $faker->phoneNumber,
+                'postal_code' => $faker->postcode, // Codice postale italiano
+                'phone_number' => '+39 ' . substr($faker->phoneNumber, 1, 10), // Aggiungiamo +39 al numero generato
                 'email' => $faker->email,
                 'total_price' => $faker->randomFloat(2, 10, 100),
                 'created_at' => $date,
                 'updated_at' => $date,
-
             ]);
 
-            // Attach dishes to order with pivot quantity and timestamps
-            $pivotData = $dishes->random(rand(1, 5))->pluck('id')->mapWithKeys(function ($id) use ($date) {
+            // Collegamento dei piatti all'ordine con quantità pivot e timestamp
+            $pivotData = $dishes->random(rand(1, 5))->pluck('id')->mapWithKeys(function ($id) use ($date, $faker) {
                 return [
                     $id => [
                         'quantity' => rand(1, 3),
                         'created_at' => $date,
-                        'updated_at' => $date
+                        'updated_at' => $date,
                     ]
                 ];
             })->toArray();

@@ -1,8 +1,8 @@
 @extends('layouts.admin')
 
 @section('content')
-  <div class="container">
-    <h1>Tipologie Ristoranti</h1>
+  <div class="container pt-5">
+    <h1 class=" text-center">Tipologie Ristoranti</h1>
 
     @if (session('success'))
       <div class="alert alert-success">
@@ -10,7 +10,7 @@
       </div>
     @endif
 
-    <table class="table w-75">
+    <table class="table w-100">
       <thead>
         <tr class="fs-5">
           <th scope="col">Nome</th>

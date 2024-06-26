@@ -16,7 +16,7 @@ class DashboardController extends Controller
         $restaurant = Restaurant::where('user_id', Auth::id())->first();
 
         if (!$restaurant) {
-            abort(404, 'Restaurant not found.');
+            return view('admin.home')->with('warning', 'Nessun ristorante trovato. Assicurati di aver creato un ristorante.');
         }
 
         // Recupera tutti gli ordini relativi ai piatti del ristorante
@@ -66,7 +66,7 @@ class DashboardController extends Controller
         $dishNames = array_column($popularDishesData, 'name');
         $dishQuantities = array_column($popularDishesData, 'quantity');
 
-
+        // Passa i dati alla vista
         return view('admin.home', compact('chartData', 'months', 'dishNames', 'dishQuantities'));
     }
 }

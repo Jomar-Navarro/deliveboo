@@ -168,33 +168,42 @@ class DishController extends Controller
      */
     public function destroy(Dish $dish)
     {
-        if ($dish->image_url) {
-            Storage::delete($dish->image_url);
+        // Verifica che l'utente autenticato sia il proprietario del ristorante associato al piatto
+        if ($dish->restaurant->user_id !== Auth::id()) {
+            return redirect()->route('admin.dish.index')->with('error', 'Non hai il permesso per eliminare questo piatto.');
         }
 
+        // Elimina il piatto
         $dish->delete();
 
-        return redirect()->route('admin.dish.index')->with('success', 'Piatto eliminato con successo');
+        return redirect()->route('admin.dish.index')->with('success', 'Piatto eliminato con successo.');
     }
 
     public function restore($id)
     {
-        // Trova il piatto con soft delete
-        $dish = Dish::withTrashed()->findOrFail($id);
+        // Trova il piatto con soft delete e verifica che appartenga a un ristorante dell'utente autenticato
+        $dish = Dish::withTrashed()
+            ->where('id', $id)
+            ->whereHas('restaurant', function ($query) {
+                $query->where('user_id', Auth::id());
+            })
+            ->firstOrFail();
 
         // Ripristina il piatto
         $dish->restore();
 
-        // Redirezione alla pagina di indice dei piatti con un messaggio di successo
         return redirect()->route('admin.dish.index')->with('success', 'Piatto ripristinato con successo.');
     }
 
     public function trashed()
     {
-        // Ottieni tutti i piatti eliminati
-        $trashedDishes = Dish::onlyTrashed()->get();
+        // Ottieni solo i piatti eliminati dei ristoranti dell'utente autenticato
+        $trashedDishes = Dish::onlyTrashed()
+            ->whereHas('restaurant', function ($query) {
+                $query->where('user_id', Auth::id());
+            })
+            ->get();
 
-        // Ritorna la vista con i piatti eliminati
         return view('admin.dish.trashed', compact('trashedDishes'));
     }
 }

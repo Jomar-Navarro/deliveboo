@@ -183,33 +183,46 @@ class RestaurantController extends Controller
      */
     public function destroy(Restaurant $restaurant)
     {
+
+        // Verifica che l'utente autenticato sia il proprietario del ristorante
+        if ($restaurant->user_id !== Auth::id()) {
+            return redirect()->route('admin.restaurant.index')->with('error', 'Non hai il permesso per eliminare questo ristorante.');
+        }
+
+
+        // Elimina l'immagine associata se esiste
         if ($restaurant->image) {
             Storage::delete($restaurant->image);
         }
 
+
+        // Elimina il ristorante
         $restaurant->delete();
 
-        return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante eliminato con successo');
+        return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante eliminato con successo.');
     }
 
     public function restore($id)
     {
-        // Trova il piatto con soft delete
-        $restaurant = Restaurant::withTrashed()->findOrFail($id);
+        // Trova il ristorante con soft delete e verifica che appartenga all'utente autenticato
+        $restaurant = Restaurant::withTrashed()
+            ->where('id', $id)
+            ->where('user_id', Auth::id())
+            ->firstOrFail();
 
-        // Ripristina il piatto
+        // Ripristina il ristorante
         $restaurant->restore();
 
-        // Redirezione alla pagina di indice dei piatti con un messaggio di successo
         return redirect()->route('admin.restaurant.index')->with('success', 'Ristorante ripristinato con successo.');
     }
 
     public function trashed()
     {
-        // Ottieni tutti i piatti eliminati
-        $trashedRestaurants = Restaurant::onlyTrashed()->get();
+        // Ottieni solo i ristoranti eliminati dell'utente autenticato
+        $trashedRestaurants = Restaurant::onlyTrashed()
+            ->where('user_id', Auth::id())
+            ->get();
 
-        // Ritorna la vista con i piatti eliminati
         return view('admin.restaurant.trashed', compact('trashedRestaurants'));
     }
 }
