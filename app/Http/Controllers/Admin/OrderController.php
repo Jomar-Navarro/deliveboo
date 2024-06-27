@@ -34,6 +34,9 @@ class OrderController extends Controller
             $orders = $orders->merge($dish->orders);
         }
 
+        // Ordina gli ordini per data di creazione in ordine decrescente
+        $orders = $orders->sortByDesc('created_at');
+
         // Ritorna una vista con la lista degli ordini
         return view('admin.orders.index', compact('orders'));
     }
@@ -112,6 +115,8 @@ class OrderController extends Controller
         foreach ($valData['dishes'] as $dish) {
             $order->dishes()->attach($dish['dish_id'], ['quantity' => $dish['quantity']]);
         }
+
+        $order->load('dishes');
 
         return response()->json(['message' => 'Ordine effettuato con successo!', 'order' => $order], 201);
     }
