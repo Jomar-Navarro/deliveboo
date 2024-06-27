@@ -2,33 +2,37 @@
 
 @section('content')
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .chart-container {
+      position: relative;
+      height: 400px;
+    }
+  </style>
   <div class="container text-center m-0">
     <div class="row">
-      <div class="col-md-6 px-5 pt-5">
-        @if (!empty($months) && !empty($chartData))
-          <div class="card">
-            <h3>Ordini al mese</h3>
-            <canvas id="ordersChart" width="400" height="400"></canvas>
-          </div>
-        @else
-          <div class="card">
-            <h3>Ordini al mese</h3>
+      <div class="col-12 col-md-6 px-3 pt-3">
+        <div class="card">
+          <h3>Ordini al mese</h3>
+          @if (!empty($months) && !empty($chartData))
+            <div class="chart-container">
+              <canvas id="ordersChart"></canvas>
+            </div>
+          @else
             <p>Manca un numero sufficiente di dati per visualizzare il grafico degli ordini al mese.</p>
-          </div>
-        @endif
+          @endif
+        </div>
       </div>
-      <div class="col-md-6  px-5 pt-5">
-        @if (!empty($dishNames) && !empty($dishQuantities))
-          <div class="card">
-            <h3>Piatti popolari</h3>
-            <canvas id="popularDishesChart" width="400" height="400"></canvas>
-          </div>
-        @else
-          <div class="card">
-            <h3>Piatti popolari</h3>
+      <div class="col-12 col-md-6 px-3 pt-3">
+        <div class="card">
+          <h3>Piatti popolari</h3>
+          @if (!empty($dishNames) && !empty($dishQuantities))
+            <div class="chart-container">
+              <canvas id="popularDishesChart"></canvas>
+            </div>
+          @else
             <p>Manca un numero sufficiente di dati per visualizzare il grafico dei piatti popolari.</p>
-          </div>
-        @endif
+          @endif
+        </div>
       </div>
     </div>
   </div>
@@ -74,6 +78,7 @@
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         scales: {
           xAxes: [{
             type: 'time',
@@ -135,6 +140,7 @@
       },
       options: {
         responsive: true,
+        maintainAspectRatio: false,
         legend: {
           position: 'right',
         },

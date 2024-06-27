@@ -13,7 +13,7 @@
       <div class="col-8">
 
         @if ($dish->image_url)
-          <img class="" src="{{ $dish->image_url }}" alt="">
+          <img class="w-75" src="{{ $dish->image_url }}" alt="">
           <p> {{ $dish->image_original_name }} </p>
         @endif
       </div>
@@ -22,11 +22,11 @@
         <p><strong>Descrizione:</strong> {{ $dish->description }}</p>
         <p><strong>Prezzo:</strong> {{ $dish->price }}</p>
         <p><strong>Visibile:</strong> {{ $dish->is_visible ? 'Sì' : 'No' }}</p>
+        <a href="{{ route('admin.dish.index') }}" class="btn btn-primary mt-3">Torna all'indice</a>
       </div>
 
 
 
     </div>
-    <a href="{{ route('admin.dish.index') }}" class="btn btn-primary mt-3">Torna all'indice</a>
   </div>
 @endsection
