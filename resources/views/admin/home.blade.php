@@ -6,12 +6,13 @@
     .chart-container {
       position: relative;
       height: 350px;
-      width: 98%;
+      width: 100%;
+      /* Larghezza completa */
     }
   </style>
   <div class="container-fluid overflow-auto bg-body-tertiary text-center m-0">
     <div class="row">
-      <div class="col-6 col-md-12 px-3 pt-3">
+      <div class="col-lg-6 px-3 pt-3">
         <div class="card">
           <h3>Piatti popolari</h3>
           @if (!empty($dishNames) && !empty($dishQuantities))
@@ -23,7 +24,7 @@
           @endif
         </div>
       </div>
-      <div class="col-6 col-md-12 px-3 pt-3">
+      <div class="col-lg-6 px-3 pt-3">
         <div class="card">
           <h3>Ordini al mese</h3>
           @if (!empty($months) && !empty($chartData))
@@ -35,12 +36,12 @@
           @endif
         </div>
       </div>
-      <div class="col-12 col-md-12 px-3 pt-3">
+      <div class="col-12 px-3 pt-3">
         <div class="card">
           <h3>Guadagno mensile</h3>
           @if (!empty($revenueMonths) && !empty($revenueData))
             <div class="chart-container">
-              <canvas id="twat"></canvas>
+              <canvas id="revenueChart"></canvas>
             </div>
           @else
             <p>Manca un numero sufficiente di dati per visualizzare il grafico del guadagno mensile.</p>
@@ -182,7 +183,7 @@
     });
 
     // Inizializzazione del grafico per il guadagno mensile
-    var ctxRevenue = document.getElementById('twat').getContext('2d');
+    var ctxRevenue = document.getElementById('revenueChart').getContext('2d'); // Id corretto per il terzo grafico
     var revenueChart = new Chart(ctxRevenue, {
       type: 'line',
       data: {
