@@ -5,24 +5,13 @@
   <style>
     .chart-container {
       position: relative;
-      height: 400px;
+      height: 350px;
+      width: 98%;
     }
   </style>
-  <div class="container text-center m-0">
+  <div class="container-fluid overflow-auto bg-body-tertiary text-center m-0">
     <div class="row">
-      <div class="col-12 col-md-6 px-3 pt-3">
-        <div class="card">
-          <h3>Ordini al mese</h3>
-          @if (!empty($months) && !empty($chartData))
-            <div class="chart-container">
-              <canvas id="ordersChart"></canvas>
-            </div>
-          @else
-            <p>Manca un numero sufficiente di dati per visualizzare il grafico degli ordini al mese.</p>
-          @endif
-        </div>
-      </div>
-      <div class="col-12 col-md-6 px-3 pt-3">
+      <div class="col-6 col-md-12 px-3 pt-3">
         <div class="card">
           <h3>Piatti popolari</h3>
           @if (!empty($dishNames) && !empty($dishQuantities))
@@ -34,10 +23,35 @@
           @endif
         </div>
       </div>
+      <div class="col-6 col-md-12 px-3 pt-3">
+        <div class="card">
+          <h3>Ordini al mese</h3>
+          @if (!empty($months) && !empty($chartData))
+            <div class="chart-container">
+              <canvas id="ordersChart"></canvas>
+            </div>
+          @else
+            <p>Manca un numero sufficiente di dati per visualizzare il grafico degli ordini al mese.</p>
+          @endif
+        </div>
+      </div>
+      <div class="col-12 col-md-12 px-3 pt-3">
+        <div class="card">
+          <h3>Guadagno mensile</h3>
+          @if (!empty($revenueMonths) && !empty($revenueData))
+            <div class="chart-container">
+              <canvas id="twat"></canvas>
+            </div>
+          @else
+            <p>Manca un numero sufficiente di dati per visualizzare il grafico del guadagno mensile.</p>
+          @endif
+        </div>
+      </div>
     </div>
   </div>
 
   <script>
+    // Controlla che i dati siano presenti prima di inizializzare i grafici
     @if (isset($months) && !empty($months))
       var months = {!! json_encode($months) !!};
     @else
@@ -62,9 +76,21 @@
       var dishQuantities = [];
     @endif
 
-    // Grafico per gli ordini per mese
-    var ctx1 = document.getElementById('ordersChart').getContext('2d');
-    var ordersChart = new Chart(ctx1, {
+    @if (isset($revenueMonths) && !empty($revenueMonths))
+      var revenueMonths = {!! json_encode($revenueMonths) !!};
+    @else
+      var revenueMonths = [];
+    @endif
+
+    @if (isset($revenueData) && !empty($revenueData))
+      var revenueData = {!! json_encode($revenueData) !!};
+    @else
+      var revenueData = [];
+    @endif
+
+    // Inizializzazione del grafico per gli ordini al mese
+    var ctxOrders = document.getElementById('ordersChart').getContext('2d');
+    var ordersChart = new Chart(ctxOrders, {
       type: 'bar',
       data: {
         labels: months,
@@ -120,9 +146,9 @@
       }
     });
 
-    // Grafico per i piatti più ordinati (tipo pie)
-    var ctx2 = document.getElementById('popularDishesChart').getContext('2d');
-    var popularDishesChart = new Chart(ctx2, {
+    // Inizializzazione del grafico per i piatti popolari
+    var ctxDishes = document.getElementById('popularDishesChart').getContext('2d');
+    var popularDishesChart = new Chart(ctxDishes, {
       type: 'pie',
       data: {
         labels: dishNames,
@@ -151,6 +177,51 @@
         animation: {
           animateScale: true,
           animateRotate: true
+        }
+      }
+    });
+
+    // Inizializzazione del grafico per il guadagno mensile
+    var ctxRevenue = document.getElementById('twat').getContext('2d');
+    var revenueChart = new Chart(ctxRevenue, {
+      type: 'line',
+      data: {
+        labels: revenueMonths,
+        datasets: [{
+          label: 'Guadagno mensile',
+          data: revenueData,
+          borderColor: 'rgba(255, 99, 132, 1)',
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          fill: false
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          xAxes: [{
+            type: 'time',
+            time: {
+              unit: 'month',
+              tooltipFormat: 'MMM YYYY',
+              displayFormats: {
+                month: 'MMM YYYY'
+              }
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Month'
+            }
+          }],
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            },
+            scaleLabel: {
+              display: true,
+              labelString: 'Revenue'
+            }
+          }]
         }
       }
     });

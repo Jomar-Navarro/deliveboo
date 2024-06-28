@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Models\Order;
 use App\Models\Restaurant;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
@@ -13,8 +12,10 @@ class DashboardController extends Controller
 {
     public function index()
     {
+        // Trova il ristorante dell'utente autenticato
         $restaurant = Restaurant::where('user_id', Auth::id())->first();
 
+        // Se il ristorante non esiste, mostra un avviso
         if (!$restaurant) {
             return view('admin.home')->with('warning', 'Nessun ristorante trovato. Assicurati di aver creato un ristorante.');
         }
@@ -49,7 +50,7 @@ class DashboardController extends Controller
             $totalQuantity = $dish->orders()->sum('quantity'); // Supponendo che ci sia un campo 'quantity' nella tabella pivot
 
             $popularDishesData[] = [
-                'name' => $dish->dish_name,
+                'name' => $dish->dish_name, // Assumi che ci sia un campo 'dish_name' nel modello Dish
                 'quantity' => $totalQuantity,
             ];
         }
@@ -66,7 +67,29 @@ class DashboardController extends Controller
         $dishNames = array_column($popularDishesData, 'name');
         $dishQuantities = array_column($popularDishesData, 'quantity');
 
+        // Dati per il guadagno mensile
+        $monthlyRevenue = Order::selectRaw('DATE_FORMAT(created_at, "%Y-%m") as month, SUM(total_price) as total_revenue')
+            ->whereIn('id', function ($query) use ($restaurant) {
+                $query->select('order_id')
+                    ->from('dish_order')
+                    ->join('dishes', 'dish_order.dish_id', '=', 'dishes.id')
+                    ->where('dishes.restaurant_id', $restaurant->id);
+            })
+            ->groupBy('month')
+            ->orderBy('month')
+            ->get();
+
+        $revenueMonths = $monthlyRevenue->pluck('month')->toArray();
+        $revenueData = $monthlyRevenue->pluck('total_revenue')->toArray();
+
         // Passa i dati alla vista
-        return view('admin.home', compact('chartData', 'months', 'dishNames', 'dishQuantities'));
+        return view('admin.home', compact(
+            'chartData',
+            'months',
+            'dishNames',
+            'dishQuantities',
+            'revenueMonths',
+            'revenueData'
+        ));
     }
 }
