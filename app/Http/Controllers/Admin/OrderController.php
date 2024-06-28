@@ -16,30 +16,27 @@ class OrderController extends Controller
      */
     public function index()
     {
-        // Recupera l'ID del ristorante dell'utente loggato
         $user = Auth::user();
-        $restaurant = Restaurant::where('user_id', $user->id)->first();
-
-        if (!$restaurant) {
-            abort(404, 'Restaurant not found.');
-        }
+        $restaurant = Restaurant::where('user_id', $user->id)->firstOrFail();
 
         // Recupera tutti i piatti del ristorante
         $dishes = $restaurant->dishes;
 
-        // Recupera gli ordini associati ai piatti del ristorante
+        // Inizializza una collezione vuota per gli ordini
         $orders = collect();
 
+        // Loop attraverso i piatti e aggiungi gli ordini associati alla collezione
         foreach ($dishes as $dish) {
-            $orders = $orders->merge($dish->orders);
+            $orders = $orders->merge($dish->orders()->orderByDesc('created_at')->get());
         }
 
         // Ordina gli ordini per data di creazione in ordine decrescente
-        $orders = $orders->sortByDesc('created_at');
+        $orders = $orders->sortByDesc('created_at')->unique('id');
 
         // Ritorna una vista con la lista degli ordini
         return view('admin.orders.index', compact('orders'));
     }
+
 
     /**
      * Show the form for creating a new resource.
