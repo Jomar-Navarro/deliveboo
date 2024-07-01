@@ -26,7 +26,15 @@
               <td>{{ $item->dish_name }}</td>
               <td>
                 {{-- Immagine del piatto --}}
-                <img class="thumb" src="{{ $item->image_url }}" alt="">
+                @php
+                  $isAbsoluteUrl = filter_var($item->image_url, FILTER_VALIDATE_URL);
+                @endphp
+
+                @if ($isAbsoluteUrl)
+                  <img class="thumb" src="{{ $item->image_url }}" alt="">
+                @else
+                  <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt="">
+                @endif
               </td>
               <td>{{ $item->price }}</td>
               <td>{{ $item->description }}</td>

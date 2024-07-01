@@ -13,8 +13,16 @@
       <div class="col-8">
 
         @if ($dish->image_url)
-          <img class="w-75" src="{{ $dish->image_url }}" alt="">
-          <p> {{ $dish->image_original_name }} </p>
+          @php
+            $isAbsoluteUrl = filter_var($dish->image_url, FILTER_VALIDATE_URL);
+          @endphp
+
+          @if ($isAbsoluteUrl)
+            <img class="w-75 img-squ" src="{{ $dish->image_url }}" alt="">
+          @else
+            <img class="w-75 img-squ" src="{{ asset('storage/' . $dish->image_url) }}" alt="">
+          @endif
+          <p>{{ $dish->image_original_name }}</p>
         @endif
       </div>
       <div class="col-4">
@@ -29,4 +37,5 @@
 
     </div>
   </div>
+
 @endsection

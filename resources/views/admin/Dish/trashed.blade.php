@@ -31,21 +31,16 @@
               <tr>
                 <td>{{ $item->dish_name }}</td>
                 <td>
+                  @php
+                    $isAbsoluteUrl = filter_var($item->image_url, FILTER_VALIDATE_URL);
+                  @endphp
 
-
-                {{---------------------- WARNING -------------------------------------}}
-
-                  {{-- <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt=""
-                      onerror="this.src='/img/no-image"> --}}
-
-                      <img class="thumb" src="{{$item->image_url}}" alt="">
-
-
-                {{---------------------- WARNING -------------------------------------}}
-
-
-
-              </td>
+                  @if ($isAbsoluteUrl)
+                    <img class="thumb" src="{{ $item->image_url }}" alt="">
+                  @else
+                    <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt="">
+                  @endif
+                </td>
                 <td>{{ $item->price }}</td>
                 <td>{{ $item->description }}</td>
                 <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>

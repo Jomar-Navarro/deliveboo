@@ -173,7 +173,13 @@ class DishController extends Controller
             return redirect()->route('admin.dish.index')->with('error', 'Non hai il permesso per eliminare questo piatto.');
         }
 
-        // Elimina il piatto
+        // Elimina l'immagine associata, se esiste
+        if ($dish->image_url) {
+            if (!filter_var($dish->image_url, FILTER_VALIDATE_URL)) {
+                $imagePath = str_replace('storage/', '', $dish->image_url);
+                Storage::disk('public')->delete($imagePath);
+            }
+        }
         $dish->delete();
 
         return redirect()->route('admin.dish.index')->with('success', 'Piatto eliminato con successo.');
