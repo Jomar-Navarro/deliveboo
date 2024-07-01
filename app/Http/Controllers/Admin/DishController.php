@@ -18,7 +18,9 @@ class DishController extends Controller
     {
         $user = Auth::user();
         $restaurant = Restaurant::where('user_id', $user->id)->first();
-        $dishes = $restaurant->dishes;
+
+        // Retrieve the dishes in descending order
+        $dishes = $restaurant->dishes()->orderBy('created_at', 'desc')->get();
 
         return view('admin.dish.index', compact('dishes'));
     }

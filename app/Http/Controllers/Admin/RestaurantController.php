@@ -191,9 +191,9 @@ class RestaurantController extends Controller
 
 
         // Elimina l'immagine associata se esiste
-        if ($restaurant->image) {
-            Storage::delete($restaurant->image);
-        }
+        // if ($restaurant->image) {
+        //     Storage::delete($restaurant->image);
+        // }
 
 
         // Elimina il ristorante
