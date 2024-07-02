@@ -1,4 +1,4 @@
-<aside class="text-white">
+<aside class="text-white ps-3">
   <nav class="d-flex flex-column justify-content-between">
     <ul class="d-flex flex-column align-items-start mt-3">
       <div>
