@@ -19,7 +19,6 @@
           <thead>
             <tr>
               <th scope="col">Nome</th>
-              <th scope="col">Immagine</th>
               <th scope="col">Prezzo</th>
               <th scope="col">Descrizione</th>
               <th scope="col">Visibilità</th>
@@ -30,17 +29,6 @@
             @foreach ($trashedDishes as $item)
               <tr>
                 <td>{{ $item->dish_name }}</td>
-                <td>
-                  @php
-                    $isAbsoluteUrl = filter_var($item->image_url, FILTER_VALIDATE_URL);
-                  @endphp
-
-                  @if ($isAbsoluteUrl)
-                    <img class="thumb" src="{{ $item->image_url }}" alt="">
-                  @else
-                    <img class="thumb" src="{{ asset('storage/' . $item->image_url) }}" alt="">
-                  @endif
-                </td>
                 <td>{{ $item->price }}</td>
                 <td>{{ $item->description }}</td>
                 <td>{{ $item->is_visible ? 'Sì' : 'No' }}</td>

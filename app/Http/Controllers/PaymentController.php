@@ -28,7 +28,7 @@ class PaymentController extends Controller
     public function processPayment(Request $request)
     {
         $nonce = $request->nonce;
-        $amount = $request->amount; // Assicurati di inviare l'importo dal frontend
+        $amount = $request->amount;
 
         $result = $this->gateway->transaction()->sale([
             'amount' => $amount,
