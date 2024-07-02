@@ -85,7 +85,7 @@
           <li class="py-3">
             <a href="{{ route('admin.restaurant.trashed') }}">
               <i class="fa-solid fa-trash-arrow-up"></i>
-              <span>Ristorante Eliminato</span>
+              <span>Ristoranti Eliminati</span>
             </a>
           </li>
         </div>
