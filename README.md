@@ -73,5 +73,5 @@
 Per compilare le risorse del frontend:
 
 ```bash
-npm run dev
+    npm run dev
 ```
