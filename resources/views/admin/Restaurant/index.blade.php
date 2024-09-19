@@ -37,8 +37,10 @@
         </div>
         <div class="col-6">
           {{-- Immagine del ristorante --}}
-          <img class="img-fluid rest-img" src="{{ asset('storage/' . $restaurant->image) }}" alt=""
-            onerror="this.src='{{ $restaurant->image }}'">
+          <div class="img-container">
+              <img class="img-fluid rest-img" src="{{ asset('storage/' . $restaurant->image) }}" alt=""
+                onerror="this.src='{{ $restaurant->image }}'">
+          </div>
         </div>
         <div class="col-6">
           <div>

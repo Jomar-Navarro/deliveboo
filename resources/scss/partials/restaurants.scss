@@ -1,5 +1,8 @@
-.rest-img {
-    aspect-ratio: 1;
-    object-fit: cover;
-    height: 700px;
+.img-container {
+    height: 550px;
+    .rest-img {
+        aspect-ratio: 1;
+        object-fit: cover;
+        height: 100%;
+    }
 }
