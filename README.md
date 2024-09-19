@@ -43,13 +43,13 @@
 2. Installa le dipendenze di PHP:
 
 ```bash
-composer install
+    composer install
 ```
 
 3. Installa le dipendenze JavaScript:
 
 ```bash
-npm install
+    npm install
 ```
 
 4. Configura il file .env:
@@ -59,7 +59,7 @@ npm install
 5. Esegui le migrazioni del database:
 
 ```bash
-php artisan migrate
+    php artisan migrate
 ```
 
 6. Avvia il server locale:
